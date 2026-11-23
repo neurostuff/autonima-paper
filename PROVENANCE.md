@@ -2,10 +2,10 @@
 
 This repository is a frozen subset of
 [neurostuff/autonima-results](https://github.com/neurostuff/autonima-results) at commit
-[`b3906c9c`](https://github.com/neurostuff/autonima-results/commit/b3906c9c6ad7710280eb2f61e1b6f9dd7cb3c3fe), exported on 2026-11-23
+[`9a3819f9`](https://github.com/neurostuff/autonima-results/commit/9a3819f9ab71006e332c5c42ad7c8c8ed996a026), exported on 2026-11-23
 by `tools/export_paper_repo.py` in that repository.
 
-- **1448 files**, covering 117 run folders under `projects/`, the scripts that rebuild the
+- **1454 files**, covering 117 run folders under `projects/`, the scripts that rebuild the
   manuscript's figures, tables and numbers, and the evaluation tables they produce.
 - **203 meta-analytic map directories**, distributed as `maps.tar.gz` on the Zenodo record
   (checksums in `reports/maps_manifest.json`).

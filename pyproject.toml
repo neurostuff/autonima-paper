@@ -19,16 +19,9 @@ platforms = ["linux-64", "osx-arm64", "win-64"]
 [tool.pixi.pypi-dependencies]
 nimare = "==0.21.0"
 
-# TWO ENVIRONMENTS, because the siblings are wanted two different ways.
-#
-#   pixi run <cmd>            default: siblings pinned to public commits.
-#                             Reproducible from a clone; edits to ../autonima
-#                             have NO effect.
-#   pixi run -e dev <cmd>     development: siblings as editable local checkouts,
-#                             exactly as before. Edits take effect immediately.
-#
-# The siblings used to sit in the default pypi-dependencies as ../ paths, which
-# meant the environment could only be built in one directory on one machine.
+# ONE ENVIRONMENT. autonima, ACE and pubget are pinned to public tags and commits, so the
+# environment builds from a clone with `pixi install --locked`. (autonima-results also has a
+# `dev` environment with editable sibling checkouts; it is development-only and not exported.)
 
 [tool.pixi.feature.pinned.pypi-dependencies]
 # v0.1.1 (c51f219, tagged from maint/v0.1.x): v0.1.0 -- the release cut for the manuscript, which
@@ -52,14 +45,8 @@ ace = { git = "https://github.com/neurosynth/ACE.git", rev = "d64291e06655d60049
 # previously pinned to, and is a citable version rather than a bare SHA.
 pubget = { git = "https://github.com/neuroquery/pubget.git", tag = "v0.0.9" }
 
-[tool.pixi.feature.dev.pypi-dependencies]
-autonima = { path = '../autonima', editable = true, extras = ["meta"] }
-ace = { path = '../ACE', editable = true }
-pubget = { path = "../pubget", editable = true }
-
 [tool.pixi.environments]
 default = { features = ["pinned"], solve-group = "pinned" }
-dev = { features = ["dev"], solve-group = "dev" }
 
 [tool.pixi.tasks]
 

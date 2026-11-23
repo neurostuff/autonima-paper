@@ -1,0 +1,239 @@
+#!/usr/bin/env python3
+"""Resolve a project's run for a given comparison tier, from run_categories.yaml.
+
+The comparison scripts historically auto-picked the highest version number per project. That
+conflates three different things, which matters for the overfitting argument:
+
+    initial   the FIRST manual attempt to transcribe the source paper's stated criteria into a
+              config, made before any results were seen. No peeking at the benchmark.
+
+              Renamed from `verbatim` on 2026-11-04. The old name overclaimed. It read as a
+              guarantee that the config IS the paper's criteria, when all it can honestly assert
+              is that a human sat down with the paper and tried to render them faithfully, once,
+              with no feedback. Transcription error is possible, and has been found: see
+              vbm_of_ptsd v1, which silently omits two criteria the source paper states outright
+              ("reporting results among adult humans"; "other non-voxel-based morphometry
+              methods"). Those omissions cost it six false positives at full text and nobody
+              noticed until an agent diffed the config against the benchmark registry in
+              November. A tier called `verbatim` invites exactly that blind spot -- it sounds
+              audited. `initial` says what it is: first pass, human, unreviewed.
+
+              The tier's ROLE in the argument is unchanged. It is still the held-out end of the
+              ladder, and the gap from here to `best` is still the measure of what peeking
+              bought. Only the claim implied by the label has been corrected.
+    untuned   THE HIGHEST VERSION WHOSE CRITERIA WERE NEVER ITERATED AGAINST BENCHMARK ERROR
+              REPORTS. Added 2026-11-03 in response to reviewer push-back on reporting
+              LLM-refined results.
+
+              The line it draws is narrower than `manual`, and deliberately so. It permits
+              LLM-AUTHORED criteria (executive_function v1 was GPT-drafted from the source
+              paper) and permits LLM- or even gold-tuned SEARCH (decision_making v1's query was
+              ChatGPT-refined in an evaluation loop; problem_solving v1's was Claude-optimised
+              against gold-membership counts). What it forbids is the one thing that makes a
+              result circular: criteria edited after reading which studies or analyses this
+              project got wrong.
+
+              WHAT `untuned` DOES NOT MEAN -- disclosed by the author 2026-11-03, and not
+              derivable from the configs. In some of these runs the criteria WERE revised after
+              looking at reports, at the screening stage, typically fewer than five papers. Those
+              revisions were reviewed as consistent with the source report -- they corrected an
+              omission or an under-specification in it -- rather than fitting the benchmark's
+              answers. The benchmark served as a small set of test cases that exposed the defect,
+              not as the target.
+
+              That is a real qualification and the honest phrasing has to carry it. `untuned`
+              means "not systematically fitted to benchmark error reports". It does NOT mean "no
+              benchmark output was ever looked at". Claiming the latter would be false for
+              several projects, and the configs do not record which -- the author is reconstructing
+              that list, and it belongs in the per-project notes below when it arrives.
+
+              So `untuned` is NOT a synonym for `manual`. `manual` is empty for five projects
+              that nonetheless have a perfectly reportable untuned version, and it is set to a
+              LOWER version than `untuned` for social, whose v3 criteria are byte-identical to
+              its hand-edited v2. Each entry's justification is quoted from the config's own
+              header in run_categories.yaml -- none rests on a judgement of tone.
+
+              Where a family has no untuned run at all the registry states `untuned: null`
+              EXPLICITLY rather than omitting the key. Omitting it would resolve to None, and a
+              caller's auto-pick would then silently substitute the benchmark-tuned run -- the
+              exact error this tier exists to prevent. Callers must treat None as "skip and say
+              so", never as "pick the highest version".
+    best      THE PREFERRED CONFIG. Curated, not derived: the run we would put forward as the
+              system's best showing, with benchmark-informed tuning fully allowed. Usually the
+              highest performer; not necessarily the highest version number.
+
+              Selection rule for CANONICAL (search-driven) runs: prefer RECALL over F1. With a
+              mixed pool it is not knowable why precision fell -- a "false positive" may be a
+              perfectly good paper the source meta-analysis never screened, which is demonstrably
+              the case for executive_function (its benchmark searched BrainMap) and
+              decision_making (Google Scholar and Web of Science too). Recall has no such
+              ambiguity: a paper the pipeline never retrieved is unrecoverable downstream.
+    latest    absolute highest version number. Mechanical, kept as a sanity check and as the
+              fallback when `best` is unset.
+
+`best` exists because version order stopped tracking quality. A run renamed upward can be older
+and worse than a lower-numbered one (social's v5-annotation-only is the pre-fix set, v4 is the
+fixed one), and tuning does not always help -- in executive_function and social the honest v1
+still beats every tuned successor at map level. Naming the preferred run explicitly removes both
+traps, and the gap between `initial` and `best` is then a direct measure of what peeking bought.
+
+Runs are registered per project AND per family, because the roll-ups select from different
+families: the screening roll-up takes plain `vN` (family "canonical"), while the analysis and
+fair roll-ups take `vN-annotation-only` (family "annotation_only").
+
+`resolve_tier` returns None when a tier genuinely does not exist for a project/family. Callers
+should fall back to their own auto-pick in that case rather than skipping the project -- the
+gaps are real (only three families support a full three-way contrast) and a hard failure would
+silently shrink every comparison.
+"""
+
+from __future__ import annotations
+
+from pathlib import Path
+
+import yaml
+
+__all__ = [
+    "TIERS",
+    "NON_TIER_FAMILIES",
+    "DEFAULT_REGISTRY",
+    "load_registry",
+    "resolve_tier",
+    "families_for",
+    "resolve_decomposition",
+]
+
+REPO_ROOT = Path(__file__).resolve().parent.parent
+DEFAULT_REGISTRY = REPO_ROOT / "run_categories.yaml"
+TIERS = ("initial", "untuned", "benchmark_tuned", "best", "latest")
+
+# Renamed 2026-11-04. Anything still passing the old name is reaching for a tier whose
+# label made a promise the configs do not keep; it must be read and re-pointed, never
+# silently aliased. `resolve_tier` raises on it by name, and argparse rejects it via
+# `choices=TIERS`, so a stale caller fails loudly instead of resolving to something else.
+RENAMED_TIERS = {"verbatim": "initial"}
+
+# `manual` was FOLDED INTO `untuned` on 2026-11-04, not renamed. It never carried
+# independent information: it equalled `untuned` in 8 of the 10 rows where it was set,
+# was unset in 12 of 22, and both apparent exceptions were social naming artifacts over
+# byte-identical criteria. `untuned` already means "highest version whose criteria were
+# never fitted to benchmark error reports", which subsumes a hand-revision made from a
+# handful of papers -- which is exactly why the two coincided.
+REMOVED_TIERS = {
+    "manual": (
+        "folded into 'untuned' on 2026-11-04 -- it never resolved to a different run "
+        "except in two social rows that were naming artifacts. Use 'untuned'."
+    ),
+}
+
+# Families keyed by role rather than by tier. They live in the same registry because they name
+# runs of the same project, but asking them for a tier is a caller error, not a missing entry.
+NON_TIER_FAMILIES = frozenset({"decomposition"})
+
+_CACHE: dict[str, dict] = {}
+
+
+def load_registry(path: Path | str | None = None) -> dict:
+    """Load and cache the registry. Returns {} if the file is absent, so callers degrade to
+    their own auto-pick rather than failing."""
+    p = Path(path) if path else DEFAULT_REGISTRY
+    key = str(p)
+    if key not in _CACHE:
+        if not p.exists():
+            _CACHE[key] = {}
+        else:
+            payload = yaml.safe_load(p.read_text()) or {}
+            _CACHE[key] = payload.get("projects") or {}
+    return _CACHE[key]
+
+
+def families_for(project: str, registry: dict | None = None) -> list[str]:
+    reg = registry if registry is not None else load_registry()
+    entry = reg.get(project) or {}
+    return [
+        k
+        for k, v in entry.items()
+        if isinstance(v, dict) and k not in NON_TIER_FAMILIES
+    ]
+
+
+def resolve_tier(
+    project: str,
+    family: str = "canonical",
+    tier: str = "latest",
+    registry: dict | None = None,
+) -> str | None:
+    """Run name for (project, family, tier), or None if unregistered/absent.
+
+    If the requested family is missing but exactly one family is registered, that one is used --
+    projects like emotion_regulation_2022 only have `allstudies`, and a caller asking for
+    `canonical` should still get the sensible answer rather than nothing.
+    """
+    if tier in REMOVED_TIERS:
+        raise ValueError(f"tier {tier!r} no longer exists: {REMOVED_TIERS[tier]}")
+    if tier in RENAMED_TIERS:
+        raise ValueError(
+            f"tier {tier!r} was renamed to {RENAMED_TIERS[tier]!r} on 2026-11-04 because the old "
+            f"name asserted a fidelity the configs cannot guarantee. Update the caller rather than "
+            f"aliasing: check that {RENAMED_TIERS[tier]!r} is the tier you actually want."
+        )
+    if tier not in TIERS:
+        raise ValueError(f"unknown tier {tier!r}; expected one of {TIERS}")
+    if family in NON_TIER_FAMILIES:
+        raise ValueError(
+            f"family {family!r} is keyed by role, not by tier; "
+            f"use resolve_decomposition({project!r}) instead"
+        )
+    reg = registry if registry is not None else load_registry()
+    entry = reg.get(project) or {}
+    fam = entry.get(family)
+    if not isinstance(fam, dict):
+        candidates = [
+            v
+            for k, v in entry.items()
+            if isinstance(v, dict) and k not in NON_TIER_FAMILIES
+        ]
+        if len(candidates) != 1:
+            return None
+        fam = candidates[0]
+    value = fam.get(tier)
+    if not value and tier == "best":
+        # `best` is curated and may be unset; fall back to the mechanical highest version so a
+        # caller asking for the preferred run always gets something rather than nothing.
+        value = fam.get("latest")
+    return str(value) if value else None
+
+
+def add_tier_argument(parser, default: str = "best") -> None:
+    """Attach a uniform --tier flag. Kept here so every script spells it the same way."""
+    parser.add_argument(
+        "--tier",
+        choices=TIERS,
+        default=default,
+        help=(
+            "Which registered run to compare, from run_categories.yaml: "
+            "'initial' (first human transcription of the paper, no peeking), "
+            "'untuned' (highest run never fitted to error reports; hand-revision "
+            "from a few papers allowed), 'benchmark_tuned' (criteria iterated against the "
+            "error reports), "
+            "'best' (whichever of the three performs best), 'latest' (highest version number). "
+            f"Default {default}. Falls back to auto-pick when the tier is unregistered."
+        ),
+    )
+
+
+def resolve_decomposition(project: str, registry: dict | None = None) -> dict[str, str]:
+    """The matched search / pool / annotation arms for `project`, or {} if not registered.
+
+    These three arms share criteria and annotation mode and differ only in how studies enter
+    the pipeline, which is what makes a search / screening / annotation split interpretable.
+    """
+    reg = registry if registry is not None else load_registry()
+    fam = (reg.get(project) or {}).get("decomposition")
+    if not isinstance(fam, dict):
+        return {}
+    return {
+        role: str(name)
+        for role, name in fam.items()
+        if role != "note" and name
+    }
