@@ -1,0 +1,1683 @@
+{
+  "screening_results": [
+    {
+      "study_id": "21383264",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language human structural MRI study using voxel-based morphometry (VBM) comparing gray matter volume between chronic cocaine users (stimulant class) and healthy controls. The full text includes introduction, methods, results, and discussion. It reports whole-brain between-group contrasts (CUD vs CON) with voxelwise results presented in tables and figures, specifies MRI field strength (4 Tesla), preprocessing/statistical software (SPM5, VBM5.1), and provides participant demographics (male, ages) and detailed substance-use characteristics (years of cocaine, alcohol, smoking). The study is not ROI-only and contains original data. Therefore it meets inclusion criteria I2, I3, I4, and I5 and does not meet any exclusion criteria. Full text appears complete.",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.242132",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "3b058cec612008343550afabcffb326bbeccd48741c1d777a052a090a6dfd072",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "21281718",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical human structural MRI study of nicotine (smoking) that reports whole-brain voxelwise analyses of gray matter density changes between smokers and never-smoker controls. Methods include acquisition of T1-weighted images (1.5T), preprocessing and tensor-based morphometry with SPM5, and between-group contrasts (UQ vs NS, SQ vs NS) reported in text and Supplementary Table S2. Participant demographics, smoking history, MRI field strength, and analysis software are reported. The study is not ROI-only and contains original voxelwise whole-brain results suitable for coordinate extraction. No exclusion criteria are met.",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.242527",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "b4eb35fc69a15efb344ea3c8a41eb0f80de643917e672da4c669dcd31a15d17f",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "18165464",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study using voxel-based morphometry comparing older smokers (nicotine users) to matched never-smoker controls (N=39 pairs). The paper reports whole-brain between-group voxelwise contrasts (SPM2) with cluster results and coordinates described, and authors reran thresholds to confirm robustness. Participant demographics, smoking history, MRI field strength (1.5T), and preprocessing/statistical software (SPM2, MATLAB, Stata) are reported. The full text includes introduction, methods, results, and discussion. No ROI-only or non-empirical study issues were identified. Therefore it meets inclusion criteria I2, I3, I4, and I5.",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.242879",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "664810baae1c45a86964b9f4a51eeaa5031a2b86d8f3c7210ea1ae4ebe450a81",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "25988724",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical human structural MRI study (VBM) comparing grey matter between alcohol users and healthy controls. It reports whole-brain voxel-wise between-group contrasts (VBM) with cluster-corrected results and provides coordinate-based correlational analyses. Key study details are reported: participant demographics (age range, all male), substance-use characteristics (DSM-IV alcohol abuse, years and amount of use), MRI field strength (1.5T), and preprocessing/statistical software (SPM5, VBM5, detailed pipeline). Thus it meets inclusion criteria I2, I3, I4, and I5. No exclusion criteria apply (not ROI-only, not non-empirical). Full text appears complete with Introduction, Methods, Results, Discussion, and Limitations.",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.244641",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "e8ffef2b41af6b3d746b3d8e58fef3b9b573e788e44d3ff2242ebe27e42f5dc2",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "21338692",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study using voxel-based morphometry comparing cocaine-dependent patients (stimulant class) to matched healthy controls. The full text includes introduction, methods, participant details (age, sex, substance-use characteristics), MRI field strength (1.5T), preprocessing and statistical software (VBM toolbox, SPM5), and reports whole-brain between-group voxel-wise contrasts with coordinates and cluster statistics (reduced GM in left striatum and right supramarginal gyrus). These satisfy the review objective and inclusion criteria. No exclusion criteria are met (not ROI-only, not non-empirical). Full text appears complete (includes background, methods, results, discussion).",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.244998",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "15801fc837647d3452f61d7bb5d33071fd33eb68aa80c6dc07cdc7419e04085f",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "24633558",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language human structural MRI study using whole-brain voxel-based morphometry comparing regular cannabis users and occasional users (controls). Methods report whole-brain two-sample voxelwise contrasts with SPM8, DARTEL registration, modulation, smoothing, and FWE-corrected statistics; results report significant between-group whole-brain clusters (coordinates and cluster descriptions) and voxelwise correlations with usage frequency. Participant demographics, substance-use characteristics, MRI field strength (3T), and preprocessing/statistics details are reported. Full text includes introduction, methods, results, and discussion. Therefore it meets all inclusion criteria for whole-brain GM comparisons relevant to cannabis.",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.250255",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "763a34a5711c099a1f0de6143f722a9ea384bb4d98da9f5427585d331cc31561",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "14706428",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical human structural MRI study comparing nicotine-dependent smokers to nonsmoking controls (meets I2). The paper reports whole-brain voxel-based morphometry (VBM) analyses with voxelwise group contrasts and coordinates, including corrected peak p-values (meets I3 and I4). Participant demographics (age, sex), smoking characteristics (cigarettes/day, pack-years), MRI field strength (1.5T), and preprocessing/statistical software (MEDx, SPM99, smoothing kernel) are reported (meets I5). No exclusion criteria apply: the study includes whole-brain results (not ROI-only, so E5 not met) and is empirical (E6 not met). Full text appears complete with background, methods, results, and discussion.",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.250626",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "ff52d14fbe8879072eb487af4fe86fbe243e802fed494150d407d32fd0bf1033",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "24496784",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study using voxel-based morphometry comparing adolescents with alcohol use disorder (substance class: alcohol) to healthy controls. The paper reports whole-brain, voxelwise between-group contrasts (ANCOVA and regression) with peak coordinates and FWE-corrected results (e.g., superior temporal gyrus) and provides participant demographics, substance-use measures, MRI field strength (3T), and preprocessing/statistical software (SPM8). Voxelwise results are reported in tables/coordinates and described in text. The full text includes introduction, methods, results, and discussion. Therefore it satisfies inclusion criteria I2, I3, I4 and I5 and does not meet any exclusion criteria (e.g., it is not ROI-only or non-empirical).",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.250915",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "1b002fbb54991767ce3d802a63fbcb1efba6a7bfbe6ee95cd38348af4ca45f41",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "19707568",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language human MRI study comparing alcohol-dependent patients (n=24) and healthy controls (n=24) using voxel-based morphometry (VBM) for grey matter volume and reporting whole-brain between-group contrasts. The paper provides voxelwise results (coordinates and figures), details participant age/sex, alcohol use characteristics, MRI field strength (1.5T), and preprocessing/statistical software (SPM2). Thus it meets the meta-analysis inclusion criteria for grey matter volume whole-brain analyses in a substance-using (alcohol) sample. Full text includes introduction, methods, results, and discussion; not incomplete.",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.251203",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "faa7f2f5c32b5c8556270e19780d90cbdb91ad45eddcfc53f69b50ce293c9dd4",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "17047671",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study using voxel-based morphometry (VBM) to compare gray matter volumes between detoxified alcohol-dependent subjects and healthy controls. It reports whole-brain, voxelwise between-group contrasts with peak coordinates and tables/figures, describes MRI field strength (1.5T), preprocessing/statistical software (SPM2), and participant demographics (age, male-only). Thus it meets inclusion criteria I2, I3, I4, and I5 and violates no exclusion criteria. Full text appears complete (Introduction, Methods, Results, Discussion, References).",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.252766",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "beedc391347e9146c9f0a4a8403861cd61dc5a28f098659800bfbe536b80f124",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "24478673",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study using voxel-based morphometry comparing non-treatment-seeking cocaine-dependent (stimulant) males to non-drug controls. The paper reports whole-brain, voxel-wise between-group contrasts (with coordinates and figures) showing reduced GM in left middle frontal gyrus and reports voxel-wise correlations (coordinates) with impulsivity. Methods report participant age range/sex, substance-use characteristics, MRI field strength (3.0T), and preprocessing/statistical software (VBM8/SPM8). This is not an ROI-only or non-empirical paper and the full text contains introduction, methods, results, and discussion. Therefore it meets inclusion criteria I2, I3, I4, and I5 and does not meet any exclusion criteria.",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.253054",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "e1b3fc529a63748c8b7a07da7087e180ac042ca400b71014d36ae530949ea8d4",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "20817105",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study using voxel-based morphometry (VBM) and TBSS to compare gray matter volume between amphetamine-type stimulant users and controls. The paper reports whole-brain, voxelwise between-group contrasts (VBM) demonstrating reduced gray matter in medial orbitofrontal and dorsal anterior cingulate cortices in experienced users versus low-exposure users and controls. Participant demographics (age, sex), substance-use characteristics, MRI field strength (3.0 T), and preprocessing/statistical software (FSL, TBSS, VBM) are explicitly reported. The full text includes introduction, methods, results, and discussion. Therefore it satisfies inclusion criteria I2, I3, I4, and I5 and does not meet any exclusion criteria. Full text appears complete.",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.253427",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "9313ddc1b05ff6cbb6a9f0079322e2990f21d65cd779b5d3367f67620f726953",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "21599718",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, peer-reviewed structural MRI study comparing gray matter volumes between alcohol-dependent patients and healthy controls using whole-brain voxel-based morphometry (VBM). The paper reports voxelwise, whole-brain between-group contrasts (FWE-corrected VBM results) and regional ROI analyses, with coordinate/cluster results and figures described. Participant sample characteristics (N by sex, drinking history, abstinence/relapse status), MRI field strength (1.5T), and preprocessing/statistical software (SPM8, VBM8; modulation, smoothing, covariates) are reported. Full text includes introduction, methods, results and discussion. Therefore it meets inclusion criteria I2, I3, I4, and I5 and does not meet any exclusion criteria.",
+      "confidence": 0.93,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.254965",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "a587df2c93122e6313a5efd5e98277c21ddb1e2331adc79ffac259185ba0d700",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "11822992",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study using voxel-based morphometry (SPM99) to compare gray matter concentration between cocaine-dependent (stimulant) patients (n=13) and controls (n=16). It reports whole-brain, voxel-wise between-group contrasts (corrected results, p<.01) and gives participant demographics, substance-use characteristics, MRI field strength (1.5T), and preprocessing/statistical software. The full text includes introduction, methods, results, and discussion, allowing assessment against inclusion criteria.",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.255326",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "2a64c40db90a233e8d87622c81e102f78c92cff3721185e43bfe2ecf005184ea",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "25090480",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study using voxel-based morphometry (VBM) comparing nicotine-dependent smokers (n=80) to matched non-smoking controls (n=80). The paper reports whole-brain, voxelwise between-group contrasts with cluster-level FWE correction (p<0.001 voxelwise, FWE cluster p<0.025) and presents cluster results in figures/tables; coordinates and image data are referenced. Participant demographics (age, sex), substance-use measures (pack-years, cigarettes/day, FTND), MRI field strength (3T), and preprocessing/statistical software (SPM8, DARTEL) are reported. The full text includes Introduction, Methods, Results, and Discussion, so the article appears complete. Therefore it satisfies inclusion criteria I2, I3, I4, and I5 and does not meet any exclusion criteria (E5, E6).",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.255609",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "eaba614d832bdedca7460a15a112e915f234600e6c5b53b32e6266550b6bad29",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "24832823",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study using whole-brain voxel-based morphometry to compare current-smokers (n=315) with never-smokers (n=659). The paper reports whole-brain between-group GM volume contrasts with FWE-corrected results and provides voxel coordinates (Table 2) and figures. Participant demographics (age, sex), smoking characteristics (pack-years, cigarettes/day, age at onset), MRI field strength (1.5T), and preprocessing/statistical software (SPM8, VBM8, DARTEL) are all reported. Thus it meets all inclusion criteria for nicotine studies and does not meet any exclusion criteria.",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.256413",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "63d9448b2997900f7bb56955a5907682dafe1a12a88d2cf0d447c0ecb39123f0",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "17004938",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical English-language structural MRI study using voxel-based morphometry (VBM) to compare grey matter volume/density between smokers and never-smokers. The paper reports whole-brain, voxelwise between-group contrasts (SPM2; FDR-corrected results) with results presented in tables/figures and describes participant demographics (age/sex), smoking characteristics, MRI field strength (3T), and preprocessing/statistical software. Therefore it meets the review inclusion criteria and does not meet any exclusion criteria.",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.258579",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "670118bb24b8e567f640375a9edcd0007aea3ac62095da2ccc40e71afb6b3ba4",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "25090480",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study using voxel-based morphometry (VBM) comparing nicotine-dependent smokers (n=80) to matched non-smoking controls (n=80). The paper reports whole-brain, voxelwise between-group contrasts with cluster-level FWE correction (p<0.001 voxelwise, FWE cluster p<0.025) and presents cluster results in figures/tables; coordinates and image data are referenced. Participant demographics (age, sex), substance-use measures (pack-years, cigarettes/day, FTND), MRI field strength (3T), and preprocessing/statistical software (SPM8, DARTEL) are reported. The full text includes Introduction, Methods, Results, and Discussion, so the article appears complete. Therefore it satisfies inclusion criteria I2, I3, I4, and I5 and does not meet any exclusion criteria (E5, E6).",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.258865",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "eaba614d832bdedca7460a15a112e915f234600e6c5b53b32e6266550b6bad29",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "24741043",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study comparing young adult recreational cannabis users (n=20) to matched controls (n=20) using whole-brain voxel-based morphometry (gray matter density), regional volume, and shape analyses. The paper reports whole-brain VBM contrasts with voxelwise cluster results (Tables/Figures) and provides participant age/sex, substance use characteristics, MRI field strength (3T), and preprocessing/statistical software (FSL-VBM, FreeSurfer). All required inclusion criteria are satisfied (I2,I3,I4,I5). No exclusion criteria apply (not ROI-only, not non-empirical). Full text appears to include Introduction, Methods, Results, and Discussion, so fulltext_incomplete is false.",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.259858",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "ad55a8d87b98558cdf7fdc967546ae544d3f17b86bf338bd5f096cd416426966",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "24179800",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical English-language structural MRI study using voxel-based morphometry (VBM) to compare gray matter volume between alcohol-dependent subjects (including subgroups: \u2018pure\u2019 alcoholics and polysubstance-abusing alcoholics) and healthy controls. The paper reports whole-brain, voxelwise between-group contrasts with permutation-based nonparametric testing and displays/describes significant voxelwise results. Participant demographics (age, sex), substance-use characteristics, MRI field strength (1.5T), and preprocessing/statistical software (FSL-VBM v1.1, BET, FAST, FLIRT, FNIRT) are reported. Therefore it meets all required inclusion criteria for whole-brain GM comparisons. No exclusion criteria apply (not ROI-only, not non-empirical). Full text appears complete (introduction, methods, results, discussion).",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.260144",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "f9ada427b21a824fb916916b06b925d15255eeb098ab390af947a5454efa4720",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "21691942",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study using voxel-based morphometry to compare gray matter density between cocaine users (a stimulant) and matched nondrug-using controls. The full text provides whole-brain, voxelwise between-group contrasts (tables and figures of significant clusters), reports participant demographics (age/sex), substance use characteristics, MRI field strength (1.5 T), and preprocessing/statistical software (SPM5). No exclusion criteria are met (not ROI-only and not non-empirical). Therefore it meets all inclusion criteria for the meta-analysis of substance-related GM alterations.",
+      "confidence": 0.92,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.260947",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "d2e714aeaf6ae89ea21edd3751c1196ab88a496bc9fd03dd289c6ab65c49a116",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "25125263",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical human structural MRI study (voxel-based morphometry) comparing nicotine-dependent smokers to age- and gender-matched non-smokers with whole-brain between-group contrasts reported (cluster- and voxel-level results, tables/figures with MNI coordinates). Participant demographics (age, sex), substance-use measures (years smoked, cigarettes/day, FTND, pack-years), MRI field strength (3T Siemens TIM Trio), and preprocessing/statistical software (DARTEL, SPM8, MATLAB) are reported. The full text includes Introduction, Methods, Results, and Discussion. No exclusion criteria are met (not ROI-only, not non-empirical). Therefore the study meets all inclusion criteria for the nicotine (tobacco) class and should be included.",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.261754",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "ff1ae2e6d7b1e046f2a77202ab1e3afe8cc2d075919c34a7d7446557f3bc182d",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "27500453",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study using voxel-based morphometry (VBM) comparing cannabis users vs non-users. The paper reports whole-brain between-group VBM contrasts (SPM8) with region-level results (including family-wise error correction) and follow-up voxelwise/ROI analyses. Participant characteristics (mean age, familial risk, sex used as covariate), substance use measures (lifetime cannabis, alcohol, cigarettes), MRI field strength (3T), and preprocessing/statistical software (SPM8, VBM8, DARTEL, SPSS) are reported. Thus it meets inclusion criteria I2, I3, I4, and I5. No exclusion criteria (e.g., ROI-only analyses or non-empirical paper) are met. Full text appears complete (introduction, methods, results, discussion).",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.262147",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "652a08abc5f49040b0e895ff4a8b194f903a47d6641650762ab6888a6083f3f5",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "24086317",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study comparing grey matter volume between binge-drinking (alcohol-using) young adults and matched healthy controls using voxel-based morphometry. The paper reports whole-brain voxel-wise between-group contrasts (cluster extent threshold and voxelwise results) and also reports SVC results; voxel coordinates, statistical thresholds, preprocessing (SPM8/DARTEL), scanner field strength (3T), and participant demographics are provided. The study directly addresses alcohol (one of the meta-analysis drug classes) and provides qualifying whole-brain GM differences suitable for inclusion in the meta-analysis.",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.262421",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "bd67d3a9daff3fe28682a97c065fe0ef480c2f326ec233867b0cc2eadef2d10a",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "24090712",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study using voxel-based morphometry comparing gray matter volumes between cocaine-dependent (stimulant) subjects and healthy controls. The full text contains introduction, methods (VBM with SPM8, 3T scanner), results (whole-brain between-group contrasts with coordinates, corrected thresholds), and discussion. Participant age/sex, substance use characteristics, MRI field strength, and preprocessing/statistical software are reported. Findings are reported for whole-brain voxelwise analyses with coordinates and clusters. Therefore it meets the review objective (stimulant class) and satisfies inclusion criteria I2, I3, I4, and I5. No exclusion criteria are met (not ROI-only; empirical human MRI data). Full text appears complete.",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.262789",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "666173a5fb2404c666da8988fbaf59f696305ed7cbdfdf429697bdc62fec1e35",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "24961260",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study comparing active methamphetamine-dependent participants with matched controls. It reports whole-brain voxel-wise VBM between-group contrasts (decreased GMD in left superior frontal and precentral gyri; increased GMD in bilateral putamen and other regions) and ROI subcortical volumetric analyses (significant right putamen enlargement). Participant demographics, substance-use characteristics, MRI field strength (1.5T), and preprocessing/statistical software (FSL: SIENAX, FIRST, FNIRT, VBM tools) are reported. Thus it satisfies inclusion criteria I2, I3, I4, and I5. No exclusion criteria (e.g., ROI-only or non-empirical) are met. Full text includes introduction, methods, results, and discussion, so appears complete.",
+      "confidence": 0.93,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.263061",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "59968776b16efb987de33d8ff499f9d23b5195f74e41b3077b662f9b241cfc0c",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "17951002",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study using voxel-based morphometry comparing 20 alcohol-dependent patients to 20 controls. The paper reports whole-brain voxelwise between-group GM and WM contrasts using SPM2 (voxel-based analysis, cluster thresholds reported) and describes regional GM decreases and correlations with neuropsychological measures. Participant details (male patients, age-matched controls), MRI field strength (3.0T), and preprocessing/statistical software (ANALYZE, BET, FAST, SPM2) are provided. No exclusion criteria apply (not ROI-only, not non-empirical). Full article content (background, methods, results, discussion) is present in the provided text.",
+      "confidence": 0.92,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.263392",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "70831b371e22a7984fb6a016736562ffd82d8419d94427f14ef9845e22d8ac83",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "22076160",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study (VBM) comparing heavy smokers (n=16) to matched non-smoker controls and reports voxelwise whole-brain analyses with stereotactic coordinates. The paper provides between-group GM contrasts (VBM) and reports MNI coordinates for GM reductions in bilateral cerebellar tonsil (with small-volume correction) and describes whole-brain thresholding procedures; demographic, substance-use (cigarettes/day, years, FTND), MRI field strength (3T), and preprocessing/statistical software (SPM5, PROBID for SVM) are reported. Voxelwise results are given in-text with coordinates and figures. Although some GM results are reported with small-volume correction, the study conducted whole-brain VBM and provides qualifying voxelwise results; therefore it meets inclusion criteria I2, I3, I4, and I5 and does not meet any exclusion criteria (E5/E6).",
+      "confidence": 0.86,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.263663",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "a143a1399db8f8f0541628988cd9d61524d6b46a723f947c3d74d63b7063c50b",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "21909705",
+      "decision": "excluded_fulltext",
+      "reason": "This is an empirical English-language MRI VBM study of smokers vs never-smokers and reports voxelwise cerebellar coordinates and methodological details, but the analysis is restricted to the cerebellum/brainstem using the SUIT toolbox (i.e., a region-focused, infratentorial mask) rather than a whole-brain GM volume contrast. Exclusion criteria met: E5 (study reports only region-of-interest/infratentorial analyses with no qualifying whole-brain results). Inclusion criteria met: I2 (empirical MRI study assessing GM differences), I4 (voxelwise result reported as coordinates/figures), I5 (participant and MRI/preprocessing/statistical details reported). Inclusion criterion not met: I3 (no whole-brain between-group GM contrast reported). Full text appears complete (introduction, methods, results, discussion). Therefore exclude under E5.",
+      "confidence": 0.88,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.265035",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [
+        "E5"
+      ],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "2727a648a6b185ee7761cffeb1dfd4a886aaa410810b9f2ca9a188fdc4af36d0",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "24140937",
+      "decision": "excluded_fulltext",
+      "reason": "This study is excluded because it does not meet inclusion criterion I2: it reports cortical thickness using surface-based morphometry rather than grey matter volume/density/concentration measures required by the review. It does meet I3 (reports whole-brain vertex-wise between-group contrasts corrected for multiple comparisons), I4 (whole-brain voxel/vertex-wise results are presented in figures/tables and supplementary material), and I5 (reports participant demographics, substance use characteristics, MRI field strength, and preprocessing/software). No exclusion criteria (E5, E6) are met. Full text is complete and sufficient for this determination.",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.265438",
+      "inclusion_criteria_applied": [
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "54d386b94fa66bbfbf17e8c8e6ab3f636af7d55e5069e8173c85a29b08cd26ec",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "20731627",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical human structural MRI study using voxel-based morphometry comparing chronic cigarette smokers (n=44) and matched non-smoker controls (n=44). The paper reports whole\u2011brain, voxel-wise two-sample t-test contrasts in SPM5/VBM5.1 with cluster-level reporting (thresholds and cluster sizes described) and identifies regions of reduced gray matter in smokers. Participant demographics, substance-use characteristics (cigarettes/day, years smoking), MRI field strength (3.0T), and preprocessing/statistical software are reported. The study is not ROI-only and includes complete core sections (introduction, methods, results, discussion). Therefore it meets inclusion criteria I2, I3, I4, and I5 and violates no exclusion criteria.",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.266553",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "384aace3806ada2932feb7c81e451bbfbb7c56fc70a9869d1b740f7654dd15c5",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "22386968",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study using voxel-based morphometry comparing gray matter volume between heroin-dependent patients on methadone maintenance (n=27) and healthy controls (n=23). The paper reports whole-brain VBM between-group contrasts (SPM5/VBM5 with DARTEL), details MRI field strength (3.0 T), preprocessing/statistical software, and participant demographics and substance-use characteristics. Results list regional whole-brain GMV differences and report correlations; coordinate-based voxelwise results are described. No exclusion criteria are met (not ROI-only, not non-empirical). Full text includes Introduction, Methods, Results, and Discussion. Therefore it meets inclusion criteria I2, I3, I4, and I5 and should be included.",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.266910",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "8937e60181cfed9b86dc473583c459fa2a7e7bbc330976c02cb63dd5d0ee893a",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "19531112",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical English-language structural MRI study using optimized voxel-based morphometry (VBM) to compare gray matter (GM) volume between heroin-dependent (opioid) subjects and matched healthy controls. It performs a whole-brain, voxelwise between-group contrast and reports significant GM volume reductions (right PFC, left SMC, bilateral cingulate) with cluster-level statistics and references to table/figure results. Participant age/sex, substance-use characteristics (duration, dose, route, nicotine use), MRI field strength (1.5 T), and preprocessing/statistical software (VBM2/SPM2, ANCOVA) are reported. The full text includes introduction, methods, results, and discussion. Therefore it meets all inclusion criteria (I2, I3, I4, I5) and no exclusion criteria apply. Full text appears complete.",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.268405",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "3d2bbfb8a642d7ae7f9ce9679d488fe17d26fee5676ce5e390b98565494b4c76",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "16369836",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study using voxel-based morphometry (VBM) comparing gray matter density between 63 opiate-dependent subjects and 46 matched healthy controls. It reports whole-brain between-group contrasts (VBM) with corrected statistical thresholds and presents regional results in text/tables and figures (prefrontal, insular, temporal GM decreases). Participant demographics, substance-use characteristics (including methadone treatment and comorbid substance history), MRI field strength (1.5T), and preprocessing/statistical software (SPM99, VBM procedures) are described. The study is not an ROI-only analysis nor a non-empirical paper. Therefore it meets inclusion criteria I2, I3, I4, and I5 and does not meet any exclusion criteria. Full text appears complete (introduction, methods, results, discussion, references).",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.269641",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "e68f0d7eaf12ecd8851fe2f6d6bb7423742239d66faa027ead235c8fe0d511a1",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "24342420",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study using voxel-based morphometry comparing grey matter volumes between occasional amphetamine-type stimulant/cocaine users (N=165) and stimulant-na\u00efve controls (N=48). The paper reports whole-brain, voxelwise between-group analyses (linear mixed effects model) and whole-brain regressions relating lifetime use to regional GM volume, with coordinates and cluster results described. Methods report participant demographics, substance use characteristics, MRI field strength (3.0T), and preprocessing/statistical software (FSL-VBM, FNIRT, FLIRT, AFNI, R). Therefore it meets inclusion criteria I2, I3, I4 and I5. No exclusion criteria are met (not ROI-only; not non-empirical). Full text appears complete (introduction, methods, results, discussion).",
+      "confidence": 0.98,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.270006",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "279a7dd9f8b5dcd136a9a60e8f51bac94e6405763b2e56d411556ed5d4cabb25",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "15607838",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study using voxel-based morphometry to compare gray matter and white matter tissue density between heavy cannabis users (n=11) and non-using controls (n=8). The paper reports whole-brain, voxelwise between-group contrasts (with cluster-level correction) and provides MNI coordinates for significant GM clusters (including hippocampal small-volume results). MRI field strength (1.5T), preprocessing and statistical software (SPM99 and VBM procedures), participant sex and substance-use characteristics are described. The full text includes introduction, methods, results, and discussion. Although sample size is small and all participants are male, the study meets inclusion criteria for whole-brain GM volume/density comparisons and reports coordinate-based voxelwise results, so it is eligible for inclusion in the meta-analysis.",
+      "confidence": 0.92,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.270354",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "59ef7a4c9220d80a7ee3fd536a3650adbf1ac01da132b6e93ff01bc6d94df54e",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "17088334",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study using voxel-based morphometry (VBM) comparing 22 alcohol-dependent patients to 22 matched healthy controls with whole-brain voxelwise between-group contrasts. The paper reports whole-brain GM and WM differences (tables/figures), provides participant age/sex and substance-use details (duration and daily consumption), MRI field strength (1.5 T), and preprocessing/statistical software (optimised VBM protocol, SPM2). Therefore it meets all inclusion criteria (I2, I3, I4, I5) and violates no exclusion criteria (no ROI-only analysis, not a non-empirical paper). Full text appears complete (methods, results, discussion present).",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.271051",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "43286525cbf263d6deb6f9cedbf0d4792aee28c99f01e9315a882a5ab609339c",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "22445480",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study using voxel-based morphometry comparing methamphetamine-dependent (stimulant) users to control groups (I2). The paper reports whole-brain, voxel-wise between-group contrasts (ANCOVA and post-hoc t-tests) and longitudinal whole-brain analyses (I3); voxelwise results are described in the main text and clusters reported, satisfying acceptability for coordinate/voxelwise reporting (I4). Participant demographics (age, sex), substance-use characteristics, MRI field strength (1.5T), and preprocessing/statistical software (VBM8, SPM8, DARTEL) are reported (I5). The full text includes introduction, methods, results, and discussion (fulltext complete). No exclusion criteria apply: this is not an ROI-only study (E5) nor non-empirical (E6). Therefore the study meets all inclusion criteria and should be included in the meta-analysis.",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.271409",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "2c5c8d8edf05008e4c45ec49466d61f8a8e8738a0becfbe65957a17ee2e67f9b",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "22391134",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, peer-reviewed structural MRI study using whole-brain voxel-based morphometry comparing cocaine-dependent individuals (stimulant users) to non-drug-using controls. The full text includes introduction, methods (3T scanner, SPM8/VBM8 preprocessing), participant demographics (age, all male), substance-use characteristics, and voxel-wise GM between-group contrasts and group x impulsivity interactions reported at whole-brain FWE-corrected thresholds. Thus it meets inclusion criteria I2 (empirical MRI GM differences), I3 (whole-brain between-group contrasts), I4 (voxelwise results reported in text/tables/figures), and I5 (reports age/sex, MRI field strength, preprocessing/statistics). No exclusion criteria apply (not ROI-only, not non-empirical). Full text appears complete (includes methods, results, discussion).",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.271757",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "9465b6a067b71c277238613b09332a9865d928d5b597f94049debb5afae91688",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "21383264",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language human structural MRI study using voxel-based morphometry (VBM) comparing gray matter volume between chronic cocaine users (stimulant class) and healthy controls. The full text includes introduction, methods, results, and discussion. It reports whole-brain between-group contrasts (CUD vs CON) with voxelwise results presented in tables and figures, specifies MRI field strength (4 Tesla), preprocessing/statistical software (SPM5, VBM5.1), and provides participant demographics (male, ages) and detailed substance-use characteristics (years of cocaine, alcohol, smoking). The study is not ROI-only and contains original data. Therefore it meets inclusion criteria I2, I3, I4, and I5 and does not meet any exclusion criteria. Full text appears complete.",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.272021",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "3b058cec612008343550afabcffb326bbeccd48741c1d777a052a090a6dfd072",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "27126701",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study (voxel-based morphometry) comparing treatment-seeking cocaine users (iCUD) with healthy controls. The paper reports whole-brain between-group contrasts (Group main effects and planned whole-brain comparisons) with coordinate tables/figures (Table 2, Figure 1), satisfying voxelwise reporting. Participant age/sex, substance-use characteristics, MRI field strength (4T), and preprocessing/statistical software (SPM8, VBM8) are reported. Full article text includes introduction, methods, results, and discussion. Therefore it meets the review\u2019s inclusion requirements for whole-brain GM volume studies of a substance user group (stimulants) vs controls. No exclusion criteria (ROI-only or non-empirical) are met.",
+      "confidence": 0.86,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.272805",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "7e477d087cf6ee5ff668d1b8bea2692b8928e9aa360095d75377486eb4a8ecfd",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "29881337",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study using voxel-based morphometry (VBM) that compares gray matter (and white matter) volumes between nicotine-dependent smokers and age-matched non-smoker controls. The paper reports whole-brain, voxelwise between-group contrasts (smokers vs. controls and subgroups) with corrected thresholds and presents region-level results (figures and tables). Participant demographics, substance-use measures (pack-years, FTND), MRI field strength (3.0T), and preprocessing/statistical software (SPM8, DARTEL, DPABI) are all reported. The full text includes Introduction, Methods, Results, Discussion, and Conclusion, so the full text is complete. No exclusion criteria (ROI-only or non-empirical) are met.",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.273082",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "0934bcb0a76c4ed47e74df19b65c18d8860c863d5541be883d6b33ef40e05518",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "23352851",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical English-language structural MRI study using voxel-based morphometry (VBM) comparing heroin-dependent individuals (n=24) to matched controls (n=24). The paper reports whole-brain between-group contrasts (decreased GM volume in bilateral medial PFC, bilateral DLPFC, right fusiform) with multiple-comparison correction (FDR) and cluster thresholds; voxelwise results are described and supplementary material with tables/figures is indicated. Participant demographics (group sizes, sex), substance-use characteristics (heroin dependence, duration, methadone maintenance), MRI field strength (1.5T), and preprocessing/statistical software (VBM5.1, SPM5, MATLAB) are provided. The study is neither ROI-only nor non-empirical. Core article sections (intro, methods, results, discussion) are present. Therefore it meets all inclusion criteria and violates no exclusion criteria.",
+      "confidence": 0.92,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.273421",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "26a52c20c405aba035724c7c2641aa5c4857f509fef027359a100632293c4be6",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "21078704",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study comparing alcohol-dependent participants to healthy controls using whole-brain voxel-based morphometry (SPM8/DARTEL). The paper reports whole-brain between-group contrasts with cluster results, MNI/Talairach coordinates, figures, and ROC analyses (satisfying voxelwise reporting). Participant age/sex, substance use characteristics, MRI acquisition (high-resolution T1 parameters), and preprocessing/statistical software are reported. No exclusion criteria apply (not ROI-only; it's original human MRI data). Full text includes introduction, methods, results, and discussion; therefore fulltext_incomplete=false.",
+      "confidence": 0.92,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.274217",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "62eb6792aaa6708ad6f3f4e3adc2b726b1b9a8a13a2ea5f5caae45fcf1d9e9ce",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "28887180",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, peer-reviewed English-language structural MRI study using voxel-based morphometry comparing methamphetamine (stimulant) users and drug-na\u00efve controls. The paper reports whole-brain, voxelwise between-group contrasts (VBM) with cluster-level inference (p<0.001, FWE cluster-corrected p<0.05) and longitudinal within-group analyses; results are described in text and reported as cluster-level findings. Participant demographics (age, sex), substance-use characteristics, MRI field strength (3.0T), and preprocessing/statistical software (SPM8, VBM8) are all reported. Thus it satisfies the review inclusion criteria for empirical whole-brain GM comparisons (I2, I3, I4, I5). No exclusion criteria are met (not ROI-only; not non-empirical). Full text appears complete (includes introduction, methods, results, discussion).",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.274551",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "57b77009ee76cb2cbf321752c43e6d0ac2db70eef877bfd3655d6b14a45677fc",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "20096794",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study using whole-brain voxel-based morphometry to compare gray matter density between methamphetamine-dependent (stimulant) users (n=61) and controls (n=44). The paper reports whole-brain between-group contrasts (VBM results with cluster statistics and regional descriptions) and within-group voxelwise analyses; methods report MRI field strength (3T), preprocessing/statistical software (FSL/FSL-VBM), and participant demographics (age, sex) and substance-use characteristics (abstinence duration, age at first use). Voxelwise results are described in detail (clusters/percent changes) satisfying the allowance for results presented in text/tables/figures. Full text contains introduction, methods, results, and discussion. Therefore it meets inclusion criteria I2, I3, I4, and I5 and does not meet any exclusion criteria.",
+      "confidence": 0.92,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.274922",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "f28f6d499d015b2cea4fe6aecfd4e7dccf8b69c97467e3273443f651aeaf19a7",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "24483366",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study using voxel-based morphometry (VBM) comparing gray-matter volumes between alcohol-dependent patients and healthy controls (whole-brain 2-sample t-tests reported). The paper reports whole-brain voxelwise between-group contrasts and voxelwise regression results (figures, peak coordinates, and supplemental Table S1), and provides participant demographics (age/sex), substance-use details, MRI field strength (1.5T), and preprocessing/statistical software (VBM5/SPM5). All inclusion criteria I2, I3, I4, and I5 are satisfied. No exclusion criteria (ROI-only or non-empirical) apply. Full text appears complete (introduction, methods, results, discussion, limitations).",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.276612",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "bf69db9a6b2d1adb11b6d63be9f877854f37f7385647e14a7948a8d015139e31",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "29065207",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study using voxel-based morphometry comparing smokers (nicotine-dependent individuals) to nonsmoking controls. The paper reports voxelwise between-group GM volume contrasts with FDR-corrected results and provides peak coordinates/tables and figures (Table 2, Figures 1\u20132). The authors also performed a whole-brain DARTEL analysis (reported in Supplementary Materials) and provide sufficient methodological detail (participant age/sex, FTND scores, scanner field strength 3.0T, preprocessing and statistical software: SPM8, SUIT, DARTEL, DPARSFA). Thus it meets inclusion criteria I2, I3, I4, and I5. No exclusion criteria (ROI-only analyses or non-empirical report) apply. The full text appears complete (includes Introduction, Methods, Results, Discussion).",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.277380",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "dfaba8278adea8426acb6320dd306eaddce1f91e1ecdda091edd93f680fd4cff",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "17299505",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study using optimized whole-brain VBM to compare gray matter volumes between cocaine-dependent (stimulant) subjects and healthy controls. The paper reports whole-brain between-group contrasts (SPM2 results, corrected p-values, coordinates and figures), provides participant age/sex, substance-use characteristics, MRI field strength (1.5T), and preprocessing/statistical software details. Results include voxelwise tables/figures and coordinate reporting for significant GM volume differences. Therefore it meets all required inclusion criteria for the meta-analysis objective (stimulants) and violates no exclusion criteria.",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.278840",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "71587b669caf7d956ac5b699527046106661964312272f7baf4c63f5b2bb8730",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "25990865",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study using voxel-based morphometry comparing grey matter density between cigarette smokers (nicotine users) and never-smokers. The paper reports whole-brain, voxel-wise between-group contrasts (VBM whole-brain independent-samples t-tests) with cluster-level coordinates and figures, and provides participant demographics, smoking characteristics, MRI field strength (3T), and preprocessing/statistical software (VBM8/SPM8, FreeSurfer, ANTS). Thus it meets all inclusion criteria relevant to the meta-analysis objective (nicotine class). No exclusion criteria apply. Full text appears complete (includes methods, results, discussion).",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.279647",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "8265c59b24d89a366cb76fa1caa12f8cf05353bc76a7a4d70b3e849421df5159",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "18801475",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study using voxel-based morphometry comparing substance-dependent individuals (poly-substance: cocaine, amphetamine, alcohol) versus healthy controls. It reports whole-brain between-group contrasts with family-wise error cluster-level correction and provides voxel coordinates (e.g., MNI \u22125,53,\u22123) confirming voxelwise results. Participant demographics, substance-use characteristics (including duration of abstinence), MRI field strength (3T), and preprocessing/statistical software (VBM5.1, SPM5) are reported. The full text includes Introduction, Methods, Results, and Discussion. No exclusion criteria are met (not ROI-only; not non-empirical). Therefore the study meets all inclusion criteria (I2, I3, I4, I5) and is suitable for inclusion in the meta-analysis of GM differences in substance users versus controls.",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.279976",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "9bc17a9f1d81b0ab59105d2113d8cc8ad9f899f2845cd5a4c8918a4d29e639ab",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "25123156",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study using voxel-based morphometry (VBM) to compare gray matter volume between alcohol-dependent patients and controls. The paper reports whole-brain, voxelwise between-group ANCOVA results (SPM5) with family-wise error correction and mentions MNI coordinates converted to Talairach, and extracts regional volumes for follow-up analyses. Participant demographics, substance-use characteristics, MRI field strength (3T), and preprocessing/statistical software (SPM5, VBM) are provided. Thus it meets all inclusion criteria (I2, I3, I4, I5) and violates no exclusion criteria. Full text appears complete (contains introduction, methods, results, discussion).",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.280257",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "dbcdbdb74419f1c218400e478fe1e80c3ca1cb429a4939bd1286dfedad97e1b3",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "23072363",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study comparing gray matter volumes between alcohol-dependent patients and healthy controls using voxel-based morphometry. The paper reports whole-brain VBM voxel-wise between-group contrasts (FWE-corrected) with cluster results presented in figures/tables, and describes participant age/sex, substance use characteristics, MRI field strength (3T), and preprocessing/statistical software (VBM8/SPM8). Therefore it meets inclusion criteria I2, I3, I4, and I5. No exclusion criteria are met (not ROI-only, not non-empirical). Full text appears complete (includes introduction, methods, results, discussion).",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.281884",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "1b4e616ab7b145daa450d0d81379905a01bf27a0ed1941647dc61b5c18fc2eec",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "22270405",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, peer-reviewed structural MRI study (voxel-based morphometry) performed at 3.0 T that reports whole-brain, voxelwise comparisons of grey matter volumes between alcohol use disorder (AUD) participants and healthy controls, and also reports comparisons involving problem gamblers. The methods section describes MRI acquisition, preprocessing (SPM8, DARTEL), statistical analysis (whole-brain FDR correction), and participant demographics (male-only sample, ages, AUDIT scores, abstinence duration, smoking status), satisfying reporting expectations. The paper clearly provides whole-brain voxelwise results (significant clusters reported and visualized) comparing substance users (alcohol) vs controls. Thus it meets inclusion criteria I2, I3, I4 and I5 and does not meet any exclusion criteria (not ROI-only, not non-empirical). Full text appears complete (includes introduction, methods, results, discussion).",
+      "confidence": 0.98,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.282232",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "825420b722693620e4d1d964565f804e2d16f435b15bf6bd0ef122256a1bee3b",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "27575491",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study (VBM) comparing alcohol-dependent patients (n=20) and matched healthy controls. It reports whole-brain voxelwise between-group GM volume comparisons (SPM8/DARTEL VBM) with FWE-corrected results and provides coordinates/figures of significant GMV reductions. Participant demographics, substance-use characteristics (severity, abstinence), MRI field strength (3T), and preprocessing/statistical software are reported. The study therefore meets inclusion criteria I2 (empirical MRI GM comparisons), I3 (whole-brain results), I4 (voxelwise results reported in figures/tables), and I5 (participant/MRI/method details). No exclusion criteria apply (not ROI-only, not non-empirical). Full text appears complete (includes Introduction, Methods, Results, Discussion).",
+      "confidence": 0.92,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.282506",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "720d78a4308a918756f43efdf3e00332d760951a9287ef5a36932d8ed2b9fa23",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "25051341",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study using voxel-based morphometry to compare gray matter volumes between chronic cigarette smokers (nicotine users) and non-smoker controls. The paper reports whole-brain, voxelwise two-sample t-tests (VBM) with corrected thresholds and provides peak coordinates and figures for group differences (GMV increases and decreases). Participant characteristics (age, sex male-only, years of smoking, cigarettes/day, pack-years), MRI field strength (3.0T), and preprocessing/statistical software (SPM8, DARTEL) are reported. No exclusion criteria apply (not ROI-only; not non-empirical). Full text of introduction, methods, results, and discussion is provided. Therefore the study meets inclusion criteria I2, I3, I4, and I5 and should be included in the meta-analysis of structural GM differences in substance (nicotine) users.",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.282773",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "02823b1fb1b9252a405ed9cf9ba765381439a280106faa5686b969f5ac103819",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "25727574",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study using voxel-based morphometry to compare gray matter volume between former heroin-dependent individuals and matched controls. It reports whole-brain voxel-wise between-group contrasts (VBM two-sample t-test) with corrected results and provides peak MNI coordinates for clusters of reduced GM. Participant demographics, substance-use history (duration, abstinence), MRI field strength (3T), and preprocessing/statistical software (SPM8, DARTEL) are reported. The full text includes introduction, methods, results, and discussion. Thus it meets all inclusion criteria (I2, I3, I4, I5) and violates no exclusion criteria.",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.284516",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "bf479816ab4239cbf18e303b02765a80e7c186c8ed5fc0f1d3c91ea971bf452c",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "22717339",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study comparing gray matter (GMD) between heroin-dependent (opioid) users and healthy controls using voxel-based morphometry. The paper reports whole-brain, voxelwise between-group contrasts (ANOVA on modulated gray matter segments) and provides coordinate/region-level results (frontal, cingulate, occipital reductions). Key methodological details are reported: participant age/sex, substance-use characteristics, MRI field strength (GE Signa 1.5T), and preprocessing/statistical software (SPM2, VBM). The full text includes introduction, methods, results, and discussion, and therefore is complete for screening. No exclusion criteria (ROI-only or non-empirical) apply. Study is directly relevant to the opioid class in the meta-analysis and meets inclusion criteria I2\u2013I5.",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.284847",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "ed29c2cc8ec19b4e61d76f3c3ecff6986b41399f3092d5fbca6b5422cf916384",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "23190458",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study comparing cannabis users versus non-users and reporting voxelwise longitudinal GM differences (tensor-based morphometry). The paper implemented a whole-brain between-group contrast (GM loss in cannabis consumers vs non-consumers) and supplemented it with small-volume corrections; coordinates and statistical results for significant voxelwise findings (after SVC) are reported. Participant demographics (age, sex) and MRI parameters (1-T scanner) and preprocessing/statistical software (SPM2/SPM5 TBM pipeline) are described. Full text contains introduction, methods, results, and discussion. Therefore it satisfies inclusion criteria I2, I3, I4 and I5. No exclusion criteria are met (not ROI-only, original empirical data). Full text appears complete.",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.288749",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "f4bca854ebfc7bed9a375696e46234db19ec4fe877e55fa1122a448843b0a6e8",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "26078198",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical English-language structural MRI study comparing gray matter volume between alcohol-dependent patients and healthy controls using whole-brain voxel-based morphometry. The paper reports a whole-brain FWE-corrected between-group contrast identifying reduced GMV in the left inferior frontal gyrus with MNI coordinates and Z/p-values, and extracts mean GMV for correlations with stop-signal task performance. Participant demographics (age, sex), substance-use measures (LTDH, AUDIT), MRI field strength (3T), and preprocessing/statistical software (SPM8, VBM8, DARTEL) are reported. Thus it directly addresses the review objective (alcohol users vs controls) and satisfies all inclusion criteria (I2, I3, I4, I5) with no exclusion criteria met.",
+      "confidence": 0.92,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.289105",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "2cad95169f6a694c556d921b0b109ea1210c13367888a534a86c770f287385f5",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "28150390",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language VBM study comparing cocaine-use disorder (CUD) participants to healthy controls using whole-brain voxelwise analyses (FSL-VBM, permutation-based \u2018randomise\u2019) and reports between-group results (tables/figures) including coordinates and cluster information. Participant demographics, scanner field strength (3T), and preprocessing/statistical software are reported. The full text includes Introduction, Methods, Results, and Discussion. Thus it meets I2 (empirical MRI study of GM differences), I3 (reports whole-brain between-group contrasts of substance users vs controls), I4 (voxelwise results reported in tables/figures/supplement), and I5 (participant and MRI/method details provided). No exclusion criteria (e.g., ROI-only analyses or non-empirical) apply. Full text appears complete.",
+      "confidence": 0.91,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.289881",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "e6078a6fa9a229fc68ff7467dbaef9cf84a061b13001f2dcca8191870744a0d7",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "28720860",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study that includes an alcohol use disorder (AUD) group and healthy controls and reports whole-brain voxel-based morphometry analyses comparing AUD vs controls. The paper reports VBM whole-brain between-group contrasts (cluster sizes, some peak MNI coordinates), uses a 3.0T scanner, and describes preprocessing/statistical software (SPM8/DARTEL; FreeSurfer for thickness), and provides participant demographics and substance-use characteristics. Although the study also includes a behavioral addiction group (IGD), that does not preclude inclusion because the AUD vs control whole-brain GM comparisons are present. The full text includes introduction, methods, results, and discussion, so fulltext appears complete.",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.290162",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "5134dfb9db912f69cc08e2d09e66d3f9ddcb64ee42af17d1d6dcfdf79f5012e4",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "22076160",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study (VBM) comparing heavy smokers (n=16) to matched non-smoker controls and reports voxelwise whole-brain analyses with stereotactic coordinates. The paper provides between-group GM contrasts (VBM) and reports MNI coordinates for GM reductions in bilateral cerebellar tonsil (with small-volume correction) and describes whole-brain thresholding procedures; demographic, substance-use (cigarettes/day, years, FTND), MRI field strength (3T), and preprocessing/statistical software (SPM5, PROBID for SVM) are reported. Voxelwise results are given in-text with coordinates and figures. Although some GM results are reported with small-volume correction, the study conducted whole-brain VBM and provides qualifying voxelwise results; therefore it meets inclusion criteria I2, I3, I4, and I5 and does not meet any exclusion criteria (E5/E6).",
+      "confidence": 0.86,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.290429",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "a143a1399db8f8f0541628988cd9d61524d6b46a723f947c3d74d63b7063c50b",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "19775795",
+      "decision": "included_fulltext",
+      "reason": "The study is an empirical, English-language structural MRI investigation using optimized voxel-based morphometry (VBM) to compare gray matter density between lifetime heroin-dependent individuals and matched healthy controls. It reports whole-brain, voxelwise between-group contrasts demonstrating decreased gray matter density in multiple regions (prefrontal, anterior cingulate, temporal, insula, cerebellum) and presents correlation analyses with duration of heroin use. Participant demographics (age, sex), substance-use characteristics (duration, abstinence, nicotine/alcohol info), MRI field strength (3.0T), and preprocessing/statistical software (VBM2, SPM2, MATLAB) are described. This is not an ROI-only study or a non-empirical paper. The full text includes introduction, methods, results, and discussion. Therefore it meets all inclusion criteria and no exclusion criteria are violated.",
+      "confidence": 0.92,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.290763",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "982fc50b2d879168ff1058d741d0d4f2336d42601f8abef641ba0871f4ed82b6",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "20699124",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical human MRI study using voxel-based morphometry (VBM) to compare gray matter density between nicotine-dependent smokers and matched non-smoking controls. The paper reports whole-brain voxel-wise between-group contrasts (FWE-corrected VBM results) and provides coordinate/cluster results for left insula and left PFC. Participant demographics, substance-use measures (pack-years, FTND), MRI field strength (3T), and preprocessing/statistical software (FSL, IRG registration, AFNI, etc.) are reported. The full text includes introduction, methods, results, and discussion. No exclusion criteria apply (not ROI-only, not non-empirical). Therefore the study meets inclusion criteria for GM whole-brain structural comparisons in nicotine users vs controls.",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.291115",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "258e0067b7587868511081d1818360869b0775f90201489547d625cf33cd03ab",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "28992531",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical English-language structural MRI study comparing alcohol-dependent patients (n=95) to healthy controls (n=87) using voxel-based morphometry. The authors report whole-brain voxel-wise between-group contrasts (2-sample t-test, FWE-corrected) with reported coordinates and clusters, and also present ROI analyses; whole-brain results are clearly available. Participant demographics and substance-use characteristics (DSM-IV alcohol dependence, days abstinent), MRI field strength (3.0 T), and preprocessing/statistical software (VBM8, SPM8, DARTEL) are reported. The full text includes introduction, methods, results, and discussion. No exclusion criteria are met (not ROI-only, not non-empirical).",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:22.291461",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "8f88c041283d8294f88d9923f144f010d4e531705880499b8ea69added6363b4",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "26364127",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study using whole-brain voxel-based morphometry (VBM) to compare grey matter between abstinent heroin users (an opioid user group) and matched healthy controls. Methods report a 3T scanner, acquisition parameters, VBM8/SPM8 preprocessing with DARTEL, and whole-brain independent t-tests and interaction analyses that identify GM clusters (midbrain, cortical regions, etc.). Participant demographics (male, right-handed Han Chinese, N=33 users, N=30 controls) and substance-use characteristics (age of first use, duration, abstinence) are provided. Thus it satisfies I2, I3, I4, and I5, and does not meet any exclusion criteria (not ROI-only, empirical human data). Full text appears complete (includes introduction, methods, results, discussion).",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:34.528395",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "c868634d67b948bead704979496e75a919cfc6fe7094d524f845f0de44625852",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "25385625",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study of chronic cannabis users vs. controls using voxel-based morphometry (VBM) and reports whole-brain voxelwise between-group contrasts (significant bilateral orbitofrontal GM reductions with MNI coordinates and FWE-corrected statistics). The manuscript provides participant demographics (age/sex), substance-use inclusion criteria, MRI field strength (3T), and preprocessing/statistical software (SPM8 DARTEL, AFNI, FSL). Voxelwise whole-brain results are reported in text/figures with coordinates. No exclusion criteria are met (not ROI-only; not non-empirical). Full text appears complete (methods, results, discussion present). Therefore it meets all listed inclusion criteria for the meta-analysis of GM volume differences in substance users (cannabis) and should be included.",
+      "confidence": 0.92,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:34.222755",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "aa51a135ee64538b653badc7241d09c2108ab020a76f5f1179f468df0246c1b1",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "22178355",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study using voxel-based morphometry (VBM) that compares grey matter between substance users (heroin and cocaine) and healthy controls. Whole-brain voxelwise ANCOVA contrasts are reported (controls vs cocaine, controls vs heroin, and direct patient-group comparisons) with cluster-corrected results; preprocessing and analysis details are provided (3T MRI, SPM5). Participant demographics, years of use, and MRI acquisition parameters are reported. Thus the study meets inclusion criteria I2, I3, I4 and I5, and does not meet any exclusion criteria (not ROI-only; not non-empirical). Full text appears complete (introduction, methods, results, discussion).",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:33.403575",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "ca5d60d18b0a183dc09827664298953746c9f6b9c487e857db1b0f25678cb8a2",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "15982446",
+      "decision": "fulltext_incomplete",
+      "reason": "Full text appears incomplete: only title, authors, journal, DOI, and presentation note are provided; core article content (introduction, methods, results, discussion) is missing. Cannot verify required inclusion criteria: I2 (cannot confirm this is an empirical MRI study assessing grey-matter volume differences from the provided content) and I3 (cannot confirm the paper reports at least one whole-brain between-group GM contrast or voxelwise results). I4 and I5 cannot be assessed. No exclusion criteria (E5, E6) are demonstrably met from the available information. Because essential information to determine eligibility is missing, the study is excluded pending access to the complete full text.",
+      "confidence": 0.25,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:35.247050",
+      "inclusion_criteria_applied": [],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "bc236d95efc2820d142144d52d6115c75f5d0d46176483e797a07efc2e3deb39",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "20875635",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical English-language human structural MRI study comparing smokers (n=22) and never-smokers (n=21) that reports between-group whole-brain surface-based analyses of cortical thickness (a valid gray-matter structural measure). The study performed a whole-brain between-group contrast (smokers vs. never-smokers) with cluster correction, reports peak Talairach coordinates for the left mOFC cluster, and describes preprocessing/statistical software (FreeSurfer), scanner field strength (3T), and participant demographics and smoking metrics. These elements satisfy inclusion criteria I2 (empirical MRI GM structural differences), I3 (whole-brain between-group contrast), I4 (coordinates/results reported), and I5 (key methodological/participant details reported). No exclusion criteria apply (not ROI-only, not non-empirical). Full text appears complete (background, methods, results, discussion).",
+      "confidence": 0.92,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:38.620443",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "34dd052d74f920e5849f8015266c645fe9662ac087230a3adf222f2fa3b0c03b",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "21310189",
+      "decision": "excluded_fulltext",
+      "reason": "This study should be excluded because it does not meet inclusion criterion I2: it reports cortical thickness (surface-based cortical thickness measures) rather than grey matter volume/density/concentration measures (e.g., VBM-based GM volume or density) specified by I2. The paper does, however, meet other inclusion criteria: I3 (reports whole-brain between-group, clusterwise surface-based contrasts), I4 (whole-brain voxel/vertex-wise results presented and clusterwise corrected), and I5 (reports participant age/sex, substance use characteristics, MRI field strength, and preprocessing/statistical software). No exclusion criteria (E5, E6) are triggered. Full text is complete (introduction, methods, results, discussion present). Therefore EXCLUDED for not meeting I2 (GM volume/density/concentration requirement).",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:37.909339",
+      "inclusion_criteria_applied": [
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "69ce72689d991a5bbc9ae8179bea7ccc0bbe4db9522209cc5c1fa8da7ec0286a",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "23149031",
+      "decision": "included_fulltext",
+      "reason": "This is an empirical, English-language structural MRI study comparing alcohol-dependent inpatients (n=130) with healthy controls (n=69) using whole-brain node-to-node cortical thickness analyses (Freesurfer, AFNI/SUMA). The paper reports whole-brain between-group contrasts with regional results/coordinates and figures, and provides participant age/sex, substance-use characteristics, MRI field strength (1.5T), and preprocessing/statistical software. Although the study reports cortical thickness rather than voxelwise GM volume/density, cortical thickness is a valid structural GM metric addressing the review objective of structurally altered gray matter in substance users versus controls. The full text includes Introduction, Methods, Results, and Discussion. Therefore it meets the meta-analysis inclusion criteria for whole-brain structural GM differences in an alcohol-using sample and should be included.",
+      "confidence": 0.86,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "fulltext",
+      "timestamp": "2026-08-27T19:16:32.184861",
+      "inclusion_criteria_applied": [
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "fulltext",
+        "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c",
+        "study_input_hash": "1f56f9614be9f796d9fa65cd9554f56fb02312f13cb877a3fbfca8b181be1299",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    }
+  ],
+  "timestamp": "2026-08-27T19:16:38.624888",
+  "cache_signature": {
+    "schema_version": 2,
+    "stage": "fulltext",
+    "stage_hash": "46b5e387e2a963e94ba7787a59996a0d969c97712d99101c597430f31f8a1d7c"
+  }
+}

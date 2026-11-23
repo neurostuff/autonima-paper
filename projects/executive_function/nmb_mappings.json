@@ -1,0 +1,9 @@
+{
+    "meta_pmid": "22282036",
+    "annotation_mappings": {
+        "all": "pooled_executive_function",
+        "working_memory": "working_memory",
+        "inhibition": "inhibition",
+        "flexibility": "cognitive_flexibility"
+    }
+}

@@ -1,0 +1,510 @@
+{
+  "generated_at_utc": "2026-11-12T02:09:54.970485Z",
+  "metrics_by_mode": {
+    "accepted": {
+      "dementia_all": {
+        "analysis_metrics": {
+          "accuracy": 1.0,
+          "analysis_universe": 7,
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "manual_accepted_analyses": 7,
+          "precision": 1.0,
+          "predicted_analyses": 7,
+          "recall": 1.0,
+          "tn": 0,
+          "tp": 7
+        },
+        "analysis_metrics_exhausted_manual_assumption": {
+          "accuracy": 0.5806451612903226,
+          "analysis_universe": 31,
+          "f1": 0.5185185185185185,
+          "fn": 0,
+          "fp": 13,
+          "manual_accepted_analyses": 7,
+          "precision": 0.35,
+          "predicted_analyses": 20,
+          "recall": 1.0,
+          "tn": 11,
+          "tp": 7
+        },
+        "assumed_negative_expansion": {
+          "activated_pmids": 5,
+          "activation_rule_id": "paper_all_manual_accepted_unassigned_auto_as_negatives",
+          "added_assumed_negative_analyses": 24,
+          "mode_allowed_match_statuses": [
+            "accepted"
+          ],
+          "mode_supports_expansion": true,
+          "pmids_with_paper_all_manual_accepted": 6
+        },
+        "document_metrics": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 6
+        },
+        "study_metrics": {
+          "accuracy": 0.0,
+          "f1": 0.0,
+          "fn": 0,
+          "fp": 6,
+          "manual_studies": 0,
+          "overlap_pmids": 6,
+          "precision": 0.0,
+          "predicted_studies": 6,
+          "recall": 0.0,
+          "run_pmids": 39,
+          "tn": 0,
+          "tp": 0
+        }
+      },
+      "dementia_decreasing_activity": {
+        "analysis_metrics": {
+          "accuracy": 1.0,
+          "analysis_universe": 7,
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "manual_accepted_analyses": 6,
+          "precision": 1.0,
+          "predicted_analyses": 6,
+          "recall": 1.0,
+          "tn": 1,
+          "tp": 6
+        },
+        "analysis_metrics_exhausted_manual_assumption": {
+          "accuracy": 0.8709677419354839,
+          "analysis_universe": 31,
+          "f1": 0.7499999999999999,
+          "fn": 0,
+          "fp": 4,
+          "manual_accepted_analyses": 6,
+          "precision": 0.6,
+          "predicted_analyses": 10,
+          "recall": 1.0,
+          "tn": 21,
+          "tp": 6
+        },
+        "assumed_negative_expansion": {
+          "activated_pmids": 5,
+          "activation_rule_id": "paper_all_manual_accepted_unassigned_auto_as_negatives",
+          "added_assumed_negative_analyses": 24,
+          "mode_allowed_match_statuses": [
+            "accepted"
+          ],
+          "mode_supports_expansion": true,
+          "pmids_with_paper_all_manual_accepted": 6
+        },
+        "document_metrics": {
+          "f1": 0.9090909090909091,
+          "fn": 0,
+          "fp": 1,
+          "precision": 0.8333333333333334,
+          "recall": 1.0,
+          "tp": 5
+        },
+        "study_metrics": {
+          "accuracy": 0.0,
+          "f1": 0.0,
+          "fn": 0,
+          "fp": 6,
+          "manual_studies": 0,
+          "overlap_pmids": 6,
+          "precision": 0.0,
+          "predicted_studies": 6,
+          "recall": 0.0,
+          "run_pmids": 39,
+          "tn": 0,
+          "tp": 0
+        }
+      },
+      "functional": {
+        "analysis_metrics": {
+          "accuracy": 1.0,
+          "analysis_universe": 7,
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "manual_accepted_analyses": 6,
+          "precision": 1.0,
+          "predicted_analyses": 6,
+          "recall": 1.0,
+          "tn": 1,
+          "tp": 6
+        },
+        "analysis_metrics_exhausted_manual_assumption": {
+          "accuracy": 0.6129032258064516,
+          "analysis_universe": 31,
+          "f1": 0.5,
+          "fn": 0,
+          "fp": 12,
+          "manual_accepted_analyses": 6,
+          "precision": 0.3333333333333333,
+          "predicted_analyses": 18,
+          "recall": 1.0,
+          "tn": 13,
+          "tp": 6
+        },
+        "assumed_negative_expansion": {
+          "activated_pmids": 5,
+          "activation_rule_id": "paper_all_manual_accepted_unassigned_auto_as_negatives",
+          "added_assumed_negative_analyses": 24,
+          "mode_allowed_match_statuses": [
+            "accepted"
+          ],
+          "mode_supports_expansion": true,
+          "pmids_with_paper_all_manual_accepted": 6
+        },
+        "document_metrics": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 5
+        },
+        "study_metrics": {
+          "accuracy": 0.16666666666666666,
+          "f1": 0.0,
+          "fn": 0,
+          "fp": 5,
+          "manual_studies": 0,
+          "overlap_pmids": 6,
+          "precision": 0.0,
+          "predicted_studies": 5,
+          "recall": 0.0,
+          "run_pmids": 39,
+          "tn": 1,
+          "tp": 0
+        }
+      },
+      "structural": {
+        "analysis_metrics": {
+          "accuracy": 0.8571428571428571,
+          "analysis_universe": 7,
+          "f1": 0.6666666666666666,
+          "fn": 1,
+          "fp": 0,
+          "manual_accepted_analyses": 2,
+          "precision": 1.0,
+          "predicted_analyses": 1,
+          "recall": 0.5,
+          "tn": 5,
+          "tp": 1
+        },
+        "analysis_metrics_exhausted_manual_assumption": {
+          "accuracy": 0.9354838709677419,
+          "analysis_universe": 31,
+          "f1": 0.5,
+          "fn": 1,
+          "fp": 1,
+          "manual_accepted_analyses": 2,
+          "precision": 0.5,
+          "predicted_analyses": 2,
+          "recall": 0.5,
+          "tn": 28,
+          "tp": 1
+        },
+        "assumed_negative_expansion": {
+          "activated_pmids": 5,
+          "activation_rule_id": "paper_all_manual_accepted_unassigned_auto_as_negatives",
+          "added_assumed_negative_analyses": 24,
+          "mode_allowed_match_statuses": [
+            "accepted"
+          ],
+          "mode_supports_expansion": true,
+          "pmids_with_paper_all_manual_accepted": 6
+        },
+        "document_metrics": {
+          "f1": 0.6666666666666666,
+          "fn": 1,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 0.5,
+          "tp": 1
+        },
+        "study_metrics": {
+          "accuracy": 0.6666666666666666,
+          "f1": 0.0,
+          "fn": 0,
+          "fp": 2,
+          "manual_studies": 0,
+          "overlap_pmids": 6,
+          "precision": 0.0,
+          "predicted_studies": 2,
+          "recall": 0.0,
+          "run_pmids": 39,
+          "tn": 4,
+          "tp": 0
+        }
+      }
+    },
+    "combined": {
+      "dementia_all": {
+        "analysis_metrics": {
+          "accuracy": 1.0,
+          "analysis_universe": 9,
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "manual_accepted_analyses": 9,
+          "precision": 1.0,
+          "predicted_analyses": 9,
+          "recall": 1.0,
+          "tn": 0,
+          "tp": 9
+        },
+        "analysis_metrics_exhausted_manual_assumption": {
+          "accuracy": 0.6060606060606061,
+          "analysis_universe": 33,
+          "f1": 0.5806451612903226,
+          "fn": 0,
+          "fp": 13,
+          "manual_accepted_analyses": 9,
+          "precision": 0.4090909090909091,
+          "predicted_analyses": 22,
+          "recall": 1.0,
+          "tn": 11,
+          "tp": 9
+        },
+        "assumed_negative_expansion": {
+          "activated_pmids": 5,
+          "activation_rule_id": "paper_all_manual_accepted_unassigned_auto_as_negatives",
+          "added_assumed_negative_analyses": 24,
+          "mode_allowed_match_statuses": [
+            "accepted",
+            "uncertain"
+          ],
+          "mode_supports_expansion": true,
+          "pmids_with_paper_all_manual_accepted": 6
+        },
+        "document_metrics": {
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 8
+        },
+        "study_metrics": {
+          "accuracy": 0.0,
+          "f1": 0.0,
+          "fn": 0,
+          "fp": 8,
+          "manual_studies": 0,
+          "overlap_pmids": 8,
+          "precision": 0.0,
+          "predicted_studies": 8,
+          "recall": 0.0,
+          "run_pmids": 39,
+          "tn": 0,
+          "tp": 0
+        }
+      },
+      "dementia_decreasing_activity": {
+        "analysis_metrics": {
+          "accuracy": 1.0,
+          "analysis_universe": 9,
+          "f1": 1.0,
+          "fn": 0,
+          "fp": 0,
+          "manual_accepted_analyses": 8,
+          "precision": 1.0,
+          "predicted_analyses": 8,
+          "recall": 1.0,
+          "tn": 1,
+          "tp": 8
+        },
+        "analysis_metrics_exhausted_manual_assumption": {
+          "accuracy": 0.8787878787878788,
+          "analysis_universe": 33,
+          "f1": 0.8,
+          "fn": 0,
+          "fp": 4,
+          "manual_accepted_analyses": 8,
+          "precision": 0.6666666666666666,
+          "predicted_analyses": 12,
+          "recall": 1.0,
+          "tn": 21,
+          "tp": 8
+        },
+        "assumed_negative_expansion": {
+          "activated_pmids": 5,
+          "activation_rule_id": "paper_all_manual_accepted_unassigned_auto_as_negatives",
+          "added_assumed_negative_analyses": 24,
+          "mode_allowed_match_statuses": [
+            "accepted",
+            "uncertain"
+          ],
+          "mode_supports_expansion": true,
+          "pmids_with_paper_all_manual_accepted": 6
+        },
+        "document_metrics": {
+          "f1": 0.9333333333333333,
+          "fn": 0,
+          "fp": 1,
+          "precision": 0.875,
+          "recall": 1.0,
+          "tp": 7
+        },
+        "study_metrics": {
+          "accuracy": 0.0,
+          "f1": 0.0,
+          "fn": 0,
+          "fp": 8,
+          "manual_studies": 0,
+          "overlap_pmids": 8,
+          "precision": 0.0,
+          "predicted_studies": 8,
+          "recall": 0.0,
+          "run_pmids": 39,
+          "tn": 0,
+          "tp": 0
+        }
+      },
+      "functional": {
+        "analysis_metrics": {
+          "accuracy": 0.8888888888888888,
+          "analysis_universe": 9,
+          "f1": 0.9333333333333333,
+          "fn": 1,
+          "fp": 0,
+          "manual_accepted_analyses": 8,
+          "precision": 1.0,
+          "predicted_analyses": 7,
+          "recall": 0.875,
+          "tn": 1,
+          "tp": 7
+        },
+        "analysis_metrics_exhausted_manual_assumption": {
+          "accuracy": 0.6060606060606061,
+          "analysis_universe": 33,
+          "f1": 0.5185185185185185,
+          "fn": 1,
+          "fp": 12,
+          "manual_accepted_analyses": 8,
+          "precision": 0.3684210526315789,
+          "predicted_analyses": 19,
+          "recall": 0.875,
+          "tn": 13,
+          "tp": 7
+        },
+        "assumed_negative_expansion": {
+          "activated_pmids": 5,
+          "activation_rule_id": "paper_all_manual_accepted_unassigned_auto_as_negatives",
+          "added_assumed_negative_analyses": 24,
+          "mode_allowed_match_statuses": [
+            "accepted",
+            "uncertain"
+          ],
+          "mode_supports_expansion": true,
+          "pmids_with_paper_all_manual_accepted": 6
+        },
+        "document_metrics": {
+          "f1": 0.923076923076923,
+          "fn": 1,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 0.8571428571428571,
+          "tp": 6
+        },
+        "study_metrics": {
+          "accuracy": 0.125,
+          "f1": 0.0,
+          "fn": 0,
+          "fp": 7,
+          "manual_studies": 0,
+          "overlap_pmids": 8,
+          "precision": 0.0,
+          "predicted_studies": 7,
+          "recall": 0.0,
+          "run_pmids": 39,
+          "tn": 1,
+          "tp": 0
+        }
+      },
+      "structural": {
+        "analysis_metrics": {
+          "accuracy": 0.7777777777777778,
+          "analysis_universe": 9,
+          "f1": 0.6666666666666666,
+          "fn": 2,
+          "fp": 0,
+          "manual_accepted_analyses": 4,
+          "precision": 1.0,
+          "predicted_analyses": 2,
+          "recall": 0.5,
+          "tn": 5,
+          "tp": 2
+        },
+        "analysis_metrics_exhausted_manual_assumption": {
+          "accuracy": 0.9090909090909091,
+          "analysis_universe": 33,
+          "f1": 0.5714285714285715,
+          "fn": 2,
+          "fp": 1,
+          "manual_accepted_analyses": 4,
+          "precision": 0.6666666666666666,
+          "predicted_analyses": 3,
+          "recall": 0.5,
+          "tn": 28,
+          "tp": 2
+        },
+        "assumed_negative_expansion": {
+          "activated_pmids": 5,
+          "activation_rule_id": "paper_all_manual_accepted_unassigned_auto_as_negatives",
+          "added_assumed_negative_analyses": 24,
+          "mode_allowed_match_statuses": [
+            "accepted",
+            "uncertain"
+          ],
+          "mode_supports_expansion": true,
+          "pmids_with_paper_all_manual_accepted": 6
+        },
+        "document_metrics": {
+          "f1": 0.6666666666666666,
+          "fn": 2,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 0.5,
+          "tp": 2
+        },
+        "study_metrics": {
+          "accuracy": 0.5,
+          "f1": 0.0,
+          "fn": 0,
+          "fp": 4,
+          "manual_studies": 0,
+          "overlap_pmids": 8,
+          "precision": 0.0,
+          "predicted_studies": 4,
+          "recall": 0.0,
+          "run_pmids": 39,
+          "tn": 4,
+          "tp": 0
+        }
+      }
+    }
+  },
+  "mode_metadata": {
+    "accepted": {
+      "allowed_statuses": [
+        "accepted"
+      ],
+      "label": "ACCEPTED (strict)"
+    },
+    "combined": {
+      "allowed_statuses": [
+        "accepted",
+        "uncertain"
+      ],
+      "label": "COMBINED (accepted + uncertain)"
+    }
+  },
+  "project_name": "dementia",
+  "project_output_dir": "/home/zorro/repos/autonima-results/projects/dementia/v3-annotation-only"
+}

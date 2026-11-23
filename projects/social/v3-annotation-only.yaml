@@ -1,0 +1,113 @@
+# v3 annotation-only -- v3's criteria and mode over the fixed 230-PMID gold list.
+#
+# Screening is skipped, so this exercises retrieval, parsing and annotation only. Criteria and
+# annotation mode are identical to v3.yaml and v3-allstudies.yaml.
+#
+# WHY THIS FILE EXISTS. Social previously had no clean search-driven arm. Its v3-search-* arms set
+# BOTH a query and a pmids_file, and autonima UNIONS the two rather than preferring one
+# (search/pubmed.py: `pmids +=` the search hits, then `pmids +=` the file; the docstring at
+# pubmed.py:51 claiming the query is ignored is stale). So those arms screened their query hits
+# PLUS the 486-PMID curated pool, which contains every gold study by construction:
+# v3-search-all_pmids-multi_analysis-ft screened 1063 unique studies (query 1023 + 485 screened
+# pool members, 445 in both) -- and screened those 445 TWICE, 1508 records in all, since the
+# concatenated list is never deduped. The injected pool lifted its gold coverage from 0.952 -- what the query reaches
+# on its own, 219/230 -- to 1.000, handing it 11 gold studies its search would have missed. The
+# bias is modest but real: a search arm that cannot fail to retrieve gold overstates recall, and no
+# social run measured search in isolation. This file is that measurement.
+#
+# v2 is not a substitute either: it lacks study_fulltext in annotation metadata_fields. Two things
+# that are NOT differences, contrary to an earlier note here: prompt_type unset defaults to
+# multi_analysis, and include_all_analyses is the deprecated spelling of
+# create_all_included_annotations, which defaults to true. With those two removed, v2's screening
+# AND annotation criteria are byte-identical to v3-allstudies' -- so under the naming convention
+# (version tracks criteria, suffix tracks everything else) v2 and the v3 family are one criteria
+# generation, and v2's separate number is itself a convention violation. Left as-is for now: v2 is
+# already run and reported, and renaming it would churn every table that cites it.
+#
+# Until now the annotation criteria that EVERY social full run uses had never been measured in
+# isolation: the four existing annotation-only runs all carry different criteria, none matching
+# the full runs. This is the missing third arm that makes social decomposable. The previous holder
+# of this name was renamed to v5-annotation-only.
+
+search:
+  database: "pubmed"
+  pmids_file: "projects/social/validation_ids/official.txt"
+
+retrieval:
+  load_excluded: true
+  sources:
+    - pubget
+  full_text_sources:
+    - root_path: "articles/elsevier_output/"
+      pmid_source: "folder_name"
+      text_path_templates:
+        - 'text.txt'
+      coordinates_path_templates:
+        - 'coordinates.json'
+    - root_path: "articles/ace_outputs/"
+      pmid_source: "file_name"
+      allowed_extensions: [".html"]
+      processed_data_path: "articles/ace_outputs/processed/"
+      
+
+screening:
+  abstract:
+    skip_stage: true
+  fulltext:
+    skip_stage: true
+
+parsing:
+  parse_coordinates: true  # Enable coordinate parsing for studies with activation tables
+  coordinate_model: "gpt-5-mini-2025-08-07"  # Model to use for coordinate parsing
+
+annotation:
+  enabled: true
+  model: "gpt-5-mini-2025-08-07"
+  create_all_included_annotations: true
+  metadata_fields:
+    - "analysis_name"
+    - "analysis_description"
+    - "table_caption"
+    - "study_title"
+    - "study_abstract"
+    - "study_fulltext"
+  prompt_type: "multi_analysis"
+  inclusion_criteria:
+    - Sample- The analysis must be on a healthy adult participants (alone, not a clinical or special group, or a comparison between healthy and clinical/special groups).
+    - Whole-brain evidence- The analysis must be from a group-level, univariate whole-brain (voxelwise) task-evoked statistical map (e.g., main effect or within-group contrast) that is from the healthy/control group and is generalizable to the healthy adult population.
+  exclusion_criteria:
+    - Region-of-interest (ROI) analyses
+    - Seed-based connectivity, effective connectivity (e.g., PPI, DCM), or resting-state analyses (e.g., ICA, PLE, Hurst exponents) 
+    - Between-group contrasts or interactions (e.g., subgroup vs subgroup, patient vs control)
+  annotations:
+    - name: "social_processing_all"
+      description: "Social Processing encompasses a broad range of processes that enable individuals to perceive, interpret, and respond to social information. This includes understanding social cues, recognizing emotions in others, engaging in social interactions, and forming social bonds. Social processing is fundamental to human behavior and is crucial for effective communication and relationship-building."
+      inclusion_criteria:
+        - Analyses performed a social-related task. Relevant constructs include (but are not limited to) Affiliation and Attachment, Social Communication, Perception and Understanding of Self, and Perception and Understanding of Others.
+        - "The analysis/contrast must measure Social Processing"
+    - name: "affiliation_attachment"
+      description: "Affiliation and Attachment is characterized by positive interactions and social bonds, and typically involves the detection of and attention to social cues, as well as social learning associated with the formation of relationships. Assessment measures generally relate to attachment styles, close relationship scales, and parental and peer bonding."
+      inclusion_criteria:
+        - "Analyses must be on a task measuring affiliation and attachment (example tasks: Kinship-related social scenarios; Cooperation and competition; Social comparison)"
+        - "The analysis/contrast must measure Affiliation and Attachment (example contrast: Loved one vs Stranger)"
+    - name: "social_communication"
+      description: "Social Communication involves the exchange of socially relevant information and involves both receptive (e.g., affect recognition, facial recognition, and characterization) and productive (e.g., eye contact, expressive reciprocation, gaze following) aspects of communication. Within this construct, there exist four subconstructs: (i) Reception of Facial Communication, (ii) Production of Facial Communication, (iii) Reception of Non-Facial Communication, and (iv) Production of Non-Facial Communication. "
+      inclusion_criteria:
+        - "Analyses from tasks measuring Social Communication (example tasks: Kinship-related social scenarios; Cooperation and competition; Social comparison)"
+        - "The analysis/contrast must measure Social Communication (example contrast: Loved one vs Stranger)"
+    - name: "perception_self"
+      description: "Perception and Understanding of Self includes processes involved in being aware of, accessing knowledge, or making judgments about the self, and can include current cognitive or emotional internal states, traits, and/or abilities, as well as mechanisms that support self-awareness, self-monitoring, and self-knowledge. Within this construct, there exist two subconstructs: (i) Agency and (ii) Self-knowledge. "
+      inclusion_criteria:
+        - "Analyses from tasks measuring Perception and Understanding of Self (example tasks: Kinship-related social scenarios; Cooperation and competition; Social comparison)"
+        - "The analysis/contrast must measure Perception and Understanding of Self (example contrast: Loved one vs Stranger)"
+    - name: "perception_others"
+      description: "Perception and Understanding of Others are the representations involved in being aware of, assessing knowledge about, and reasoning about others’ emotional states, traits, or abilities. Among this construct exist three subconstructs: (i) Animacy Perception, (ii) Action Perception, and (iii) Understanding Mental States."
+      inclusion_criteria:
+        - "Analyses from tasks measuring Perception and Understanding of Others (example tasks: Kinship-related social scenarios; Cooperation and competition; Social comparison)"
+        - "The analysis/contrast must measure Perception and Understanding of Others (example contrast: Loved one vs Stranger)"
+
+output:
+  formats:
+    - csv
+  nimads: true
+  export_excluded_studies: true

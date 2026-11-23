@@ -1,0 +1,124 @@
+{
+  "cache": {
+    "changed_stages": [
+      "search"
+    ],
+    "invalidated_stages": [
+      "abstract",
+      "fulltext",
+      "parsing",
+      "output"
+    ]
+  },
+  "completed_at": "2026-08-30T03:54:22.606355+00:00",
+  "current_stage": null,
+  "execution_id": "fa18a8a5-8473-4370-a1db-b48805d30a40",
+  "schema_version": 2,
+  "stages": [
+    {
+      "completed_at": "2026-08-30T03:54:10.218652+00:00",
+      "counters": {
+        "processed": 0,
+        "reused": 2010,
+        "studies_found": 2010
+      },
+      "error": null,
+      "planned": true,
+      "source": "cache",
+      "stage": "search",
+      "started_at": "2026-08-30T03:54:09.028479+00:00",
+      "status": "completed"
+    },
+    {
+      "completed_at": "2026-08-30T03:54:10.221157+00:00",
+      "counters": {
+        "excluded": 0,
+        "included": 2010,
+        "screened": 2010
+      },
+      "error": null,
+      "planned": true,
+      "source": "fresh",
+      "stage": "abstract",
+      "started_at": "2026-08-30T03:54:10.219071+00:00",
+      "status": "completed"
+    },
+    {
+      "completed_at": "2026-08-30T03:54:22.069195+00:00",
+      "counters": {
+        "available": 425,
+        "fulltext_candidates": 2010,
+        "missing": 1585
+      },
+      "error": null,
+      "planned": true,
+      "source": "fresh",
+      "stage": "retrieval",
+      "started_at": "2026-08-30T03:54:10.221528+00:00",
+      "status": "completed"
+    },
+    {
+      "completed_at": "2026-08-30T03:54:22.070673+00:00",
+      "counters": {
+        "excluded": 0,
+        "included": 0,
+        "incomplete": 0,
+        "screened": 0
+      },
+      "error": null,
+      "planned": true,
+      "source": "fresh",
+      "stage": "fulltext",
+      "started_at": "2026-08-30T03:54:22.069594+00:00",
+      "status": "completed"
+    },
+    {
+      "completed_at": "2026-08-30T03:54:22.071421+00:00",
+      "counters": {
+        "status": "Off"
+      },
+      "error": null,
+      "planned": true,
+      "source": "not_applicable",
+      "stage": "parsing",
+      "started_at": "2026-08-30T03:54:22.071043+00:00",
+      "status": "skipped"
+    },
+    {
+      "completed_at": "2026-08-30T03:54:22.187174+00:00",
+      "counters": {
+        "annotations": 1,
+        "decisions": 362
+      },
+      "error": null,
+      "planned": true,
+      "source": "fresh",
+      "stage": "annotation",
+      "started_at": "2026-08-30T03:54:22.071782+00:00",
+      "status": "completed"
+    },
+    {
+      "completed_at": "2026-08-30T03:54:22.604991+00:00",
+      "counters": {
+        "abstract_excluded": 0,
+        "abstract_screened": 2010,
+        "final_included": 2010,
+        "fulltext_assessed": 2010,
+        "fulltext_excluded": 0,
+        "fulltext_incomplete": 0,
+        "nimads_available": true,
+        "total_identified": 2010
+      },
+      "error": null,
+      "planned": true,
+      "source": "fresh",
+      "stage": "output",
+      "started_at": "2026-08-30T03:54:22.187591+00:00",
+      "status": "completed"
+    }
+  ],
+  "started_at": "2026-08-30T03:54:09.027467+00:00",
+  "status": "completed",
+  "stop_after_stage": "full",
+  "updated_at": "2026-08-30T03:54:22.606345+00:00"
+}

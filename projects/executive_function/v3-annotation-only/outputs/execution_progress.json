@@ -1,0 +1,125 @@
+{
+  "cache": {
+    "changed_stages": [],
+    "invalidated_stages": [
+      "abstract",
+      "fulltext",
+      "output"
+    ]
+  },
+  "completed_at": "2026-08-27T23:41:57.560622+00:00",
+  "current_stage": null,
+  "execution_id": "8f05b884-ef71-4d78-8db6-a69ba7624c0d",
+  "schema_version": 2,
+  "stages": [
+    {
+      "completed_at": "2026-08-27T23:37:05.792388+00:00",
+      "counters": {
+        "processed": 0,
+        "reused": 171,
+        "studies_found": 171
+      },
+      "error": null,
+      "planned": true,
+      "source": "cache",
+      "stage": "search",
+      "started_at": "2026-08-27T23:37:05.783706+00:00",
+      "status": "completed"
+    },
+    {
+      "completed_at": "2026-08-27T23:37:05.793242+00:00",
+      "counters": {
+        "excluded": 0,
+        "included": 171,
+        "screened": 171
+      },
+      "error": null,
+      "planned": true,
+      "source": "fresh",
+      "stage": "abstract",
+      "started_at": "2026-08-27T23:37:05.792731+00:00",
+      "status": "completed"
+    },
+    {
+      "completed_at": "2026-08-27T23:37:08.337641+00:00",
+      "counters": {
+        "available": 132,
+        "fulltext_candidates": 171,
+        "missing": 39
+      },
+      "error": null,
+      "planned": true,
+      "source": "fresh",
+      "stage": "retrieval",
+      "started_at": "2026-08-27T23:37:05.793582+00:00",
+      "status": "completed"
+    },
+    {
+      "completed_at": "2026-08-27T23:37:08.340664+00:00",
+      "counters": {
+        "excluded": 0,
+        "included": 0,
+        "incomplete": 0,
+        "screened": 0
+      },
+      "error": null,
+      "planned": true,
+      "source": "fresh",
+      "stage": "fulltext",
+      "started_at": "2026-08-27T23:37:08.338992+00:00",
+      "status": "completed"
+    },
+    {
+      "completed_at": "2026-08-27T23:39:04.641304+00:00",
+      "counters": {
+        "analyses": 373,
+        "coordinates": 3499,
+        "processed": 60,
+        "reused": 69,
+        "studies": 81
+      },
+      "error": null,
+      "planned": true,
+      "source": "mixed",
+      "stage": "parsing",
+      "started_at": "2026-08-27T23:37:08.341955+00:00",
+      "status": "completed"
+    },
+    {
+      "completed_at": "2026-08-27T23:41:57.360407+00:00",
+      "counters": {
+        "annotations": 8,
+        "decisions": 2984
+      },
+      "error": null,
+      "planned": true,
+      "source": "fresh",
+      "stage": "annotation",
+      "started_at": "2026-08-27T23:39:04.641774+00:00",
+      "status": "completed"
+    },
+    {
+      "completed_at": "2026-08-27T23:41:57.559688+00:00",
+      "counters": {
+        "abstract_excluded": 0,
+        "abstract_screened": 171,
+        "final_included": 171,
+        "fulltext_assessed": 171,
+        "fulltext_excluded": 0,
+        "fulltext_incomplete": 0,
+        "nimads_available": true,
+        "total_identified": 171
+      },
+      "error": null,
+      "planned": true,
+      "source": "fresh",
+      "stage": "output",
+      "started_at": "2026-08-27T23:41:57.360916+00:00",
+      "status": "completed"
+    }
+  ],
+  "started_at": "2026-08-27T23:37:05.782731+00:00",
+  "status": "completed",
+  "stop_after_stage": "full",
+  "updated_at": "2026-08-27T23:41:57.560615+00:00"
+}

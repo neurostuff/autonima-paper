@@ -1,0 +1,240 @@
+#!/usr/bin/env python3
+"""Track what fraction of each project's gold standard survives each pipeline stage.
+
+WHY THIS EXISTS
+
+`screening_metrics_top_v_stage_progression.csv` looks like it answers this and does not. It holds
+*conditional retention* -- the share of studies entering a stage that survive it -- so its
+denominator changes at every stage and its "recall" column rises across the funnel, which is
+impossible for cumulative recall. Chaining those retentions does not recover the truth either,
+because retrieval loss is absent from that file entirely: executive_function's conditional product
+is 0.645 against an actual end-to-end 0.392.
+
+This counts gold PMIDs directly against a fixed denominator -- every gold study for the project --
+at each stage in turn, so the curve is monotonically non-increasing by construction and every drop
+is attributable to a named stage.
+
+Retrieval is reported as its own stage rather than folded into screening. That distinction is the
+point: a study lost because no full text could be obtained is a supply failure, and a study lost
+because the screener rejected it is a judgement. Presenting them together would blame screening
+for the pipeline's largest loss in several projects.
+
+    search      the gold study appeared in the PubMed results at all
+    abstract    survived abstract screening
+    retrieval   full text was actually obtained AND was usable
+    fulltext    survived full-text screening
+
+WHAT "USABLE" MEANS, AND WHY IT IS NOT JUST THE AVAILABILITY FLAG
+
+`fulltext_retrieval_results.json` sets `fulltext_available`, and that flag overstates what the
+screener received. In 43 gold studies across the corpus the flag is true and the screener was
+then handed title, abstract and metadata only (or hit an API error), recorded
+`fulltext_incomplete`, and said outright that it could not verify the inclusion criteria. Those
+studies had no usable full text, so counting them as retrieved put a supply failure inside the
+screening stage -- which is the exact distinction this file exists to draw. The retrieval stage
+therefore requires the flag AND the absence of a `fulltext_incomplete` decision.
+
+The effect is concentrated: executive_function alone accounts for 24 of the 43, which is why its
+abstract -> full-text drop read as a screening failure before this was corrected. Four projects
+have none.
+
+`retrieval_available` is also returned, carrying the raw flag, so the split between "no text at
+all" and "text too thin to screen" stays reportable and this correction stays auditable.
+
+Writes reports/gold_survival_by_stage.csv.
+"""
+
+from __future__ import annotations
+
+import argparse
+import csv
+import json
+import re
+from pathlib import Path
+
+import pandas as pd
+
+REPO_ROOT = Path(__file__).resolve().parent.parent
+BENCHMARK = REPO_ROOT.parent / "neurometabench" / "data" / "included_studies.csv"
+
+# Benchmark meta-analysis PMID -> project directory name.
+META_TO_PROJECT = {
+    "34400176": "cue_reactivity", "32078973": "decision_making", "35664889": "dementia",
+    "35413444": "emotion_regulation_2022", "22282036": "executive_function",
+    "29944961": "problem_solving", "36436737": "social", "36100907": "vbm_of_ptsd",
+    "36115222": "vbm_of_substance_use",
+}
+BARE_VERSION = re.compile(r"^v(\d+)$")
+STAGES = ["search", "abstract", "retrieval", "fulltext"]
+
+
+def load_gold() -> dict[str, set[str]]:
+    df = pd.read_csv(BENCHMARK)
+    df["study_pmid"] = pd.to_numeric(df["study_pmid"], errors="coerce")
+    df = df.dropna(subset=["study_pmid"])
+    df["study_pmid"] = df["study_pmid"].astype(int).astype(str)
+    df["meta_pmid"] = df["meta_pmid"].astype(str)
+    out: dict[str, set[str]] = {}
+    for meta, group in df.groupby("meta_pmid"):
+        project = META_TO_PROJECT.get(meta)
+        if project:
+            out[project] = set(group["study_pmid"])
+    return out
+
+
+def canonical_run(project_dir: Path, suffix: str = "", tier: str = "best") -> Path | None:
+    """The run to report for one family: the REGISTERED tier if it is on disk, else the
+    highest-versioned run present.
+
+    WHY THE REGISTRY COMES FIRST (fixed 2026-11-06). This used to take max(version)
+    unconditionally, which silently reports whatever run happens to be numbered highest
+    regardless of whether it was any good. That broke the moment dementia v4 was created: v4 is
+    the benchmark-tuned attempt that was DELIBERATELY not promoted -- it cut full-text recall
+    from 0.94 to 0.60 -- and `best` stayed v3. Four tables (gold survival, stage
+    precision/recall, attainable recall, false-positive composition) switched to v4 without
+    saying so, so the paper's screening numbers for dementia came from a rejected run.
+
+    The tier-tree mechanism in build_tier_tree.py does not help here. It works by VISIBILITY --
+    hiding every run but one -- which is correct for reproduce_at_tier.sh, but reproduce.sh runs
+    in place against the real projects/ directory where every version is visible.
+
+    Falling back to max() keeps the tier tree working: inside a shadow tree the registered run
+    for that tier is the only one present, so the registry and the directory agree; if a caller
+    points this at a tree holding something else, it still returns what is actually there rather
+    than None.
+    """
+    pattern = re.compile(rf"^v(\d+){re.escape(suffix)}$")
+    versions = [
+        (int(pattern.match(p.name).group(1)), p)
+        for p in project_dir.iterdir()
+        if p.is_dir() and pattern.match(p.name) and (p / "outputs").is_dir()
+    ]
+    if not versions:
+        return None
+    try:
+        from run_tiers import resolve_tier
+        family = "allstudies" if suffix == "-allstudies" else "canonical"
+        registered = resolve_tier(project_dir.name, family, tier)
+    except Exception:
+        registered = None
+    if registered:
+        for _, path in versions:
+            if path.name == registered:
+                return path
+    return max(versions)[1]
+
+
+def _read(path: Path) -> dict:
+    try:
+        with open(path) as f:
+            return json.load(f)
+    except (OSError, ValueError):
+        return {}
+
+
+def incomplete_fulltext_pmids(outputs: Path) -> set[str] | None:
+    """PMIDs the full-text screener saw without usable full text.
+
+    `fulltext_incomplete` is the screener reporting that it received title/abstract/metadata
+    only, or that retrieval errored, so the inclusion criteria could not be checked. It is a
+    retrieval failure surfacing one stage late, not a judgement about the paper.
+    """
+    path = outputs / "fulltext_screening_results.json"
+    if not path.exists():
+        return None
+    rows = _read(path).get("screening_results")
+    if not rows:
+        return None
+    return {str(r.get("study_id")).strip() for r in rows
+            if isinstance(r, dict) and str(r.get("decision")) == "fulltext_incomplete"}
+
+
+def survivors(outputs: Path) -> dict[str, set[str] | None]:
+    """PMIDs present after each stage. None where the stage produced no artifact."""
+    out: dict[str, set[str] | None] = {}
+
+    search = _read(outputs / "search_results.json").get("studies")
+    out["search"] = {str(s.get("pmid")).strip() for s in search
+                     if isinstance(s, dict) and s.get("pmid")} if search else None
+
+    for stage, fname in (("abstract", "abstract_screening_results.json"),
+                         ("fulltext", "fulltext_screening_results.json")):
+        rows = _read(outputs / fname).get("screening_results")
+        out[stage] = ({str(r.get("study_id")).strip() for r in rows
+                       if isinstance(r, dict) and "includ" in str(r.get("decision", "")).lower()}
+                      if rows else None)
+
+    rows = _read(outputs / "fulltext_retrieval_results.json").get("studies_with_fulltext")
+    available = ({str(r.get("pmid")).strip() for r in rows
+                  if isinstance(r, dict) and r.get("fulltext_available")}
+                 if rows else None)
+    out["retrieval_available"] = available
+    # Usable text, not merely flagged text -- see the module docstring.
+    incomplete = incomplete_fulltext_pmids(outputs)
+    out["retrieval"] = (available if available is None or incomplete is None
+                        else available - incomplete)
+    return out
+
+
+def main(argv: list[str] | None = None) -> int:
+    ap = argparse.ArgumentParser(description=__doc__,
+                                 formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--projects-root", type=Path, default=REPO_ROOT / "projects")
+    ap.add_argument("--output", type=Path,
+                    default=REPO_ROOT / "reports" / "gold_survival_by_stage.csv")
+    ap.add_argument("--suffix", default="",
+                    help='run-family suffix, e.g. "-allstudies" for the fixed-pool arm')
+    args = ap.parse_args(argv)
+
+    gold_sets = load_gold()
+    rows = []
+    print(f"{'project':<24}{'run':<6}{'gold':>5}   " + "".join(f"{s:>11}" for s in STAGES))
+    print("-" * 80)
+    for project, gold in sorted(gold_sets.items()):
+        project_dir = args.projects_root / project
+        run = canonical_run(project_dir, args.suffix) if project_dir.is_dir() else None
+        if run is None:
+            print(f"{project:<24}(no canonical run)")
+            continue
+
+        alive = survivors(run / "outputs")
+        # Cumulative: a study must have survived every stage up to this one. Intersecting rather
+        # than reading each stage independently keeps the curve monotone even if an artifact is
+        # regenerated out of order.
+        carried: set[str] | None = None
+        cells = []
+        for stage in STAGES:
+            here = alive.get(stage)
+            if here is not None:
+                carried = here if carried is None else (carried & here)
+            kept = len(gold & carried) if carried is not None else None
+            cells.append(kept)
+            rows.append({
+                "project": project, "run": run.name,
+                "family": "allstudies" if args.suffix else "canonical", "stage": stage,
+                "gold_total": len(gold),
+                "gold_surviving": "" if kept is None else kept,
+                "cumulative_recall": "" if kept is None else round(kept / len(gold), 4),
+                "artifact_present": "yes" if here is not None else "no",
+            })
+        pretty = "".join(
+            f"{'  n/a' if c is None else f'{c}/{len(gold)}':>11}" for c in cells)
+        print(f"{project:<24}{run.name:<6}{len(gold):>5}   {pretty}")
+
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+    with open(args.output, "w", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=list(rows[0]))
+        w.writeheader()
+        w.writerows(rows)
+    # relative_to raises when --output points outside the repo, which is the normal case for a
+    # scratch run; fall back to the absolute path rather than crashing after the work is done.
+    try:
+        shown = args.output.relative_to(REPO_ROOT)
+    except ValueError:
+        shown = args.output
+    print(f"\n  wrote {shown}")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

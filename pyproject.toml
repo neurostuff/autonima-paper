@@ -1,0 +1,86 @@
+# This repository is an analysis workspace, not a Python package. It used to declare
+# itself as one -- src/autonima_results/ held a single empty __init__.py, built by
+# hatchling and installed editable through pypi-dependencies below. Of the eleven
+# dependencies that arrangement delivered, exactly one (nimare) is imported by any
+# code here, and it is declared on its own account. The rest belong to autonima,
+# pubget and ACE, which declare them themselves. The package was a decoy: it made
+# the repo look importable while every module lived in scripts/ and was reached by
+# sys.path insertion.
+[project]
+authors = [{name = "Alejandro de la Vega", email = "aleph4@gmail.com"}]
+name = "autonima-paper"
+requires-python = ">= 3.11"
+version = "0.1.0"
+
+[tool.pixi.workspace]
+channels = ["conda-forge"]
+platforms = ["linux-64", "osx-arm64", "win-64"]
+
+[tool.pixi.pypi-dependencies]
+nimare = "==0.21.0"
+
+# TWO ENVIRONMENTS, because the siblings are wanted two different ways.
+#
+#   pixi run <cmd>            default: siblings pinned to public commits.
+#                             Reproducible from a clone; edits to ../autonima
+#                             have NO effect.
+#   pixi run -e dev <cmd>     development: siblings as editable local checkouts,
+#                             exactly as before. Edits take effect immediately.
+#
+# The siblings used to sit in the default pypi-dependencies as ../ paths, which
+# meant the environment could only be built in one directory on one machine.
+
+[tool.pixi.feature.pinned.pypi-dependencies]
+# v0.1.1 (c51f219, tagged from maint/v0.1.x): v0.1.0 -- the release cut for the manuscript, which
+# produced every pipeline output -- plus only the meta-analysis fixes needed to fit maps on
+# NiMARE 0.21 (neurostuff/autonima#88 import fix, #93 selection on the NiMADS dicts instead
+# of Studyset.slice). No pipeline code differs from v0.1.0. v0.1.0 itself carries the
+# per-stage token and cost accounting Supplementary S5 was measured with; it was chosen over
+# 440de05 (where master stood when the canonical runs finished) because the commits between
+# them are inert here.
+autonima = { git = "https://github.com/neurostuff/autonima.git", tag = "v0.1.1", extras = ["meta"] }
+# no_miss was merged upstream; d64291e is origin/master. ACE supplies scraped HTML as
+# a retrieval source (articles/ace_outputs), which the manuscript covers as
+# "user-provided article files".
+ace = { git = "https://github.com/neurosynth/ACE.git", rev = "d64291e06655d60049e046baeb670f8ffb5db360" }
+# v0.0.9 (89aa5a3), cut for this paper. It carries the fix the retrieval depended
+# on -- "Skip an article with no usable PMCID instead of failing its whole batch"
+# (neuroquery/pubget#61), without which one unidentifiable record discarded every
+# sibling in its batch, observed on a 413-PMCID retrieval that produced zero
+# article directories. The only other change since 0.0.8 is a mypy annotation fix
+# (#62), so the release is behaviourally identical to the merge commit this was
+# previously pinned to, and is a citable version rather than a bare SHA.
+pubget = { git = "https://github.com/neuroquery/pubget.git", tag = "v0.0.9" }
+
+[tool.pixi.feature.dev.pypi-dependencies]
+autonima = { path = '../autonima', editable = true, extras = ["meta"] }
+ace = { path = '../ACE', editable = true }
+pubget = { path = "../pubget", editable = true }
+
+[tool.pixi.environments]
+default = { features = ["pinned"], solve-group = "pinned" }
+dev = { features = ["dev"], solve-group = "dev" }
+
+[tool.pixi.tasks]
+
+[tool.pixi.dependencies]
+sqlalchemy = ">=2.0.44,<3"
+simplejson = ">=3.20.2,<4"
+readabilipy = ">=0.3.0,<0.4"
+nodejs = ">=20.18.0,<21" 
+openai = ">=2.6.0,<3"
+joblib = ">=1.3"
+nilearn = ">=0.12,<0.14"
+numpy = "==1.25.2"
+scipy = "==1.10.1"
+scikit-learn = ">=1.4"
+ipython = ">=9.6.0,<10"
+ipykernel = ">=7.1.0,<8"
+pip = ">=25.2,<26"
+seaborn = ">=0.13.2,<0.14"
+jupyterlab = ">=4.4.10,<5"
+python = ">=3.11.14,<3.12"
+ipdb = ">=0.13.13,<0.14"
+
+[tool.pixi.activation.env]
+PYTHONNOUSERSITE = "1"

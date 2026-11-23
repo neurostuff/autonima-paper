@@ -1,0 +1,481 @@
+#!/usr/bin/env python3
+"""Axial-slice panels comparing baseline, pipeline and expert maps for selected columns.
+
+WHY THIS EXISTS
+
+The Nature Methods figures are all scatters and distributions. For a neuroimaging paper that is a
+conspicuous gap: every number in Result 4 is a similarity between two brain maps, and the reader
+never sees one. This renders the three arms side by side so the similarity score has something to
+be a summary *of*.
+
+WHICH COLUMNS
+
+Selection is by margin over the best available baseline, which is cherry-picking and is treated as
+such: `--mode showcase` takes the largest margins for the main figure, `--mode contrast` pairs the
+best with the worst so a failure is shown beside a success, and `--mode all` renders every column
+for the supplement. The honest framing is that the main figure shows what a good case looks like
+while Figures 4 and 5 report the whole distribution including the losses -- so run `--mode all`
+for the supplement rather than only shipping the flattering three.
+
+CORRECTNESS
+
+Maps are resolved the way compare_baselines_to_benchmark.py resolves them: the canonical run from
+run_categories.yaml at the requested tier, the manual annotation key translated through the
+project's nmb_mappings.json, and the same FDR-corrected z map. Because a silently wrong path would
+produce a plausible-looking figure that does not match the text, every triplet is verified by
+recomputing the pipeline-vs-expert similarity and comparing against
+cross_project_best_baseline.csv; a mismatch is reported and the column is skipped.
+
+The metric is read from that table rather than assumed, because compile_best_baselines.py is
+parameterised (--metric dice|r2|pearson_r) and now defaults to dice. Checking a dice column against
+an r-squared computation rejects 29 of 35 columns as path errors when the paths are fine.
+
+INTERPRETER
+
+Run this with the system `python3` (nilearn 0.13.x), NOT `pixi run python` (nilearn 0.10.1).
+The two pick different default colormaps for plot_stat_map, so the same data renders red-only
+under 0.10 and diverging under 0.13 -- a 3.7% pixel difference with no change in the underlying
+maps, which looks alarming in a diff and is purely cosmetic. Verified: regenerating under 0.13.1
+reproduces the committed figure to 0 differing pixels.
+"""
+
+from __future__ import annotations
+
+import argparse
+import csv
+import json
+import re
+import sys
+from pathlib import Path
+
+import matplotlib
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
+from matplotlib.lines import Line2D
+import numpy as np
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
+from run_tiers import resolve_tier  # noqa: E402
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
+from nmb_mapping import load_mappings  # noqa: E402
+from map_mask import common_mask  # noqa: E402
+
+REPO_ROOT = Path(__file__).resolve().parent.parent
+MANUAL_BASE = REPO_ROOT.parent / "neurometabench" / "analysis"
+MAP_NAME = "z_corr-FDR_method-indep.nii.gz"
+POOLED = REPO_ROOT / "reports" / "cross_project_best_baseline.csv"
+DEFAULT_OUT = REPO_ROOT / "paper" / "figures"
+
+SINGLE_COL, DOUBLE_COL = 89 / 25.4, 183 / 25.4
+INK, MUTED, RULE = "#1a1a1a", "#5a5a5a", "#c8c8c8"
+
+# Deck preset. Same reasoning as make_nature_methods_figures.py: projected legibility needs type
+# larger RELATIVE to the panels, so --font-scale raises label sizes and --row-height gives each
+# row more space to absorb them. Publication output is the default (both 1.0) and is untouched.
+FONT_SCALE = 1.0
+ROW_HEIGHT = 0.62
+
+
+def fs(size: float) -> float:
+    return size * FONT_SCALE
+
+
+DISPLAY = {
+    "cue_reactivity": "Cue reactivity", "decision_making": "Decision making",
+    "dementia": "Dementia", "emotion_regulation_2022": "Emotion regulation",
+    "executive_function": "Executive function", "problem_solving": "Problem solving",
+    "social": "Social", "vbm_of_ptsd": "VBM PTSD", "vbm_of_substance_use": "VBM substance use",
+}
+
+
+def auto_column(project: str, key: str) -> str:
+    """Translate a manual annotation key into the pipeline's column name."""
+    path = REPO_ROOT / "projects" / project / "nmb_mappings.json"
+    if path.exists():
+        try:
+            mapping = json.loads(path.read_text()).get("annotation_mappings") or {}
+        except ValueError:
+            mapping = {}
+        return mapping.get(key, key)
+    return key
+
+
+def resolve_maps(project: str, key: str, source: str, tier: str) -> dict[str, Path] | None:
+    """Paths for the expert, pipeline and best-available-baseline maps, or None if incomplete."""
+    run = resolve_tier(project, "canonical", tier)
+    if not run:
+        return None
+
+    gold_dir = MANUAL_BASE / project / key
+    if not (gold_dir / MAP_NAME).exists():
+        # neurometabench directory names vary in case and separators.
+        matches = [d for d in (MANUAL_BASE / project).glob("*")
+                   if d.is_dir() and d.name.lower().replace("-", "_") == key.lower().replace("-", "_")]
+        gold_dir = matches[0] if matches else gold_dir
+
+    auto = (REPO_ROOT / "projects" / project / run / "outputs" / "meta_analysis_results"
+            / auto_column(project, key) / MAP_NAME)
+
+    # "targeted" means the per-column baseline search; "broad" means the project's all_studies arm.
+    if source == "targeted":
+        base = (REPO_ROOT / "projects" / project / "baselines" / key / "outputs"
+                / "meta_analysis_results" / "all_analyses" / MAP_NAME)
+    else:
+        base = (REPO_ROOT / "projects" / project / run / "outputs" / "meta_analysis_results"
+                / "all_studies" / MAP_NAME)
+
+    paths = {"gold": gold_dir / MAP_NAME, "autonima": auto, "baseline": base}
+    return paths if all(p.exists() for p in paths.values()) else None
+
+
+def verify(paths: dict[str, Path], expected: float, metric: str = "r2",
+           tol: float = 0.02) -> float | None:
+    """Recompute the pipeline-vs-expert similarity; None if it contradicts the table.
+
+    compile_best_baselines.py is metric-parameterised, so the check has to match whichever metric
+    the table was built with or it rejects every column as a path error.
+    """
+    from nilearn.image import resample_to_img
+    import nibabel as nib
+
+    gold = nib.load(paths["gold"])
+    auto = nib.load(paths["autonima"])
+    if auto.shape != gold.shape:
+        auto = resample_to_img(auto, gold, interpolation="continuous", force_resample=True,
+                               copy_header=True)
+    # Match compare_baselines_to_benchmark.py exactly: correlate over ALL finite voxels, not
+    # just voxels non-zero in either map. Restricting to non-zero drops the shared background and
+    # produces a completely different r -- which is what an earlier version of this check did, and
+    # why it rejected all 35 columns as path errors when the paths were fine.
+    gd, ad = gold.get_fdata(), auto.get_fdata()
+    if gd.shape != ad.shape:
+        return None
+    mask = common_mask(gd, ad)
+    if mask.sum() < 100:
+        return None
+    g, a = gd[mask].ravel(), ad[mask].ravel()
+    if np.all(g == g[0]) or np.all(a == a[0]):
+        return None
+    if metric == "dice":
+        # Same rule as compute_dice in compare_baselines_to_benchmark.py: z > 1.96, one-sided.
+        ba, bb = g > 1.96, a > 1.96
+        denom = int(ba.sum()) + int(bb.sum())
+        got = float(2.0 * int((ba & bb).sum()) / denom) if denom else 0.0
+    else:
+        got = float(np.corrcoef(g, a)[0, 1] ** 2)
+        if metric == "pearson_r":
+            got = got ** 0.5
+    return got if abs(got - expected) <= tol else None
+
+
+def suprathreshold(path: Path, threshold: float) -> int:
+    """Voxels surviving the display threshold. A row where nothing survives shows an empty brain."""
+    import nibabel as nib
+    d = np.nan_to_num(nib.load(str(path)).get_fdata())
+    return int((np.abs(d) > threshold).sum())
+
+
+def one_per_project(rows: list[dict]) -> list[dict]:
+    """Best-margin column from each project.
+
+    Without this the top of the list is four emotion_regulation columns, which shows the same
+    contrast four times and tells the reader nothing about breadth. One row per project makes each
+    row carry new information.
+    """
+    best: dict[str, dict] = {}
+    for r in rows:
+        cur = best.get(r["project"])
+        if cur is None or r["delta"] > cur["delta"]:
+            best[r["project"]] = r
+    return sorted(best.values(), key=lambda x: -x["delta"])
+
+
+ARM_FOR_SOURCE = {"targeted": "baseline_sub", "broad": "baseline_broad"}
+
+# Benchmark column names are internal identifiers -- wordproblems_mni_final, adm_july2019,
+# 2_drug_neutral_2020_wbonly -- and unreadable as figure labels. The pipeline's own annotation
+# name for the same column is almost always better (verbal_problem_solving, ambiguous_dm,
+# drug_cue_reactivity), and each project's nmb_mappings.json already records the correspondence,
+# so prefer it and prettify rather than maintaining a second hand-written label table.
+ABBREV = {"dm": "decision making", "wm": "working memory", "mni": "", "final": "",
+          "wbonly": "", "merged": "", "perception": "perception of"}
+
+
+def pretty_column(project: str, column: str) -> str:
+    mapping_file = REPO_ROOT / "projects" / project / "nmb_mappings.json"
+    name = column
+    if mapping_file.exists():
+        name = load_mappings(mapping_file).get(column, column)
+    # Drop the numeric prefix some benchmarks use for ordering, then expand or delete the
+    # shorthand fragments that survive into the annotation names.
+    name = re.sub(r"^\d+[_-]", "", name)
+    words = [ABBREV.get(w, w) for w in name.replace("-", "_").split("_")]
+    text = " ".join(w for w in words if w).strip()
+    return (text[:1].upper() + text[1:]) if text else column
+
+
+def per_column_metric(project: str, column: str, source: str,
+                      metric: str) -> tuple[float, float] | None:
+    """Read one column's autonima-minus-best-baseline margin in an arbitrary metric.
+
+    The pooled table records the margin in whichever metric compile_best_baselines was run with,
+    which is r2 for Figures 4 and 5. This figure wants dice instead -- see the --metric help --
+    so it re-reads the per-project table for the same arm the pooled table already resolved as
+    "best available", rather than duplicating that resolution logic.
+    """
+    f = REPO_ROOT / "projects" / project / "reports" / "baseline_vs_autonima.csv"
+    if not f.exists():
+        return None
+    want = ARM_FOR_SOURCE.get(source)
+    auto = base = None
+    for r in csv.DictReader(open(f)):
+        if r["manual_annotation"] != column:
+            continue
+        try:
+            value = float(r[metric])
+        except (ValueError, KeyError):
+            continue
+        if r["arm"] == "autonima":
+            auto = value
+        elif r["arm"] == want:
+            base = value
+    # Both values are returned, not just the margin: the verification step re-derives the
+    # pipeline-vs-expert similarity from the map files and needs something in the SAME metric to
+    # compare against, or it rejects every column as a path error.
+    return None if auto is None or base is None else (auto, auto - base)
+
+
+def candidates(tier: str, metric: str | None = None) -> list[dict]:
+    rows = []
+    for r in csv.DictReader(open(POOLED)):
+        paths = resolve_maps(r["project"], r["manual_annotation"],
+                             r["best_available_source"], tier)
+        if not paths:
+            continue
+        if metric and metric != r.get("metric"):
+            recomputed = per_column_metric(r["project"], r["manual_annotation"],
+                                           r["best_available_source"], metric)
+            if recomputed is None:
+                continue
+            auto_value, delta = recomputed
+            r = {**r, "metric": metric, "autonima": auto_value}
+        else:
+            delta = float(r["delta_vs_available"])
+        rows.append({**r, "paths": paths, "delta": delta})
+    rows.sort(key=lambda x: -x["delta"])
+    return rows
+
+
+def render(rows: list[dict], out_dir: Path, name: str, cut_coords, threshold: float,
+           break_after: int | None = None, group_labels: list[str] | None = None,
+           break_text: str | None = None) -> None:
+    from nilearn import plotting
+
+    arms = [("baseline", "Search-only baseline"), ("autonima", "AutoNIMA"),
+            ("gold", "Expert reference")]
+    n = len(rows)
+    # nilearn leaves generous margins inside each axes, so rows need to be pulled together
+    # explicitly or the figure is mostly whitespace.
+    fig, axes = plt.subplots(n, 3, figsize=(DOUBLE_COL, ROW_HEIGHT * n),
+                             squeeze=False, facecolor="white")
+    left = min(0.34, 0.19 + 0.085 * (FONT_SCALE - 1.0))
+    fig.subplots_adjust(hspace=0.02, wspace=0.02, left=left, right=0.93,
+                        top=0.94, bottom=0.06)
+    for i, row in enumerate(rows):
+        for j, (arm, arm_label) in enumerate(arms):
+            ax = axes[i][j]
+            plotting.plot_stat_map(
+                str(row["paths"][arm]), display_mode="z", cut_coords=cut_coords,
+                threshold=threshold, colorbar=False, axes=ax, annotate=False,
+                black_bg=False, draw_cross=False, cmap="cold_hot",
+            )
+            if i == 0:
+                ax.set_title(arm_label, fontsize=fs(6.5), color=INK, pad=2)
+        lbl = (f"{DISPLAY.get(row['project'], row['project'])}\n"
+               f"{pretty_column(row['project'], row['manual_annotation'])}")
+        axes[i][0].text(-0.04, 0.5, lbl, transform=axes[i][0].transAxes,
+                        ha="right", va="center", fontsize=fs(5.6), color=INK, linespacing=1.5)
+        axes[i][2].text(1.01, 0.5, f"$\\Delta$ {row.get('metric', 'dice').replace('dice', 'Dice')}\n{row['delta']:+.3f}",
+                        transform=axes[i][2].transAxes, ha="left", va="center",
+                        fontsize=fs(5.6), color=MUTED, linespacing=1.4)
+    fig.text(0.5, 0.005, f"axial slices at z = {list(cut_coords)}, "
+             f"FDR-corrected z thresholded at |z| > {threshold}",
+             ha="center", fontsize=fs(5.2), color=MUTED)
+
+    # Mark the discontinuity, before saving. Without it six rows read as a ranked run of six, and
+    # a reader counting downward takes row 4 as the fourth-largest margin rather than the
+    # third-smallest.
+    if break_after is not None and 0 < break_after < n:
+        upper = axes[break_after - 1][0].get_position()
+        lower = axes[break_after][0].get_position()
+        y = (upper.y0 + lower.y1) / 2
+        fig.add_artist(Line2D([0.08, 0.96], [y, y], transform=fig.transFigure,
+                              color=RULE, lw=0.7, ls=(0, (3, 3)), zorder=5))
+        if break_text:
+            # One note centred on the divider, on white so it never sits over a brain, in place of
+            # the "⋯" and the rotated group labels (which collided with long row labels).
+            fig.text(0.5, y, break_text, ha="center", va="center", fontsize=fs(5.6), color=MUTED,
+                     bbox=dict(boxstyle="round,pad=0.25", facecolor="white", edgecolor="none"), zorder=6)
+        else:
+            fig.text(0.5, y + 0.004, "⋯", ha="center", va="bottom", fontsize=fs(7), color=MUTED)
+            top_mid = (axes[0][0].get_position().y1 + upper.y0) / 2
+            bot_mid = (lower.y1 + axes[n - 1][0].get_position().y0) / 2
+            labels = group_labels or [f"{break_after} largest margins", f"{n - break_after} smallest"]
+            for text, ypos in zip(labels, (top_mid, bot_mid)):
+                fig.text(0.012, ypos, text, rotation=90, va="center", ha="center",
+                         fontsize=fs(5.4), color=MUTED)
+
+    out_dir.mkdir(parents=True, exist_ok=True)
+    for ext, kw in ((".pdf", {}), (".png", {"dpi": 400})):
+        fig.savefig(out_dir / f"{name}{ext}", bbox_inches="tight", **kw)
+    plt.close(fig)
+    print(f"  {name}.pdf / .png   ({len(rows)} rows)")
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser(description=__doc__,
+                                 formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--mode", choices=("showcase", "contrast", "all"), default="contrast")
+    ap.add_argument("--n", type=int, default=3, help="rows per group")
+    ap.add_argument("--tier", default="best")
+    # 1.96, not 2.3: this figure reports DICE, which is computed at z > 1.96 (the corrected
+    # q <= 0.05 boundary) in the tables it reads. Rendering at 2.3 printed a dice number beside a
+    # picture thresholded somewhere else -- roughly q <= 0.025 -- so the number described a map
+    # the reader could not see. Under the metric/map rule the display threshold and the dice
+    # threshold are the same quantity.
+    ap.add_argument("--threshold", type=float, default=1.96)
+    ap.add_argument("--cut-coords", type=int, nargs="*", default=[-12, 4, 20, 36],
+                    help="four slices rather than five: at 183mm across three arms, five columns "
+                         "of brains leaves each one too small to read")
+    ap.add_argument("--output-dir", type=Path, default=DEFAULT_OUT)
+    # 500 rather than a token 50. Measured counts in the legible rows run from ~5,000 to ~48,000
+    # suprathreshold voxels; VBM PTSD has 401 in the expert map, 32 in the pipeline and 101 in the
+    # baseline, which passes any small floor and still renders as three empty brains at this size.
+    ap.add_argument("--min-voxels", type=int, default=500,
+                    help="skip columns with fewer suprathreshold voxels than this (see comment)")
+    ap.add_argument("--skip-verify", action="store_true")
+    ap.add_argument("--metric", default="dice",
+                    help="metric for ranking and labelling exemplars. Defaults to dice HERE even "
+                         "though Figures 4 and 5 report r2, and the difference is deliberate: "
+                         "this figure renders maps THRESHOLDED at |z| > threshold, and dice "
+                         "measures overlap of thresholded maps, so it is the metric describing "
+                         "what the reader can actually see. r2 measures unthresholded "
+                         "correlation, which the rendered panels do not show.")
+    ap.add_argument("--columns", nargs="*", default=None, metavar="PROJECT/COLUMN",
+                    help="render exactly these columns, in this order, instead of ranking. "
+                         "Use with --name and --break-after to build a specific comparison.")
+    ap.add_argument("--name", default=None, help="output filename stem")
+    ap.add_argument("--break-after", type=int, default=None,
+                    help="draw the group divider after this many rows (with --columns)")
+    ap.add_argument("--top", type=int, default=None,
+                    help="with --mode all: show only the N largest and N smallest changes, with a "
+                         "break between them (Fig S3 uses 10 of the 28 at each end)")
+    ap.add_argument("--font-scale", type=float, default=1.0,
+                    help="scale all label sizes; use ~1.5 for slides")
+    ap.add_argument("--row-height", type=float, default=0.62,
+                    help="inches per row; raise it alongside --font-scale")
+    ap.add_argument("--group-labels", nargs="*", default=None,
+                    help="rotated labels for the two groups either side of --break-after")
+    args = ap.parse_args()
+
+    global FONT_SCALE, ROW_HEIGHT
+    FONT_SCALE, ROW_HEIGHT = args.font_scale, args.row_height
+
+    rows = candidates(args.tier, args.metric)
+    print(f"columns with all three maps present: {len(rows)}/35")
+    if not rows:
+        print("  nothing to render"); return 1
+
+    if not args.skip_verify:
+        keep = []
+        for r in rows:
+            # The recomputation must use the same metric as the value it is checked against.
+            # compile_best_baselines.py writes r2 (Figures 4 and 5), while this figure ranks by
+            # dice, so candidates() overrides both the metric and the autonima value together --
+            # checking a dice recomputation against an r2 table value rejected 29 of 35 columns
+            # as path errors.
+            expected = float(r["autonima"]) if "autonima" in r else float(r["autonima_r2"])
+            got = verify(r["paths"], expected, metric=(r.get("metric") or "r2").lower())
+            if got is None:
+                print(f"  SKIP {r['project']}/{r['manual_annotation']}: "
+                      f"recomputed metric disagrees with the table (path likely wrong)")
+                continue
+            keep.append(r)
+        print(f"  verified against cross_project_best_baseline.csv: {len(keep)}/{len(rows)}")
+        rows = keep
+
+    if args.columns:
+        # Explicit selection. Rendered in the order given, with no showable/diversity filtering --
+        # the caller has decided, and silently reordering or dropping a requested row would make
+        # the figure disagree with the caption written for it.
+        index = {f"{r['project']}/{r['manual_annotation']}": r for r in rows}
+        picked, missing = [], []
+        for key in args.columns:
+            if key in index:
+                picked.append(index[key])
+            else:
+                missing.append(key)
+        for key in missing:
+            print(f"  NOT FOUND: {key}")
+        if not picked:
+            print("  none of the requested columns are available"); return 1
+        for r in picked:
+            print(f"  {r['project']}/{r['manual_annotation']}  "
+                  f"{r.get('metric', 'dice')} {float(r['autonima']):.3f}  "
+                  f"delta {r['delta']:+.3f}")
+        render(picked, args.output_dir, args.name or "figure_brain_maps_selected",
+               args.cut_coords, args.threshold, break_after=args.break_after,
+               group_labels=args.group_labels)
+        return 0
+
+    if args.mode == "all":
+        if args.top and 2 * args.top < len(rows):
+            # rows are sorted by the change (largest first): keep both ends, mark the gap
+            picked = rows[:args.top] + rows[-args.top:]
+            print(f"  showing the {args.top} largest and {args.top} smallest of {len(rows)} "
+                  f"(omitted: {len(rows) - 2 * args.top})")
+            render(picked, args.output_dir, "figureS3_brain_maps_all", args.cut_coords, args.threshold,
+                   break_after=args.top,
+                   break_text=f"⋯   {len(rows) - 2 * args.top} meta-analyses with intermediate changes not shown   ⋯")
+        else:
+            render(rows, args.output_dir, "figureS3_brain_maps_all", args.cut_coords, args.threshold)
+        return 0
+
+    # Drop columns where the expert map has nothing above the display threshold. VBM PTSD is the
+    # case in point: it has a healthy +0.209 margin but only 21 gold studies, so almost nothing
+    # survives FDR correction and all three panels render as empty brains. That is a true fact
+    # about a small meta-analysis, but it occupies a row without showing the reader anything, and
+    # the margin is already reported in Figure 4.
+    # The expert map must have signal (it is the reference) AND at least one of the two compared
+    # arms must too, or the row is a three-way comparison of empty brains. Requiring all three
+    # would be wrong in the other direction: a row where the baseline finds nothing and the
+    # pipeline finds the expert pattern is among the most informative rows there is.
+    def showable_row(r: dict) -> bool:
+        gold_ok = suprathreshold(r["paths"]["gold"], args.threshold) >= args.min_voxels
+        arms_ok = any(suprathreshold(r["paths"][a], args.threshold) >= args.min_voxels
+                      for a in ("baseline", "autonima"))
+        return gold_ok and arms_ok
+
+    showable = [r for r in rows if showable_row(r)]
+    dropped = len(rows) - len(showable)
+    if dropped:
+        print(f"  {dropped} columns would render as empty brains at |z| > {args.threshold} "
+              f"(<{args.min_voxels} voxels); excluded from selection")
+
+    # One row per project, so each row shows a different target rather than repeating one.
+    diverse = one_per_project(showable)
+    if args.mode == "showcase":
+        render(diverse[:args.n], args.output_dir, "figure_brain_maps_showcase",
+               args.cut_coords, args.threshold)
+    else:
+        # Best and worst together: a figure of only wins invites the reader to assume they are
+        # typical, and Figures 4 and 5 already report that they are not.
+        picked = diverse[:args.n] + diverse[-args.n:]
+        render(picked, args.output_dir, "figure_brain_maps_contrast",
+               args.cut_coords, args.threshold, break_after=args.n)
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

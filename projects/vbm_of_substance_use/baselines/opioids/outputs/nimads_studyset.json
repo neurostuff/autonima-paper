@@ -1,0 +1,2847 @@
+{
+  "id": "autonima_studyset_20260829_230717",
+  "name": "Autonima Generated Studyset",
+  "description": null,
+  "publication": null,
+  "doi": null,
+  "pmid": null,
+  "studies": [
+    {
+      "id": "28345608",
+      "doi": "10.1038/srep45321",
+      "name": "MAOA rs1137070 and heroin addiction interactively alter gray matter volume of the salience network.",
+      "metadata": null,
+      "description": "The rs1137070 polymorphism of monoamine oxidase A (MAOA) is associated with alcoholism and smoking behavior. However, the association between rs1137070 and heroin addiction remains unclear. In this study, we examined the allelic distribution of rs1137070 in 1,035 heroin abusers and 2,553 healthy controls and investigated the interactive effects of rs1137070 and heroin addiction on gray matter volume (GMV) based on 78 heroin abusers and 79 healthy controls. The C allele frequency of rs1137070 was significantly higher in heroin abusers. Heroin addiction and the rs1137070 variant interactively altered measures of GMV in the anterior cingulate cortex, orbital frontal cortex, temporal pole, and insula, which were correlated with cognitive function. Heroin abusers with the C allele had lower measures of GMV in these regions than the healthy controls with the same allele, whereas those with the T allele displayed a different trend. The altered brain regions were connected with white matter tracts, yielding a structural network that partially overlapped with the salience network. These findings suggest that the low activity-related C allele of MAOA rs1137070 is associated with an increase in the sensitivity to heroin addiction and the damaging effects of heroin abuse on cognition and the salience network.",
+      "publication": "Scientific reports",
+      "pmid": "28345608",
+      "authors": "Yan Sun, Linwen Liu, Jiajia Feng, Weihua Yue, Lin Lu, Yong Fan, Jie Shi",
+      "year": null,
+      "analyses": [
+        {
+          "id": "28345608_analysis_0",
+          "name": "t2",
+          "description": "Table 2",
+          "weights": [],
+          "conditions": [],
+          "images": [],
+          "points": [
+            {
+              "id": "28345608_analysis_0_point_0",
+              "coordinates": [
+                -28,
+                14,
+                -22
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "28345608_analysis_0"
+            },
+            {
+              "id": "28345608_analysis_0_point_1",
+              "coordinates": [
+                16,
+                32,
+                -26
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "28345608_analysis_0"
+            },
+            {
+              "id": "28345608_analysis_0_point_2",
+              "coordinates": [
+                38,
+                21,
+                -15
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "28345608_analysis_0"
+            },
+            {
+              "id": "28345608_analysis_0_point_3",
+              "coordinates": [
+                44,
+                -6,
+                -8
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "28345608_analysis_0"
+            },
+            {
+              "id": "28345608_analysis_0_point_4",
+              "coordinates": [
+                0,
+                14,
+                33
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "28345608_analysis_0"
+            }
+          ],
+          "study_id": "28345608"
+        }
+      ]
+    },
+    {
+      "id": "24140937",
+      "doi": "10.1016/j.neuroimage.2013.10.021",
+      "name": "Abnormal cortical thickness in heroin-dependent individuals.",
+      "metadata": null,
+      "description": "Accumulating evidence from brain structural imaging studies on heroin dependence has supported links between brain morphological alterations and heroin exposure, particularly in gray matter volume or gray matter density. However, the effects of heroin exposure on cortical thickness and the relationship between cortical thickness and heroin addiction are not yet known. In this study, we acquired 3D high-resolution brain structural magnetic resonance imaging (MRI) data from 18 heroin-dependent individuals (HDIs) and 15 healthy controls (HCs). Using FreeSurfer, we detected abnormalities in cortical thickness in the HDIs. Based on a vertex-wise analysis, the HDIs showed significantly decreased cortical thickness in the bilateral superior frontal, left caudal middle frontal, right superior temporal, and right insular regions compared to the HCs but significantly increased cortical thickness in the left superior parietal, bilateral lingual, left temporal pole, right inferior parietal, right lateral occipital, and right cuneus regions. To supplement these results, a subsequent ROI-wise analysis was performed and showed decreased cortical thickness in the left superior frontal sulcus, left precuneus gyrus, left calcarine sulcus, left anterior transverse collateral sulcus, and the right medial occipital-temporal and lingual sulcus. These regions partially overlapped with the areas identified using the vertex-wise analysis. In addition, we found that the thickness in the right superior frontal and right insular regions was negatively correlated with the duration of heroin use. These results provide compelling evidence for cortical abnormality in HDIs and also suggest that the duration of heroin use may be a critical factor associated with the brain alteration.",
+      "publication": "NeuroImage",
+      "pmid": "24140937",
+      "authors": "Meng Li, Junzhang Tian, Ruibin Zhang, Yingwei Qiu, Xue Wen, Xiaofen Ma, Junjing Wang, Yong Xu, Guihua Jiang, Ruiwang Huang",
+      "year": null,
+      "analyses": [
+        {
+          "id": "24140937_analysis_0",
+          "name": "Clusters showing significantly changed cortical thickness in the heroin-dependent individuals (HDIs) compared to the healthy controls (HCs). The symbol \u2191 (\u2193) indicates significantly increased (decreased) cortical thickness in the HDIs. CWP: p-value of the cluster (cluster-wise p-value). LH (RH), left (right) hemisphere.",
+          "description": "Table\u00a02",
+          "weights": [],
+          "conditions": [],
+          "images": [],
+          "points": [
+            {
+              "id": "24140937_analysis_0_point_0",
+              "coordinates": [
+                -31,
+                9,
+                54
+              ],
+              "space": "TAL",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24140937_analysis_0"
+            },
+            {
+              "id": "24140937_analysis_0_point_1",
+              "coordinates": [
+                -11,
+                11,
+                62
+              ],
+              "space": "TAL",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24140937_analysis_0"
+            },
+            {
+              "id": "24140937_analysis_0_point_2",
+              "coordinates": [
+                -16,
+                -67,
+                59
+              ],
+              "space": "TAL",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24140937_analysis_0"
+            },
+            {
+              "id": "24140937_analysis_0_point_3",
+              "coordinates": [
+                -17,
+                -45,
+                -4
+              ],
+              "space": "TAL",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24140937_analysis_0"
+            },
+            {
+              "id": "24140937_analysis_0_point_4",
+              "coordinates": [
+                -38,
+                5,
+                -31
+              ],
+              "space": "TAL",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24140937_analysis_0"
+            },
+            {
+              "id": "24140937_analysis_0_point_5",
+              "coordinates": [
+                37,
+                -13,
+                2
+              ],
+              "space": "TAL",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24140937_analysis_0"
+            },
+            {
+              "id": "24140937_analysis_0_point_6",
+              "coordinates": [
+                14,
+                22,
+                30
+              ],
+              "space": "TAL",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24140937_analysis_0"
+            },
+            {
+              "id": "24140937_analysis_0_point_7",
+              "coordinates": [
+                62,
+                -16,
+                0
+              ],
+              "space": "TAL",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24140937_analysis_0"
+            },
+            {
+              "id": "24140937_analysis_0_point_8",
+              "coordinates": [
+                35,
+                -85,
+                -7
+              ],
+              "space": "TAL",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24140937_analysis_0"
+            },
+            {
+              "id": "24140937_analysis_0_point_9",
+              "coordinates": [
+                43,
+                -54,
+                42
+              ],
+              "space": "TAL",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24140937_analysis_0"
+            },
+            {
+              "id": "24140937_analysis_0_point_10",
+              "coordinates": [
+                8,
+                -84,
+                19
+              ],
+              "space": "TAL",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24140937_analysis_0"
+            },
+            {
+              "id": "24140937_analysis_0_point_11",
+              "coordinates": [
+                23,
+                -54,
+                -7
+              ],
+              "space": "TAL",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24140937_analysis_0"
+            }
+          ],
+          "study_id": "24140937"
+        }
+      ]
+    },
+    {
+      "id": "22178355",
+      "doi": "10.1016/j.brainresbull.2011.11.021",
+      "name": "Reduced grey matter in the posterior insula as a structural vulnerability or diathesis to addiction.",
+      "metadata": null,
+      "description": "A number of neuroimaging studies have shown that drug addiction is associated with morphological differences in several brain areas, including orbito-frontal and limbic structures. Most of these studies have investigated patients with addiction to cocaine. The neurobiological mechanisms which play a role in drug addiction are not fully understood, however, and the causal factors remain under investigation. The present study investigated morphological differences between patients with history of cocaine (N=14) and heroin (N=24) abuse and healthy matched controls (N=24). A 3D T1W MRI scan was acquired for all participants and the grey matter images of each patient group compared with those of controls. A direct comparison of the two addiction groups was also carried out. When compared with controls cocaine dependent patients had lower grey matter values in the left middle occipital gyrus, right putamen and insula, whereas heroin abusers had lower grey matter values in the right insula. The direct comparison between the two addiction groups showed that cocaine abusers had less grey matter in the right posterior cingulate, medio-temporal and cerebellar regions, whereas heroin abusers showed less grey matter in parietal regions on both sides, including postcentral gyrus and inferior parietal lobule. Reduced right posterior insular cortex was commonly found in both cocaine and heroin dependent patients. This morphological difference might represent a structural marker of addiction, which is independent of the discrete regional effects of each psychotropic substance of abuse, and might constitute a possible neurobiological vulnerability or diathesis to addiction. Equally, the discrete structural differences emerging from the direct comparison of cocaine and heroin abusers might reflect the effects of differential drug binding in the brain and/or express a form of neurobiological vulnerability which might explain individual drug choice.",
+      "publication": "Brain research bulletin",
+      "pmid": "22178355",
+      "authors": "Simona Gardini, Annalena Venneri",
+      "year": null,
+      "analyses": [
+        {
+          "id": "22178355_analysis_0",
+          "name": "Areas of significantly lower grey matter values in cocaine abusers (1a) and heroin abusers (1b) when compared with controls, in heroin abusers when compared with cocaine abusers (1c) and in cocaine abusers when compared with heroin abusers (1d).",
+          "description": "Table 1",
+          "weights": [],
+          "conditions": [],
+          "images": [],
+          "points": [
+            {
+              "id": "22178355_analysis_0_point_0",
+              "coordinates": [
+                -26,
+                -81,
+                15
+              ],
+              "space": "TAL",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "22178355_analysis_0"
+            },
+            {
+              "id": "22178355_analysis_0_point_1",
+              "coordinates": [
+                24,
+                -16,
+                -9
+              ],
+              "space": "TAL",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "22178355_analysis_0"
+            },
+            {
+              "id": "22178355_analysis_0_point_2",
+              "coordinates": [
+                40,
+                -21,
+                5
+              ],
+              "space": "TAL",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "22178355_analysis_0"
+            },
+            {
+              "id": "22178355_analysis_0_point_3",
+              "coordinates": [
+                50,
+                -34,
+                18
+              ],
+              "space": "TAL",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "22178355_analysis_0"
+            },
+            {
+              "id": "22178355_analysis_0_point_4",
+              "coordinates": [
+                -18,
+                -22,
+                64
+              ],
+              "space": "TAL",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "22178355_analysis_0"
+            },
+            {
+              "id": "22178355_analysis_0_point_5",
+              "coordinates": [
+                -40,
+                -36,
+                55
+              ],
+              "space": "TAL",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "22178355_analysis_0"
+            },
+            {
+              "id": "22178355_analysis_0_point_6",
+              "coordinates": [
+                -40,
+                -23,
+                49
+              ],
+              "space": "TAL",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "22178355_analysis_0"
+            },
+            {
+              "id": "22178355_analysis_0_point_7",
+              "coordinates": [
+                -22,
+                -45,
+                63
+              ],
+              "space": "TAL",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "22178355_analysis_0"
+            },
+            {
+              "id": "22178355_analysis_0_point_8",
+              "coordinates": [
+                -40,
+                -50,
+                41
+              ],
+              "space": "TAL",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "22178355_analysis_0"
+            },
+            {
+              "id": "22178355_analysis_0_point_9",
+              "coordinates": [
+                46,
+                -44,
+                43
+              ],
+              "space": "TAL",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "22178355_analysis_0"
+            },
+            {
+              "id": "22178355_analysis_0_point_10",
+              "coordinates": [
+                14,
+                -49,
+                21
+              ],
+              "space": "TAL",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "22178355_analysis_0"
+            },
+            {
+              "id": "22178355_analysis_0_point_11",
+              "coordinates": [
+                16,
+                -56,
+                -36
+              ],
+              "space": "TAL",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "22178355_analysis_0"
+            },
+            {
+              "id": "22178355_analysis_0_point_12",
+              "coordinates": [
+                20,
+                -39,
+                -6
+              ],
+              "space": "TAL",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "22178355_analysis_0"
+            }
+          ],
+          "study_id": "22178355"
+        }
+      ]
+    },
+    {
+      "id": "22717339",
+      "doi": "10.1016/j.drugalcdep.2012.05.030",
+      "name": "Changes in brain gray matter in abstinent heroin addicts.",
+      "metadata": null,
+      "description": "Previous neuroimaging studies have documented changes in the brain of heroin addicts. However, few researches have detailed whether such changes can be amended after short-term abstinence.",
+      "publication": "Drug and alcohol dependence",
+      "pmid": "22717339",
+      "authors": "Xuyi Wang, Baojuan Li, Xuhui Zhou, Yanhui Liao, Jinsong Tang, Tieqiao Liu, Dewen Hu, Wei Hao",
+      "year": null,
+      "analyses": [
+        {
+          "id": "22717339_analysis_0",
+          "name": "Regions of reduced GMD in heroin-dependent group after 3 days abstinence in comparison with the healthy control group (p<0.001 uncorrected, clusters >100).",
+          "description": "Table 1",
+          "weights": [],
+          "conditions": [],
+          "images": [],
+          "points": [
+            {
+              "id": "22717339_analysis_0_point_0",
+              "coordinates": [
+                33,
+                53,
+                -5
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "22717339_analysis_0"
+            },
+            {
+              "id": "22717339_analysis_0_point_1",
+              "coordinates": [
+                15,
+                -15,
+                70
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "22717339_analysis_0"
+            },
+            {
+              "id": "22717339_analysis_0_point_2",
+              "coordinates": [
+                0,
+                -45,
+                10
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "22717339_analysis_0"
+            },
+            {
+              "id": "22717339_analysis_0_point_3",
+              "coordinates": [
+                21,
+                23,
+                40
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "22717339_analysis_0"
+            },
+            {
+              "id": "22717339_analysis_0_point_4",
+              "coordinates": [
+                -44,
+                -82,
+                -17
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "22717339_analysis_0"
+            }
+          ],
+          "study_id": "22717339"
+        },
+        {
+          "id": "22717339_analysis_1",
+          "name": "Regions of reduced GMD in heroin-dependent group after 1 month abstinence in comparison with the healthy control group (p<0.001 uncorrected, clusters >100).",
+          "description": "Table 2",
+          "weights": [],
+          "conditions": [],
+          "images": [],
+          "points": [
+            {
+              "id": "22717339_analysis_1_point_0",
+              "coordinates": [
+                33,
+                53,
+                -5
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "22717339_analysis_1"
+            },
+            {
+              "id": "22717339_analysis_1_point_1",
+              "coordinates": [
+                47,
+                38,
+                -17
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "22717339_analysis_1"
+            },
+            {
+              "id": "22717339_analysis_1_point_2",
+              "coordinates": [
+                -44,
+                -82,
+                -17
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "22717339_analysis_1"
+            }
+          ],
+          "study_id": "22717339"
+        }
+      ]
+    },
+    {
+      "id": "16369836",
+      "doi": "10.1007/s00213-005-0198-x",
+      "name": "Prefrontal and temporal gray matter density decreases in opiate dependence.",
+      "metadata": null,
+      "description": "There have been only a few structural brain-imaging studies, with varied findings, of opiate-dependent subjects. Voxel-based morphometry (VBM) is suitable for studying whole brain-wise structural brain changes in opiate-dependent subjects.",
+      "publication": "Psychopharmacology",
+      "pmid": "16369836",
+      "authors": "In Kyoon Lyoo, Mark H Pollack, Marisa M Silveri, Kyung Heup Ahn, Claudia I Diaz, Jaeuk Hwang, Seog Ju Kim, Deborah A Yurgelun-Todd, Marc J Kaufman, Perry F Renshaw",
+      "year": null,
+      "analyses": [
+        {
+          "id": "16369836_analysis_0",
+          "name": "32",
+          "description": "Table 2",
+          "weights": [],
+          "conditions": [],
+          "images": [],
+          "points": [
+            {
+              "id": "16369836_analysis_0_point_0",
+              "coordinates": [
+                8,
+                9,
+                10
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "16369836_analysis_0"
+            }
+          ],
+          "study_id": "16369836"
+        }
+      ]
+    },
+    {
+      "id": "25727574",
+      "doi": "10.1111/adb.12228",
+      "name": "Abnormal gray matter volume and resting-state functional connectivity in former heroin-dependent individuals abstinent for multiple years.",
+      "metadata": null,
+      "description": "Previous studies have suggested that heroin addiction is associated with structural and functional brain abnormalities. However, it is largely unknown whether these characteristics of brain abnormalities would be persistent or restored after long periods of abstinence. Considering the very high rates of relapse, we hypothesized that there may exist some latent neural vulnerabilities in abstinent heroin users. In this study, structural and resting-state functional magnetic resonance imaging data were collected from 30 former heroin-dependent (FHD) subjects who were drug free for more than 3 years and 30 non-addicted control (CN) volunteers. Voxel-based morphometry was used to identify possible gray matter volume differences between the FHD and CN groups. Alterations in resting-state functional connectivity in FHD were examined using brain areas with gray matter deficits as seed regions. Significantly reduced gray matter volume was observed in FHD in an area surrounding the parieto-occipital sulcus, which included the precuneus and cuneus. Functional connectivity analyses revealed that the FHD subjects showed reduced positive correlation within the default mode network and visual network and decreased negative correlation between the default mode network, visual network and task positive network. Moreover, the altered functional connectivity was correlated with self-reported impulsivity scores in the FHD subjects. Our findings suggest that disruption of large-scale brain systems is present in former heroin users even after multi-year abstinence, which could serve as system-level neural underpinnings for behavioral dysfunctions associated with addiction.",
+      "publication": "Addiction biology",
+      "pmid": "25727574",
+      "authors": "Lubin Wang, Feng Zou, Tianye Zhai, Yu Lei, Shuwen Tan, Xiao Jin, Enmao Ye, Yongcong Shao, Yihong Yang, Zheng Yang",
+      "year": null,
+      "analyses": [
+        {
+          "id": "25727574_analysis_0",
+          "name": "1937",
+          "description": null,
+          "weights": [],
+          "conditions": [],
+          "images": [],
+          "points": [
+            {
+              "id": "25727574_analysis_0_point_0",
+              "coordinates": [
+                -9,
+                -43,
+                41
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "25727574_analysis_0"
+            },
+            {
+              "id": "25727574_analysis_0_point_1",
+              "coordinates": [
+                36,
+                8,
+                56
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "25727574_analysis_0"
+            },
+            {
+              "id": "25727574_analysis_0_point_2",
+              "coordinates": [
+                39,
+                -52,
+                59
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "25727574_analysis_0"
+            },
+            {
+              "id": "25727574_analysis_0_point_3",
+              "coordinates": [
+                57,
+                14,
+                -1
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "25727574_analysis_0"
+            },
+            {
+              "id": "25727574_analysis_0_point_4",
+              "coordinates": [
+                54,
+                20,
+                38
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "25727574_analysis_0"
+            },
+            {
+              "id": "25727574_analysis_0_point_5",
+              "coordinates": [
+                42,
+                59,
+                11
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "25727574_analysis_0"
+            }
+          ],
+          "study_id": "25727574"
+        },
+        {
+          "id": "25727574_analysis_1",
+          "name": "1938",
+          "description": null,
+          "weights": [],
+          "conditions": [],
+          "images": [],
+          "points": [
+            {
+              "id": "25727574_analysis_1_point_0",
+              "coordinates": [
+                66,
+                -1,
+                23
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "25727574_analysis_1"
+            },
+            {
+              "id": "25727574_analysis_1_point_1",
+              "coordinates": [
+                42,
+                -85,
+                5
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "25727574_analysis_1"
+            },
+            {
+              "id": "25727574_analysis_1_point_2",
+              "coordinates": [
+                -15,
+                -94,
+                -16
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "25727574_analysis_1"
+            },
+            {
+              "id": "25727574_analysis_1_point_3",
+              "coordinates": [
+                -48,
+                -13,
+                29
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "25727574_analysis_1"
+            },
+            {
+              "id": "25727574_analysis_1_point_4",
+              "coordinates": [
+                36,
+                5,
+                65
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "25727574_analysis_1"
+            },
+            {
+              "id": "25727574_analysis_1_point_5",
+              "coordinates": [
+                45,
+                -49,
+                59
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "25727574_analysis_1"
+            },
+            {
+              "id": "25727574_analysis_1_point_6",
+              "coordinates": [
+                -57,
+                -40,
+                53
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "25727574_analysis_1"
+            }
+          ],
+          "study_id": "25727574"
+        }
+      ]
+    },
+    {
+      "id": "21531077",
+      "doi": "10.1016/j.pain.2011.03.028",
+      "name": "Prescription opioid analgesics rapidly change the human brain.",
+      "metadata": null,
+      "description": "Chronic opioid exposure is known to produce neuroplastic changes in animals; however, it is not known if opioids used over short periods of time and at analgesic dosages can similarly change brain structure in humans. In this longitudinal, magnetic resonance imaging study, 10 individuals with chronic low back pain were administered oral morphine daily for 1 month. High-resolution anatomical images of the brain were acquired immediately before and after the morphine administration period. Regional changes in gray matter volume were assessed on the whole brain using tensor-based morphometry, and those significant regional changes were then independently tested for correlation with morphine dosage. Thirteen regions evidenced significant volumetric change, and degree of change in several of the regions was correlated with morphine dosage. Dosage-correlated volumetric decrease was observed primarily in the right amygdala. Dosage-correlated volumetric increase was seen in the right hypothalamus, left inferior frontal gyrus, right ventral posterior cingulate, and right caudal pons. Follow-up scans that were conducted an average of 4.7 months after cessation of opioids demonstrated many of the morphine-induced changes to be persistent. In a separate study, 9 individuals consuming blinded placebo capsules for 6 weeks evidenced no significant morphologic changes over time. The results add to a growing body of literature showing that opioid exposure causes structural and functional changes in reward- and affect-processing circuitry. Morphologic changes occur rapidly in humans during new exposure to prescription opioid analgesics. Further research is needed to determine the clinical impact of those opioid-induced gray matter changes.",
+      "publication": "Pain",
+      "pmid": "21531077",
+      "authors": "Jarred W Younger, Larry F Chu, Nicole T D'Arcy, Kiley E Trott, Laura E Jastrzab, Sean C Mackey",
+      "year": null,
+      "analyses": [
+        {
+          "id": "21531077_analysis_0",
+          "name": "Regions showing significant gray matter increase or decrease after 1month of daily morphine administration.",
+          "description": "Table 2",
+          "weights": [],
+          "conditions": [],
+          "images": [],
+          "points": [
+            {
+              "id": "21531077_analysis_0_point_0",
+              "coordinates": [
+                -3,
+                -22,
+                -24
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "21531077_analysis_0"
+            },
+            {
+              "id": "21531077_analysis_0_point_1",
+              "coordinates": [
+                5,
+                -20,
+                -24
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "21531077_analysis_0"
+            },
+            {
+              "id": "21531077_analysis_0_point_2",
+              "coordinates": [
+                20,
+                -5,
+                -19
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "21531077_analysis_0"
+            },
+            {
+              "id": "21531077_analysis_0_point_3",
+              "coordinates": [
+                -14,
+                15,
+                -16
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "21531077_analysis_0"
+            },
+            {
+              "id": "21531077_analysis_0_point_4",
+              "coordinates": [
+                26,
+                -22,
+                -21
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "21531077_analysis_0"
+            },
+            {
+              "id": "21531077_analysis_0_point_5",
+              "coordinates": [
+                -44,
+                15,
+                0
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "21531077_analysis_0"
+            },
+            {
+              "id": "21531077_analysis_0_point_6",
+              "coordinates": [
+                -8,
+                -43,
+                52
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "21531077_analysis_0"
+            },
+            {
+              "id": "21531077_analysis_0_point_7",
+              "coordinates": [
+                1,
+                -4,
+                -16
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "21531077_analysis_0"
+            },
+            {
+              "id": "21531077_analysis_0_point_8",
+              "coordinates": [
+                0,
+                11,
+                24
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "21531077_analysis_0"
+            },
+            {
+              "id": "21531077_analysis_0_point_9",
+              "coordinates": [
+                -58,
+                11,
+                2
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "21531077_analysis_0"
+            },
+            {
+              "id": "21531077_analysis_0_point_10",
+              "coordinates": [
+                18,
+                -31,
+                39
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "21531077_analysis_0"
+            },
+            {
+              "id": "21531077_analysis_0_point_11",
+              "coordinates": [
+                -3,
+                -30,
+                26
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "21531077_analysis_0"
+            },
+            {
+              "id": "21531077_analysis_0_point_12",
+              "coordinates": [
+                12,
+                -30,
+                -37
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "21531077_analysis_0"
+            },
+            {
+              "id": "21531077_analysis_0_point_13",
+              "coordinates": [
+                -1,
+                39,
+                -3
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "21531077_analysis_0"
+            }
+          ],
+          "study_id": "21531077"
+        }
+      ]
+    },
+    {
+      "id": "19775795",
+      "doi": "10.1016/j.bandc.2009.08.014",
+      "name": "Gray matter density negatively correlates with duration of heroin use in young lifetime heroin-dependent individuals.",
+      "metadata": null,
+      "description": "Numerous studies have documented cognitive impairments and hypoactivity in the prefrontal and anterior cingulate cortices in drug users. However, the relationships between opiate dependence and brain structure changes in heroin users are largely unknown. In the present study, we measured the density of gray matter (DGM) with voxel-based morphometry in 30 lifetime heroin-dependent individuals who had abstained from drug use for 5 months, and 34 healthy participants. The DGM of the prefrontal, temporal and cingulate cortices significantly decreased in heroin addicts relative to the healthy group. Critically, partial correlation analysis, which controlled for age, education and gender factors as well as nicotine use and heroin abstinence duration, showed that the duration of heroin use negatively correlated with the DGM in heroin-dependent individuals. These results provide compelling evidence for structural abnormality in heroin-dependent individuals and further suggest that duration of heroin use is a critical factor leading to brain damage.",
+      "publication": "Brain and cognition",
+      "pmid": "19775795",
+      "authors": "Yi Yuan, Zude Zhu, Jinfu Shi, Zhiling Zou, Fei Yuan, Yijun Liu, Tatia M C Lee, Xuchu Weng",
+      "year": null,
+      "analyses": [
+        {
+          "id": "19775795_analysis_0",
+          "name": "Regions showing decreased gray matter density in the addiction group compared with the healthy group.",
+          "description": "Table 2",
+          "weights": [],
+          "conditions": [],
+          "images": [],
+          "points": [
+            {
+              "id": "19775795_analysis_0_point_0",
+              "coordinates": [
+                -37,
+                54,
+                -15
+              ],
+              "space": "TAL",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "19775795_analysis_0"
+            },
+            {
+              "id": "19775795_analysis_0_point_1",
+              "coordinates": [
+                -55,
+                40,
+                5
+              ],
+              "space": "TAL",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "19775795_analysis_0"
+            },
+            {
+              "id": "19775795_analysis_0_point_2",
+              "coordinates": [
+                47,
+                -39,
+                20
+              ],
+              "space": "TAL",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "19775795_analysis_0"
+            },
+            {
+              "id": "19775795_analysis_0_point_3",
+              "coordinates": [
+                35,
+                33,
+                16
+              ],
+              "space": "TAL",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "19775795_analysis_0"
+            },
+            {
+              "id": "19775795_analysis_0_point_4",
+              "coordinates": [
+                3,
+                29,
+                -25
+              ],
+              "space": "TAL",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "19775795_analysis_0"
+            },
+            {
+              "id": "19775795_analysis_0_point_5",
+              "coordinates": [
+                -41,
+                24,
+                13
+              ],
+              "space": "TAL",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "19775795_analysis_0"
+            },
+            {
+              "id": "19775795_analysis_0_point_6",
+              "coordinates": [
+                42,
+                -26,
+                -34
+              ],
+              "space": "TAL",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "19775795_analysis_0"
+            },
+            {
+              "id": "19775795_analysis_0_point_7",
+              "coordinates": [
+                -5,
+                19,
+                -6
+              ],
+              "space": "TAL",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "19775795_analysis_0"
+            },
+            {
+              "id": "19775795_analysis_0_point_8",
+              "coordinates": [
+                23,
+                19,
+                -7
+              ],
+              "space": "TAL",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "19775795_analysis_0"
+            },
+            {
+              "id": "19775795_analysis_0_point_9",
+              "coordinates": [
+                -8,
+                41,
+                -1
+              ],
+              "space": "TAL",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "19775795_analysis_0"
+            },
+            {
+              "id": "19775795_analysis_0_point_10",
+              "coordinates": [
+                28,
+                -86,
+                -53
+              ],
+              "space": "TAL",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "19775795_analysis_0"
+            }
+          ],
+          "study_id": "19775795"
+        }
+      ]
+    },
+    {
+      "id": "19531112",
+      "doi": "10.1111/j.1440-1819.2009.01989.x",
+      "name": "Frontal and cingulate gray matter volume reduction in heroin dependence: optimized voxel-based morphometry.",
+      "metadata": null,
+      "description": "Repeated exposure to heroin, a typical opiate, causes neuronal adaptation and may result in anatomical changes in specific brain regions, particularly the frontal and limbic cortices. The volume changes of gray matter (GM) of these brain regions, however, have not been identified in heroin addiction.",
+      "publication": "Psychiatry and clinical neurosciences",
+      "pmid": "19531112",
+      "authors": "Haihong Liu, Yihui Hao, Yoshio Kaneko, Xuan Ouyang, Yan Zhang, Lin Xu, Zhimin Xue, Zhening Liu",
+      "year": null,
+      "analyses": [
+        {
+          "id": "19531112_analysis_0",
+          "name": "2271",
+          "description": null,
+          "weights": [],
+          "conditions": [],
+          "images": [],
+          "points": [
+            {
+              "id": "19531112_analysis_0_point_0",
+              "coordinates": [
+                21,
+                56,
+                41
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "19531112_analysis_0"
+            },
+            {
+              "id": "19531112_analysis_0_point_1",
+              "coordinates": [
+                -4,
+                15,
+                61
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "19531112_analysis_0"
+            },
+            {
+              "id": "19531112_analysis_0_point_2",
+              "coordinates": [
+                3,
+                7,
+                31
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "19531112_analysis_0"
+            },
+            {
+              "id": "19531112_analysis_0_point_3",
+              "coordinates": [
+                -1,
+                14,
+                28
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "19531112_analysis_0"
+            }
+          ],
+          "study_id": "19531112"
+        }
+      ]
+    },
+    {
+      "id": "30945801",
+      "doi": "10.1111/adb.12743",
+      "name": "Impaired frontostriatal functional connectivity among chronic opioid using pain patients is associated with dysregulated affect.",
+      "metadata": null,
+      "description": "Preclinical studies have shown effects of chronic exposure to addictive drugs on glutamatergic-mediated neuroplasticity in frontostriatal circuitry. These initial findings have been paralleled by human functional magnetic resonance imaging (fMRI) research demonstrating weaker frontostriatal resting-state functional connectivity (rsFC) among individuals with psychostimulant use disorders. However, there is a dearth of human imaging literature describing associations between long-term prescription opioid use, frontostriatal rsFC, and brain morphology among chronic pain patients. We hypothesized that prescription opioid users with chronic pain, as compared with healthy control subjects, would evidence weaker frontostriatal rsFC coupled with less frontostriatal gray matter volume (GMV). Further, those opioid use-related deficits in frontostriatal circuitry would be associated with negative affect and drug misuse. Prescription opioid users with chronic pain (n\u00a0=\u00a031) and drug-free healthy controls (n\u00a0=\u00a030) underwent a high-resolution anatomical and an eyes-closed resting-state functional scan. The opioid group, relative to controls, exhibited weaker frontostriatal rsFC, and less frontostriatal GMV in both L.NAc and L.vmPFC. Frontostriatal rsFC partially mediated group differences in negative affect. Within opioid users, L.NAc GMV predicted opioid misuse severity. The current study revealed that prescription opioid use in the context of chronic pain is associated with functional and structural abnormalities in frontostriatal circuitry. These results suggest that opioid use-related abnormalities in frontostriatal circuitry may undergird disturbances in affect that may contribute to the ongoing maintenance of opioid use and misuse. These findings warrant further examination of interventions to treat opioid pathophysiology in frontostriatal circuitry over the course of treatment.",
+      "publication": "Addiction biology",
+      "pmid": "30945801",
+      "authors": "Patrick A McConnell, Eric L Garland, Jon-Kar Zubieta, Roger Newman-Norlund, Shannon Powers, Brett Froeliger",
+      "year": null,
+      "analyses": [
+        {
+          "id": "30945801_analysis_0",
+          "name": "1995",
+          "description": null,
+          "weights": [],
+          "conditions": [],
+          "images": [],
+          "points": [
+            {
+              "id": "30945801_analysis_0_point_0",
+              "coordinates": [
+                -12,
+                32,
+                -12
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "30945801_analysis_0"
+            }
+          ],
+          "study_id": "30945801"
+        }
+      ]
+    },
+    {
+      "id": "24151470",
+      "doi": "10.3389/fpsyt.2013.00135",
+      "name": "Association of frontal gray matter volume and cerebral perfusion in heroin addiction: a multimodal neuroimaging study.",
+      "metadata": null,
+      "description": "Structure and function are closely related in the healthy human brain. In patients with chronic heroin exposure, brain imaging studies have identified long-lasting changes in gray matter (GM) volume. More recently, we showed that acute application of heroin in dependent patients results in hypoperfusion of fronto-temporal areas compared with the placebo condition. However, the relationship between structural and cerebral blood flow (CBF) changes in heroin addiction has not yet been investigated. Moreover, it is not known whether there is any interaction between the chronic structural changes and the short and long-term effects on perfusion caused by heroin. Using a double-blind, within-subject design, heroin or placebo (saline) was administered to 14 heroin-dependent patients from a stable heroin-assisted treatment program, in order to observe acute short-term effects. Arterial spin labeling (ASL) was used to calculate perfusion quantification maps in both treatment conditions, while Voxel-Based Morphometry (VBM) was conducted to calculate regional GM density. VBM and ASL data were used to calculate homologous correlation fields by Biological Parametric Mapping (BPM) and a whole-brain Pearson r correlation. We correlated each perfusion condition (heroin and placebo) separately with a VBM sample that was identical for the two treatment conditions. It was assumed that heroin-associated perfusion is manifested in short-term effects, while placebo-associated perfusion is more related to long-term effects. In order to restrict our analyses to fronto-temporal regions, we used an explicit mask for our analyses. Correlation analyses revealed a significant positive correlation in frontal areas between GM and both perfusion conditions (heroin and placebo). Heroin-associated perfusion was also negatively correlated with GM in the inferior temporal gyrus on both hemispheres. These findings indicate that, in heroin-dependent patients, low GM volume is positively associated with low perfusion within frontal regions.",
+      "publication": "Frontiers in psychiatry",
+      "pmid": "24151470",
+      "authors": "Niklaus Denier, Andr\u00e9 Schmidt, Hana Gerber, Otto Schmid, Anita Riecher-R\u00f6ssler, Gerhard A Wiesbeck, Christian G Huber, Undine E Lang, Ernst-Wilhelm Radue, Marc Walter, Stefan Borgwardt",
+      "year": 2013,
+      "analyses": [
+        {
+          "id": "24151470_analysis_0",
+          "name": "T1",
+          "description": "Table 1",
+          "weights": [],
+          "conditions": [],
+          "images": [],
+          "points": [
+            {
+              "id": "24151470_analysis_0_point_0",
+              "coordinates": [
+                60,
+                16,
+                40
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24151470_analysis_0"
+            },
+            {
+              "id": "24151470_analysis_0_point_1",
+              "coordinates": [
+                40,
+                16,
+                24
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24151470_analysis_0"
+            },
+            {
+              "id": "24151470_analysis_0_point_2",
+              "coordinates": [
+                58,
+                26,
+                36
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24151470_analysis_0"
+            },
+            {
+              "id": "24151470_analysis_0_point_3",
+              "coordinates": [
+                30,
+                -22,
+                54
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24151470_analysis_0"
+            },
+            {
+              "id": "24151470_analysis_0_point_4",
+              "coordinates": [
+                26,
+                -16,
+                50
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24151470_analysis_0"
+            },
+            {
+              "id": "24151470_analysis_0_point_5",
+              "coordinates": [
+                42,
+                -14,
+                62
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24151470_analysis_0"
+            },
+            {
+              "id": "24151470_analysis_0_point_6",
+              "coordinates": [
+                16,
+                22,
+                46
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24151470_analysis_0"
+            },
+            {
+              "id": "24151470_analysis_0_point_7",
+              "coordinates": [
+                22,
+                22,
+                32
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24151470_analysis_0"
+            },
+            {
+              "id": "24151470_analysis_0_point_8",
+              "coordinates": [
+                10,
+                14,
+                48
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24151470_analysis_0"
+            },
+            {
+              "id": "24151470_analysis_0_point_9",
+              "coordinates": [
+                -34,
+                10,
+                22
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24151470_analysis_0"
+            },
+            {
+              "id": "24151470_analysis_0_point_10",
+              "coordinates": [
+                -50,
+                8,
+                12
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24151470_analysis_0"
+            },
+            {
+              "id": "24151470_analysis_0_point_11",
+              "coordinates": [
+                -32,
+                24,
+                28
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24151470_analysis_0"
+            },
+            {
+              "id": "24151470_analysis_0_point_12",
+              "coordinates": [
+                -40,
+                20,
+                56
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24151470_analysis_0"
+            },
+            {
+              "id": "24151470_analysis_0_point_13",
+              "coordinates": [
+                -40,
+                6,
+                44
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24151470_analysis_0"
+            },
+            {
+              "id": "24151470_analysis_0_point_14",
+              "coordinates": [
+                -48,
+                22,
+                46
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24151470_analysis_0"
+            },
+            {
+              "id": "24151470_analysis_0_point_15",
+              "coordinates": [
+                -42,
+                54,
+                18
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24151470_analysis_0"
+            },
+            {
+              "id": "24151470_analysis_0_point_16",
+              "coordinates": [
+                -38,
+                52,
+                26
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24151470_analysis_0"
+            },
+            {
+              "id": "24151470_analysis_0_point_17",
+              "coordinates": [
+                -36,
+                46,
+                38
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24151470_analysis_0"
+            },
+            {
+              "id": "24151470_analysis_0_point_18",
+              "coordinates": [
+                22,
+                -26,
+                74
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24151470_analysis_0"
+            }
+          ],
+          "study_id": "24151470"
+        },
+        {
+          "id": "24151470_analysis_1",
+          "name": "T2",
+          "description": "Table 2",
+          "weights": [],
+          "conditions": [],
+          "images": [],
+          "points": [
+            {
+              "id": "24151470_analysis_1_point_0",
+              "coordinates": [
+                60,
+                16,
+                40
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24151470_analysis_1"
+            },
+            {
+              "id": "24151470_analysis_1_point_1",
+              "coordinates": [
+                58,
+                26,
+                38
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24151470_analysis_1"
+            },
+            {
+              "id": "24151470_analysis_1_point_2",
+              "coordinates": [
+                52,
+                16,
+                50
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24151470_analysis_1"
+            },
+            {
+              "id": "24151470_analysis_1_point_3",
+              "coordinates": [
+                40,
+                40,
+                42
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24151470_analysis_1"
+            },
+            {
+              "id": "24151470_analysis_1_point_4",
+              "coordinates": [
+                58,
+                36,
+                -6
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24151470_analysis_1"
+            },
+            {
+              "id": "24151470_analysis_1_point_5",
+              "coordinates": [
+                50,
+                56,
+                2
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24151470_analysis_1"
+            },
+            {
+              "id": "24151470_analysis_1_point_6",
+              "coordinates": [
+                46,
+                56,
+                -6
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24151470_analysis_1"
+            },
+            {
+              "id": "24151470_analysis_1_point_7",
+              "coordinates": [
+                32,
+                14,
+                24
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24151470_analysis_1"
+            },
+            {
+              "id": "24151470_analysis_1_point_8",
+              "coordinates": [
+                40,
+                18,
+                32
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24151470_analysis_1"
+            },
+            {
+              "id": "24151470_analysis_1_point_9",
+              "coordinates": [
+                48,
+                6,
+                14
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24151470_analysis_1"
+            },
+            {
+              "id": "24151470_analysis_1_point_10",
+              "coordinates": [
+                -18,
+                58,
+                30
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24151470_analysis_1"
+            },
+            {
+              "id": "24151470_analysis_1_point_11",
+              "coordinates": [
+                -40,
+                50,
+                26
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24151470_analysis_1"
+            },
+            {
+              "id": "24151470_analysis_1_point_12",
+              "coordinates": [
+                -50,
+                46,
+                6
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24151470_analysis_1"
+            },
+            {
+              "id": "24151470_analysis_1_point_13",
+              "coordinates": [
+                46,
+                -8,
+                -38
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24151470_analysis_1"
+            },
+            {
+              "id": "24151470_analysis_1_point_14",
+              "coordinates": [
+                40,
+                -16,
+                -36
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24151470_analysis_1"
+            },
+            {
+              "id": "24151470_analysis_1_point_15",
+              "coordinates": [
+                -46,
+                -16,
+                -34
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24151470_analysis_1"
+            },
+            {
+              "id": "24151470_analysis_1_point_16",
+              "coordinates": [
+                -38,
+                -14,
+                -32
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "24151470_analysis_1"
+            }
+          ],
+          "study_id": "24151470"
+        }
+      ]
+    },
+    {
+      "id": "23352851",
+      "doi": "10.1016/j.neulet.2013.01.019",
+      "name": "The impulsivity behavior is correlated with prefrontal cortex gray matter volume reduction in heroin-dependent individuals.",
+      "metadata": null,
+      "description": "Chronic exposure to heroin induced cerebral structural abnormalities may underlie heroin-related behaviors. The aim of this study was to: (1) identify cerebral structural abnormalities in heroin-dependent individuals (HDIs) by an automated and unbiased morphometric technique. (2) Define the correlation between these cerebral structural abnormalities and the impulsivity characteristic in HDIs.",
+      "publication": "Neuroscience letters",
+      "pmid": "23352851",
+      "authors": "Ying-Wei Qiu, Gui-Hua Jiang, Huan-Huan Su, Xiao-Fei Lv, Jun-Zhang Tian, Li-Ming Li, Fu-Zhen Zhuo",
+      "year": null,
+      "analyses": [
+        {
+          "id": "23352851_analysis_0",
+          "name": "Talairach coordinates and Brodmann areas for regions of lower gray matter volume in HDI [p<0.05(FDR corrected), height threshold t>3.61, cluster size>200 was defined as significant].",
+          "description": "Table 2",
+          "weights": [],
+          "conditions": [],
+          "images": [],
+          "points": [
+            {
+              "id": "23352851_analysis_0_point_0",
+              "coordinates": [
+                10,
+                31,
+                41
+              ],
+              "space": "TAL",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "23352851_analysis_0"
+            },
+            {
+              "id": "23352851_analysis_0_point_1",
+              "coordinates": [
+                -5,
+                31,
+                35
+              ],
+              "space": "TAL",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "23352851_analysis_0"
+            },
+            {
+              "id": "23352851_analysis_0_point_2",
+              "coordinates": [
+                -23,
+                48,
+                22
+              ],
+              "space": "TAL",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "23352851_analysis_0"
+            },
+            {
+              "id": "23352851_analysis_0_point_3",
+              "coordinates": [
+                -39,
+                24,
+                26
+              ],
+              "space": "TAL",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "23352851_analysis_0"
+            },
+            {
+              "id": "23352851_analysis_0_point_4",
+              "coordinates": [
+                46,
+                17,
+                26
+              ],
+              "space": "TAL",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "23352851_analysis_0"
+            },
+            {
+              "id": "23352851_analysis_0_point_5",
+              "coordinates": [
+                28,
+                21,
+                39
+              ],
+              "space": "TAL",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "23352851_analysis_0"
+            },
+            {
+              "id": "23352851_analysis_0_point_6",
+              "coordinates": [
+                33,
+                -60,
+                -3
+              ],
+              "space": "TAL",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "23352851_analysis_0"
+            }
+          ],
+          "study_id": "23352851"
+        }
+      ]
+    },
+    {
+      "id": "26814280",
+      "doi": "10.1093/pm/pnv047",
+      "name": "One Month of Oral Morphine Decreases Gray Matter Volume in the Right Amygdala of Individuals with Low Back Pain: Confirmation of Previously Reported Magnetic Resonance Imaging Results.",
+      "metadata": null,
+      "description": "Prolonged exposure to opioids is known to produce neuroplastic changes in animals; however, few studies have investigated the effects of short-term prescription opioid use in humans. A previous study from our laboratory demonstrated a dosage-correlated volumetric decrease in the right amygdala of participants administered oral morphine daily for 1 month. The purpose of this current study was to replicate and extend the initial findings.",
+      "publication": "Pain medicine (Malden, Mass.)",
+      "pmid": "26814280",
+      "authors": "Joanne C Lin, Larry F Chu, Elizabeth Ann Stringer, Katharine S Baker, Zahra N Sayyid, John Sun, Kelsey A Campbell, Jarred W Younger",
+      "year": null,
+      "analyses": [
+        {
+          "id": "26814280_analysis_0",
+          "name": "pnv047-T1",
+          "description": "Table 1",
+          "weights": [],
+          "conditions": [],
+          "images": [],
+          "points": [
+            {
+              "id": "26814280_analysis_0_point_0",
+              "coordinates": [
+                -5,
+                -20,
+                35
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26814280_analysis_0"
+            },
+            {
+              "id": "26814280_analysis_0_point_1",
+              "coordinates": [
+                -44,
+                -23,
+                5
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26814280_analysis_0"
+            },
+            {
+              "id": "26814280_analysis_0_point_2",
+              "coordinates": [
+                -55,
+                7,
+                -11
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26814280_analysis_0"
+            },
+            {
+              "id": "26814280_analysis_0_point_3",
+              "coordinates": [
+                15,
+                -6,
+                -23
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26814280_analysis_0"
+            },
+            {
+              "id": "26814280_analysis_0_point_4",
+              "coordinates": [
+                -37,
+                9,
+                -6
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26814280_analysis_0"
+            },
+            {
+              "id": "26814280_analysis_0_point_5",
+              "coordinates": [
+                -38,
+                0,
+                -1
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26814280_analysis_0"
+            },
+            {
+              "id": "26814280_analysis_0_point_6",
+              "coordinates": [
+                -14,
+                -7,
+                -22
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26814280_analysis_0"
+            },
+            {
+              "id": "26814280_analysis_0_point_7",
+              "coordinates": [
+                -8,
+                9,
+                69
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26814280_analysis_0"
+            },
+            {
+              "id": "26814280_analysis_0_point_8",
+              "coordinates": [
+                56,
+                5,
+                27
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26814280_analysis_0"
+            },
+            {
+              "id": "26814280_analysis_0_point_9",
+              "coordinates": [
+                10,
+                4,
+                71
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26814280_analysis_0"
+            },
+            {
+              "id": "26814280_analysis_0_point_10",
+              "coordinates": [
+                5,
+                62,
+                -19
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26814280_analysis_0"
+            },
+            {
+              "id": "26814280_analysis_0_point_11",
+              "coordinates": [
+                25,
+                46,
+                35
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26814280_analysis_0"
+            },
+            {
+              "id": "26814280_analysis_0_point_12",
+              "coordinates": [
+                -35,
+                21,
+                -14
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26814280_analysis_0"
+            },
+            {
+              "id": "26814280_analysis_0_point_13",
+              "coordinates": [
+                52,
+                1,
+                -34
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26814280_analysis_0"
+            },
+            {
+              "id": "26814280_analysis_0_point_14",
+              "coordinates": [
+                55,
+                -2,
+                10
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26814280_analysis_0"
+            },
+            {
+              "id": "26814280_analysis_0_point_15",
+              "coordinates": [
+                -41,
+                19,
+                -4
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26814280_analysis_0"
+            },
+            {
+              "id": "26814280_analysis_0_point_16",
+              "coordinates": [
+                -42,
+                -15,
+                2
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26814280_analysis_0"
+            },
+            {
+              "id": "26814280_analysis_0_point_17",
+              "coordinates": [
+                1,
+                35,
+                26
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26814280_analysis_0"
+            },
+            {
+              "id": "26814280_analysis_0_point_18",
+              "coordinates": [
+                1,
+                43,
+                0
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26814280_analysis_0"
+            },
+            {
+              "id": "26814280_analysis_0_point_19",
+              "coordinates": [
+                0,
+                -48,
+                53
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26814280_analysis_0"
+            },
+            {
+              "id": "26814280_analysis_0_point_20",
+              "coordinates": [
+                47,
+                -5,
+                1
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26814280_analysis_0"
+            },
+            {
+              "id": "26814280_analysis_0_point_21",
+              "coordinates": [
+                55,
+                -23,
+                52
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26814280_analysis_0"
+            },
+            {
+              "id": "26814280_analysis_0_point_22",
+              "coordinates": [
+                13,
+                -5,
+                -16
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26814280_analysis_0"
+            },
+            {
+              "id": "26814280_analysis_0_point_23",
+              "coordinates": [
+                64,
+                -17,
+                12
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26814280_analysis_0"
+            },
+            {
+              "id": "26814280_analysis_0_point_24",
+              "coordinates": [
+                27,
+                9,
+                -25
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26814280_analysis_0"
+            },
+            {
+              "id": "26814280_analysis_0_point_25",
+              "coordinates": [
+                -16,
+                -50,
+                -19
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26814280_analysis_0"
+            },
+            {
+              "id": "26814280_analysis_0_point_26",
+              "coordinates": [
+                -3,
+                -31,
+                48
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26814280_analysis_0"
+            },
+            {
+              "id": "26814280_analysis_0_point_27",
+              "coordinates": [
+                21,
+                -59,
+                -13
+              ],
+              "space": null,
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26814280_analysis_0"
+            }
+          ],
+          "study_id": "26814280"
+        }
+      ]
+    },
+    {
+      "id": "26164485",
+      "doi": "10.1016/j.bbr.2015.07.004",
+      "name": "Effects of an opioid (proenkephalin) polymorphism on neural response to errors in health and cocaine use disorder.",
+      "metadata": null,
+      "description": "Chronic exposure to drugs of abuse perturbs the endogenous opioid system, which plays a critical role in the development and maintenance of addictive disorders. Opioid genetics may therefore play an important modulatory role in the expression of substance use disorders, but these genes have not been extensively characterized, especially in humans. In the current imaging genetics study, we investigated a single nucleotide polymorphism (SNP) of the protein-coding proenkephalin gene (PENK: rs2609997, recently shown to be associated with cannabis dependence) in 55 individuals with cocaine use disorder and 37 healthy controls. Analyses tested for PENK associations with fMRI response to error (during a classical color-word Stroop task) and gray matter volume (voxel-based morphometry) as a function of Diagnosis (cocaine, control). Results revealed whole-brain Diagnosis\u00d7PENK interactions on the neural response to errors (fMRI error>correct contrast) in the right putamen, left rostral anterior cingulate cortex/medial orbitofrontal cortex, and right inferior frontal gyrus; there was also a significant Diagnosis\u00d7PENK interaction on right inferior frontal gyrus gray matter volume. These interactions were driven by differences between individuals with cocaine use disorders and controls that were accentuated in individuals carrying the higher-risk PENK C-allele. Taken together, the PENK polymorphism-and potentially opioid neurotransmission more generally-modulates functioning and structural integrity of brain regions previously implicated in error-related processing. PENK could potentially render a subgroup of individuals with cocaine use disorder (i.e., C-allele carriers) more sensitive to mistakes or other related challenges; in future studies, these results could contribute to the development of individualized genetics-informed treatments.",
+      "publication": "Behavioural brain research",
+      "pmid": "26164485",
+      "authors": "Scott J Moeller, Nicasia Beebe-Wang, Kristin E Schneider, Anna B Konova, Muhammad A Parvaz, Nelly Alia-Klein, Yasmin L Hurd, Rita Z Goldstein",
+      "year": null,
+      "analyses": [
+        {
+          "id": "26164485_analysis_0",
+          "name": "Main- and interaction effects of PENK on brain function and structure.",
+          "description": "Table 3",
+          "weights": [],
+          "conditions": [],
+          "images": [],
+          "points": [
+            {
+              "id": "26164485_analysis_0_point_0",
+              "coordinates": [
+                -24,
+                50,
+                22
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26164485_analysis_0"
+            },
+            {
+              "id": "26164485_analysis_0_point_1",
+              "coordinates": [
+                39,
+                2,
+                7
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26164485_analysis_0"
+            },
+            {
+              "id": "26164485_analysis_0_point_2",
+              "coordinates": [
+                30,
+                -4,
+                -8
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26164485_analysis_0"
+            },
+            {
+              "id": "26164485_analysis_0_point_3",
+              "coordinates": [
+                -9,
+                53,
+                -2
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26164485_analysis_0"
+            },
+            {
+              "id": "26164485_analysis_0_point_4",
+              "coordinates": [
+                36,
+                47,
+                19
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26164485_analysis_0"
+            },
+            {
+              "id": "26164485_analysis_0_point_5",
+              "coordinates": [
+                36,
+                44,
+                -2
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26164485_analysis_0"
+            },
+            {
+              "id": "26164485_analysis_0_point_6",
+              "coordinates": [
+                21,
+                -25,
+                -11
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26164485_analysis_0"
+            },
+            {
+              "id": "26164485_analysis_0_point_7",
+              "coordinates": [
+                45,
+                14,
+                -11
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26164485_analysis_0"
+            },
+            {
+              "id": "26164485_analysis_0_point_8",
+              "coordinates": [
+                45,
+                17,
+                -2
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26164485_analysis_0"
+            },
+            {
+              "id": "26164485_analysis_0_point_9",
+              "coordinates": [
+                -42,
+                -22,
+                37
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26164485_analysis_0"
+            },
+            {
+              "id": "26164485_analysis_0_point_10",
+              "coordinates": [
+                -24,
+                -13,
+                67
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26164485_analysis_0"
+            },
+            {
+              "id": "26164485_analysis_0_point_11",
+              "coordinates": [
+                3,
+                29,
+                61
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26164485_analysis_0"
+            },
+            {
+              "id": "26164485_analysis_0_point_12",
+              "coordinates": [
+                0,
+                5,
+                67
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26164485_analysis_0"
+            },
+            {
+              "id": "26164485_analysis_0_point_13",
+              "coordinates": [
+                0,
+                -49,
+                -26
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26164485_analysis_0"
+            },
+            {
+              "id": "26164485_analysis_0_point_14",
+              "coordinates": [
+                -51,
+                -4,
+                -17
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26164485_analysis_0"
+            },
+            {
+              "id": "26164485_analysis_0_point_15",
+              "coordinates": [
+                -51,
+                -7,
+                -5
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26164485_analysis_0"
+            },
+            {
+              "id": "26164485_analysis_0_point_16",
+              "coordinates": [
+                18,
+                -16,
+                1
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26164485_analysis_0"
+            },
+            {
+              "id": "26164485_analysis_0_point_17",
+              "coordinates": [
+                -12,
+                -82,
+                7
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26164485_analysis_0"
+            },
+            {
+              "id": "26164485_analysis_0_point_18",
+              "coordinates": [
+                -18,
+                -13,
+                -2
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26164485_analysis_0"
+            },
+            {
+              "id": "26164485_analysis_0_point_19",
+              "coordinates": [
+                48,
+                -51,
+                -9
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26164485_analysis_0"
+            },
+            {
+              "id": "26164485_analysis_0_point_20",
+              "coordinates": [
+                -27,
+                -81,
+                42
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26164485_analysis_0"
+            },
+            {
+              "id": "26164485_analysis_0_point_21",
+              "coordinates": [
+                44,
+                -55,
+                10
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26164485_analysis_0"
+            },
+            {
+              "id": "26164485_analysis_0_point_22",
+              "coordinates": [
+                50,
+                32,
+                18
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "26164485_analysis_0"
+            }
+          ],
+          "study_id": "26164485"
+        }
+      ]
+    },
+    {
+      "id": "22386968",
+      "doi": "10.1016/j.pscychresns.2011.05.009",
+      "name": "Structural deficits in the emotion circuit and cerebellum are associated with depression, anxiety and cognitive dysfunction in methadone maintenance patients: a voxel-based morphometric study.",
+      "metadata": null,
+      "description": "Heroin users on methadone maintenance treatment (MMT) have elevated rates of co-morbid depression and are associated with have higher relapse rates for substance abuse. Structural abnormalities in MMT patients have been reported, but their impact on clinical performance is unknown. We investigated differences in gray matter volume (GMV) between 27 MMT patients and 23 healthy controls with voxel-based morphometry, and we correlated findings in the patients with Beck Depression Inventory scores, Beck Anxiety Inventory scores, and diminished cognitive functioning. MMT patients exhibited higher emotional deficits than healthy subjects. There was significantly smaller GMV in multiple cortices, especially in the left inferior frontal gyrus and left cerebellar vermis in the MMT group. The smaller GMV in the pre-frontal cortices, left sub-callosal cingulate gyrus, left post-central gyrus, left insula, and right cerebellar declive correlated with higher depression scores. The smaller GMV in the pre-frontal cortices, left sub-callosal cingulate gyrus, and left postcentral gyrus also correlated with higher anxiety scores, while smaller GMV in the cerebellum and bilateral insula was associated with impaired performance on tests of executive function. These results reveal that MMT patients have low GMV in brain regions that are hypothesized to influence cognition and emotion, and the GMV findings might be involved comorbid disorders in the MMT group.",
+      "publication": "Psychiatry research",
+      "pmid": "22386968",
+      "authors": "Wei-Che Lin, Kun-Hsien Chou, Hsiu-Ling Chen, Chu-Chung Huang, Cheng-Hsien Lu, Shau-Hsuan Li, Ya-Ling Wang, Yu-Fan Cheng, Ching-Po Lin, Chien-Chih Chen",
+      "year": null,
+      "analyses": [
+        {
+          "id": "22386968_analysis_0",
+          "name": "Gray matter anatomical regions demonstrating reduced gray matter volume in the MMT group compared with the normal control group.",
+          "description": "Table\u00a02",
+          "weights": [],
+          "conditions": [],
+          "images": [],
+          "points": [
+            {
+              "id": "22386968_analysis_0_point_0",
+              "coordinates": [
+                -2,
+                -78,
+                -27
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "22386968_analysis_0"
+            },
+            {
+              "id": "22386968_analysis_0_point_1",
+              "coordinates": [
+                -24,
+                43,
+                18
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "22386968_analysis_0"
+            },
+            {
+              "id": "22386968_analysis_0_point_2",
+              "coordinates": [
+                49,
+                -18,
+                15
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "22386968_analysis_0"
+            },
+            {
+              "id": "22386968_analysis_0_point_3",
+              "coordinates": [
+                -26,
+                -26,
+                68
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "22386968_analysis_0"
+            },
+            {
+              "id": "22386968_analysis_0_point_4",
+              "coordinates": [
+                -17,
+                20,
+                -28
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "22386968_analysis_0"
+            },
+            {
+              "id": "22386968_analysis_0_point_5",
+              "coordinates": [
+                26,
+                -78,
+                -22
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "22386968_analysis_0"
+            },
+            {
+              "id": "22386968_analysis_0_point_6",
+              "coordinates": [
+                -12,
+                4,
+                -23
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "22386968_analysis_0"
+            },
+            {
+              "id": "22386968_analysis_0_point_7",
+              "coordinates": [
+                -30,
+                19,
+                -17
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "22386968_analysis_0"
+            },
+            {
+              "id": "22386968_analysis_0_point_8",
+              "coordinates": [
+                -4,
+                12,
+                -16
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "22386968_analysis_0"
+            },
+            {
+              "id": "22386968_analysis_0_point_9",
+              "coordinates": [
+                15,
+                38,
+                -27
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "22386968_analysis_0"
+            },
+            {
+              "id": "22386968_analysis_0_point_10",
+              "coordinates": [
+                -17,
+                -78,
+                -27
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "22386968_analysis_0"
+            },
+            {
+              "id": "22386968_analysis_0_point_11",
+              "coordinates": [
+                -17,
+                20,
+                -28
+              ],
+              "space": "MNI",
+              "kind": null,
+              "label_id": null,
+              "values": [],
+              "analysis_id": "22386968_analysis_0"
+            }
+          ],
+          "study_id": "22386968"
+        }
+      ]
+    }
+  ]
+}

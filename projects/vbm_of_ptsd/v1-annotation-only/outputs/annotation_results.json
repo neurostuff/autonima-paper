@@ -1,0 +1,4026 @@
+[
+  {
+    "annotation_name": "all_studies",
+    "analysis_id": "23155380_analysis_0",
+    "study_id": "23155380",
+    "include": true,
+    "reasoning": "All analyses included in 'all_studies'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "0eaa2ea463fdbc4f675fec1c37b8d79210d88b056d48f8e5cd59cbe88d54135c",
+      "annotation_name": "all_studies"
+    }
+  },
+  {
+    "annotation_name": "all_studies",
+    "analysis_id": "23155380_analysis_1",
+    "study_id": "23155380",
+    "include": true,
+    "reasoning": "All analyses included in 'all_studies'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "0eaa2ea463fdbc4f675fec1c37b8d79210d88b056d48f8e5cd59cbe88d54135c",
+      "annotation_name": "all_studies"
+    }
+  },
+  {
+    "annotation_name": "all_studies",
+    "analysis_id": "23155380_analysis_2",
+    "study_id": "23155380",
+    "include": true,
+    "reasoning": "All analyses included in 'all_studies'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "0eaa2ea463fdbc4f675fec1c37b8d79210d88b056d48f8e5cd59cbe88d54135c",
+      "annotation_name": "all_studies"
+    }
+  },
+  {
+    "annotation_name": "all_studies",
+    "analysis_id": "23155380_analysis_3",
+    "study_id": "23155380",
+    "include": true,
+    "reasoning": "All analyses included in 'all_studies'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "0eaa2ea463fdbc4f675fec1c37b8d79210d88b056d48f8e5cd59cbe88d54135c",
+      "annotation_name": "all_studies"
+    }
+  },
+  {
+    "annotation_name": "all_studies",
+    "analysis_id": "23155380_analysis_4",
+    "study_id": "23155380",
+    "include": true,
+    "reasoning": "All analyses included in 'all_studies'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "0eaa2ea463fdbc4f675fec1c37b8d79210d88b056d48f8e5cd59cbe88d54135c",
+      "annotation_name": "all_studies"
+    }
+  },
+  {
+    "annotation_name": "all_abstract",
+    "analysis_id": "23155380_analysis_0",
+    "study_id": "23155380",
+    "include": true,
+    "reasoning": "All analyses included in 'all_abstract'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "0eaa2ea463fdbc4f675fec1c37b8d79210d88b056d48f8e5cd59cbe88d54135c",
+      "annotation_name": "all_abstract"
+    }
+  },
+  {
+    "annotation_name": "all_abstract",
+    "analysis_id": "23155380_analysis_1",
+    "study_id": "23155380",
+    "include": true,
+    "reasoning": "All analyses included in 'all_abstract'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "0eaa2ea463fdbc4f675fec1c37b8d79210d88b056d48f8e5cd59cbe88d54135c",
+      "annotation_name": "all_abstract"
+    }
+  },
+  {
+    "annotation_name": "all_abstract",
+    "analysis_id": "23155380_analysis_2",
+    "study_id": "23155380",
+    "include": true,
+    "reasoning": "All analyses included in 'all_abstract'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "0eaa2ea463fdbc4f675fec1c37b8d79210d88b056d48f8e5cd59cbe88d54135c",
+      "annotation_name": "all_abstract"
+    }
+  },
+  {
+    "annotation_name": "all_abstract",
+    "analysis_id": "23155380_analysis_3",
+    "study_id": "23155380",
+    "include": true,
+    "reasoning": "All analyses included in 'all_abstract'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "0eaa2ea463fdbc4f675fec1c37b8d79210d88b056d48f8e5cd59cbe88d54135c",
+      "annotation_name": "all_abstract"
+    }
+  },
+  {
+    "annotation_name": "all_abstract",
+    "analysis_id": "23155380_analysis_4",
+    "study_id": "23155380",
+    "include": true,
+    "reasoning": "All analyses included in 'all_abstract'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "0eaa2ea463fdbc4f675fec1c37b8d79210d88b056d48f8e5cd59cbe88d54135c",
+      "annotation_name": "all_abstract"
+    }
+  },
+  {
+    "annotation_name": "all_analyses",
+    "analysis_id": "23155380_analysis_0",
+    "study_id": "23155380",
+    "include": true,
+    "reasoning": "All analyses included in 'all_analyses'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "0eaa2ea463fdbc4f675fec1c37b8d79210d88b056d48f8e5cd59cbe88d54135c",
+      "annotation_name": "all_analyses"
+    }
+  },
+  {
+    "annotation_name": "all_analyses",
+    "analysis_id": "23155380_analysis_1",
+    "study_id": "23155380",
+    "include": true,
+    "reasoning": "All analyses included in 'all_analyses'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "0eaa2ea463fdbc4f675fec1c37b8d79210d88b056d48f8e5cd59cbe88d54135c",
+      "annotation_name": "all_analyses"
+    }
+  },
+  {
+    "annotation_name": "all_analyses",
+    "analysis_id": "23155380_analysis_2",
+    "study_id": "23155380",
+    "include": true,
+    "reasoning": "All analyses included in 'all_analyses'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "0eaa2ea463fdbc4f675fec1c37b8d79210d88b056d48f8e5cd59cbe88d54135c",
+      "annotation_name": "all_analyses"
+    }
+  },
+  {
+    "annotation_name": "all_analyses",
+    "analysis_id": "23155380_analysis_3",
+    "study_id": "23155380",
+    "include": true,
+    "reasoning": "All analyses included in 'all_analyses'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "0eaa2ea463fdbc4f675fec1c37b8d79210d88b056d48f8e5cd59cbe88d54135c",
+      "annotation_name": "all_analyses"
+    }
+  },
+  {
+    "annotation_name": "all_analyses",
+    "analysis_id": "23155380_analysis_4",
+    "study_id": "23155380",
+    "include": true,
+    "reasoning": "All analyses included in 'all_analyses'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "0eaa2ea463fdbc4f675fec1c37b8d79210d88b056d48f8e5cd59cbe88d54135c",
+      "annotation_name": "all_analyses"
+    }
+  },
+  {
+    "annotation_name": "increased_gm",
+    "analysis_id": "23155380_analysis_0",
+    "study_id": "23155380",
+    "include": false,
+    "reasoning": "Global inclusion (voxelwise whole-brain VBM) is met, but the contrast is Normal controls > Recent onset PTSD (controls greater than PTSD). This does not satisfy the local inclusion INCREASED_GM_I1 which requires patients > controls.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "0eaa2ea463fdbc4f675fec1c37b8d79210d88b056d48f8e5cd59cbe88d54135c",
+      "annotation_name": "increased_gm"
+    }
+  },
+  {
+    "annotation_name": "decreased_gm",
+    "analysis_id": "23155380_analysis_0",
+    "study_id": "23155380",
+    "include": true,
+    "reasoning": "Voxelwise whole-brain VBM was performed (GLOBAL_I1) and the contrast Normal controls > Recent onset PTSD indicates PTSD patients have decreased GM relative to controls, satisfying DECREASED_GM_I1.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [
+      "GLOBAL_I1",
+      "DECREASED_GM_I1"
+    ],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "0eaa2ea463fdbc4f675fec1c37b8d79210d88b056d48f8e5cd59cbe88d54135c",
+      "annotation_name": "decreased_gm"
+    }
+  },
+  {
+    "annotation_name": "increased_gm",
+    "analysis_id": "23155380_analysis_1",
+    "study_id": "23155380",
+    "include": false,
+    "reasoning": "The analysis compares Normal controls > non PTSD (trauma survivors without PTSD) rather than PTSD patients versus controls; thus it does not meet the local inclusion criterion INCREASED_GM_I1 (patients > controls refers specifically to PTSD patients).",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "0eaa2ea463fdbc4f675fec1c37b8d79210d88b056d48f8e5cd59cbe88d54135c",
+      "annotation_name": "increased_gm"
+    }
+  },
+  {
+    "annotation_name": "decreased_gm",
+    "analysis_id": "23155380_analysis_1",
+    "study_id": "23155380",
+    "include": false,
+    "reasoning": "The analysis compares Normal controls > non PTSD (non-PTSD subjects), not PTSD patients versus controls, so it does not meet the local inclusion criterion DECREASED_GM_I1 (PTSD patients < controls).",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "0eaa2ea463fdbc4f675fec1c37b8d79210d88b056d48f8e5cd59cbe88d54135c",
+      "annotation_name": "decreased_gm"
+    }
+  },
+  {
+    "annotation_name": "increased_gm",
+    "analysis_id": "23155380_analysis_2",
+    "study_id": "23155380",
+    "include": false,
+    "reasoning": "This is a within-group correlation (trauma survivors) and does not compare PTSD patients to controls; GLOBAL_E3 applies.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E3"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "0eaa2ea463fdbc4f675fec1c37b8d79210d88b056d48f8e5cd59cbe88d54135c",
+      "annotation_name": "increased_gm"
+    }
+  },
+  {
+    "annotation_name": "decreased_gm",
+    "analysis_id": "23155380_analysis_2",
+    "study_id": "23155380",
+    "include": false,
+    "reasoning": "This is a within-group correlation (trauma survivors) and does not compare PTSD patients to controls; GLOBAL_E3 applies.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E3"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "0eaa2ea463fdbc4f675fec1c37b8d79210d88b056d48f8e5cd59cbe88d54135c",
+      "annotation_name": "decreased_gm"
+    }
+  },
+  {
+    "annotation_name": "increased_gm",
+    "analysis_id": "23155380_analysis_3",
+    "study_id": "23155380",
+    "include": false,
+    "reasoning": "This is a within-group correlation in the PTSD group (not a PTSD vs control voxelwise comparison); GLOBAL_E3 applies.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E3"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "0eaa2ea463fdbc4f675fec1c37b8d79210d88b056d48f8e5cd59cbe88d54135c",
+      "annotation_name": "increased_gm"
+    }
+  },
+  {
+    "annotation_name": "decreased_gm",
+    "analysis_id": "23155380_analysis_3",
+    "study_id": "23155380",
+    "include": false,
+    "reasoning": "This is a within-group correlation in the PTSD group (not a PTSD vs control voxelwise comparison); GLOBAL_E3 applies.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E3"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "0eaa2ea463fdbc4f675fec1c37b8d79210d88b056d48f8e5cd59cbe88d54135c",
+      "annotation_name": "decreased_gm"
+    }
+  },
+  {
+    "annotation_name": "increased_gm",
+    "analysis_id": "23155380_analysis_4",
+    "study_id": "23155380",
+    "include": false,
+    "reasoning": "This is a within-group correlation in the non-PTSD group (not a PTSD vs control voxelwise comparison); GLOBAL_E3 applies.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E3"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "0eaa2ea463fdbc4f675fec1c37b8d79210d88b056d48f8e5cd59cbe88d54135c",
+      "annotation_name": "increased_gm"
+    }
+  },
+  {
+    "annotation_name": "decreased_gm",
+    "analysis_id": "23155380_analysis_4",
+    "study_id": "23155380",
+    "include": false,
+    "reasoning": "This is a within-group correlation in the non-PTSD group (not a PTSD vs control voxelwise comparison); GLOBAL_E3 applies.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E3"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "0eaa2ea463fdbc4f675fec1c37b8d79210d88b056d48f8e5cd59cbe88d54135c",
+      "annotation_name": "decreased_gm"
+    }
+  },
+  {
+    "annotation_name": "all_studies",
+    "analysis_id": "26347628_analysis_0",
+    "study_id": "26347628",
+    "include": true,
+    "reasoning": "All analyses included in 'all_studies'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "3702ffe1377872f92bb562f5c0f99e48bb0d00617d6b347a17c6bf7460efc66f",
+      "annotation_name": "all_studies"
+    }
+  },
+  {
+    "annotation_name": "all_studies",
+    "analysis_id": "26347628_analysis_1",
+    "study_id": "26347628",
+    "include": true,
+    "reasoning": "All analyses included in 'all_studies'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "3702ffe1377872f92bb562f5c0f99e48bb0d00617d6b347a17c6bf7460efc66f",
+      "annotation_name": "all_studies"
+    }
+  },
+  {
+    "annotation_name": "all_studies",
+    "analysis_id": "26347628_analysis_2",
+    "study_id": "26347628",
+    "include": true,
+    "reasoning": "All analyses included in 'all_studies'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "3702ffe1377872f92bb562f5c0f99e48bb0d00617d6b347a17c6bf7460efc66f",
+      "annotation_name": "all_studies"
+    }
+  },
+  {
+    "annotation_name": "all_studies",
+    "analysis_id": "26347628_analysis_3",
+    "study_id": "26347628",
+    "include": true,
+    "reasoning": "All analyses included in 'all_studies'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "3702ffe1377872f92bb562f5c0f99e48bb0d00617d6b347a17c6bf7460efc66f",
+      "annotation_name": "all_studies"
+    }
+  },
+  {
+    "annotation_name": "all_abstract",
+    "analysis_id": "26347628_analysis_0",
+    "study_id": "26347628",
+    "include": true,
+    "reasoning": "All analyses included in 'all_abstract'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "3702ffe1377872f92bb562f5c0f99e48bb0d00617d6b347a17c6bf7460efc66f",
+      "annotation_name": "all_abstract"
+    }
+  },
+  {
+    "annotation_name": "all_abstract",
+    "analysis_id": "26347628_analysis_1",
+    "study_id": "26347628",
+    "include": true,
+    "reasoning": "All analyses included in 'all_abstract'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "3702ffe1377872f92bb562f5c0f99e48bb0d00617d6b347a17c6bf7460efc66f",
+      "annotation_name": "all_abstract"
+    }
+  },
+  {
+    "annotation_name": "all_abstract",
+    "analysis_id": "26347628_analysis_2",
+    "study_id": "26347628",
+    "include": true,
+    "reasoning": "All analyses included in 'all_abstract'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "3702ffe1377872f92bb562f5c0f99e48bb0d00617d6b347a17c6bf7460efc66f",
+      "annotation_name": "all_abstract"
+    }
+  },
+  {
+    "annotation_name": "all_abstract",
+    "analysis_id": "26347628_analysis_3",
+    "study_id": "26347628",
+    "include": true,
+    "reasoning": "All analyses included in 'all_abstract'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "3702ffe1377872f92bb562f5c0f99e48bb0d00617d6b347a17c6bf7460efc66f",
+      "annotation_name": "all_abstract"
+    }
+  },
+  {
+    "annotation_name": "all_analyses",
+    "analysis_id": "26347628_analysis_0",
+    "study_id": "26347628",
+    "include": true,
+    "reasoning": "All analyses included in 'all_analyses'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "3702ffe1377872f92bb562f5c0f99e48bb0d00617d6b347a17c6bf7460efc66f",
+      "annotation_name": "all_analyses"
+    }
+  },
+  {
+    "annotation_name": "all_analyses",
+    "analysis_id": "26347628_analysis_1",
+    "study_id": "26347628",
+    "include": true,
+    "reasoning": "All analyses included in 'all_analyses'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "3702ffe1377872f92bb562f5c0f99e48bb0d00617d6b347a17c6bf7460efc66f",
+      "annotation_name": "all_analyses"
+    }
+  },
+  {
+    "annotation_name": "all_analyses",
+    "analysis_id": "26347628_analysis_2",
+    "study_id": "26347628",
+    "include": true,
+    "reasoning": "All analyses included in 'all_analyses'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "3702ffe1377872f92bb562f5c0f99e48bb0d00617d6b347a17c6bf7460efc66f",
+      "annotation_name": "all_analyses"
+    }
+  },
+  {
+    "annotation_name": "all_analyses",
+    "analysis_id": "26347628_analysis_3",
+    "study_id": "26347628",
+    "include": true,
+    "reasoning": "All analyses included in 'all_analyses'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "3702ffe1377872f92bb562f5c0f99e48bb0d00617d6b347a17c6bf7460efc66f",
+      "annotation_name": "all_analyses"
+    }
+  },
+  {
+    "annotation_name": "increased_gm",
+    "analysis_id": "26347628_analysis_0",
+    "study_id": "26347628",
+    "include": false,
+    "reasoning": "The analysis is a whole-brain omnibus ANCOVA across four groups (GLOBAL_I1 satisfied) but does not provide a direct PTSD > control contrast required by INCREASED_GM_I1; therefore cannot annotate increased GM in PTSD vs controls.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "3702ffe1377872f92bb562f5c0f99e48bb0d00617d6b347a17c6bf7460efc66f",
+      "annotation_name": "increased_gm"
+    }
+  },
+  {
+    "annotation_name": "decreased_gm",
+    "analysis_id": "26347628_analysis_0",
+    "study_id": "26347628",
+    "include": false,
+    "reasoning": "The analysis is a whole-brain omnibus ANCOVA across four groups (GLOBAL_I1 satisfied) but does not provide a direct PTSD < control contrast required by DECREASED_GM_I1; therefore cannot annotate decreased GM in PTSD vs controls.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "3702ffe1377872f92bb562f5c0f99e48bb0d00617d6b347a17c6bf7460efc66f",
+      "annotation_name": "decreased_gm"
+    }
+  },
+  {
+    "annotation_name": "increased_gm",
+    "analysis_id": "26347628_analysis_1",
+    "study_id": "26347628",
+    "include": false,
+    "reasoning": "This is a HC > PTSD whole-brain post hoc contrast (GLOBAL_I1 satisfied) showing controls > PTSD; there is no PTSD > control (INCREASED_GM_I1) effect reported, so increased GM in PTSD is not supported.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "3702ffe1377872f92bb562f5c0f99e48bb0d00617d6b347a17c6bf7460efc66f",
+      "annotation_name": "increased_gm"
+    }
+  },
+  {
+    "annotation_name": "decreased_gm",
+    "analysis_id": "26347628_analysis_1",
+    "study_id": "26347628",
+    "include": true,
+    "reasoning": "This is a voxelwise whole-brain post hoc HC > PTSD contrast (GLOBAL_I1) demonstrating significantly reduced GMV in PTSD relative to controls, satisfying DECREASED_GM_I1.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [
+      "GLOBAL_I1",
+      "DECREASED_GM_I1"
+    ],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "3702ffe1377872f92bb562f5c0f99e48bb0d00617d6b347a17c6bf7460efc66f",
+      "annotation_name": "decreased_gm"
+    }
+  },
+  {
+    "annotation_name": "increased_gm",
+    "analysis_id": "26347628_analysis_2",
+    "study_id": "26347628",
+    "include": false,
+    "reasoning": "This post hoc contrast compares OCD to PTSD (not PTSD to controls); it does not meet the global requirement for a PTSD vs control comparison (GLOBAL_E3 applies).",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E3"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "3702ffe1377872f92bb562f5c0f99e48bb0d00617d6b347a17c6bf7460efc66f",
+      "annotation_name": "increased_gm"
+    }
+  },
+  {
+    "annotation_name": "decreased_gm",
+    "analysis_id": "26347628_analysis_2",
+    "study_id": "26347628",
+    "include": false,
+    "reasoning": "This post hoc contrast compares OCD to PTSD (not PTSD to controls); it does not meet the global requirement for a PTSD vs control comparison (GLOBAL_E3 applies).",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E3"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "3702ffe1377872f92bb562f5c0f99e48bb0d00617d6b347a17c6bf7460efc66f",
+      "annotation_name": "decreased_gm"
+    }
+  },
+  {
+    "annotation_name": "increased_gm",
+    "analysis_id": "26347628_analysis_3",
+    "study_id": "26347628",
+    "include": false,
+    "reasoning": "This post hoc contrast compares SAD to PTSD (not PTSD to controls); it does not meet the global requirement for a PTSD vs control comparison (GLOBAL_E3 applies).",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E3"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "3702ffe1377872f92bb562f5c0f99e48bb0d00617d6b347a17c6bf7460efc66f",
+      "annotation_name": "increased_gm"
+    }
+  },
+  {
+    "annotation_name": "decreased_gm",
+    "analysis_id": "26347628_analysis_3",
+    "study_id": "26347628",
+    "include": false,
+    "reasoning": "This post hoc contrast compares SAD to PTSD (not PTSD to controls); it does not meet the global requirement for a PTSD vs control comparison (GLOBAL_E3 applies).",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E3"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "3702ffe1377872f92bb562f5c0f99e48bb0d00617d6b347a17c6bf7460efc66f",
+      "annotation_name": "decreased_gm"
+    }
+  },
+  {
+    "annotation_name": "all_studies",
+    "analysis_id": "23021615_analysis_0",
+    "study_id": "23021615",
+    "include": true,
+    "reasoning": "All analyses included in 'all_studies'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "6e5be016804c1a1a1a6ff08fbb9a457529e4b5062c1d3884a6b61b819f260e5f",
+      "annotation_name": "all_studies"
+    }
+  },
+  {
+    "annotation_name": "all_studies",
+    "analysis_id": "23021615_analysis_1",
+    "study_id": "23021615",
+    "include": true,
+    "reasoning": "All analyses included in 'all_studies'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "6e5be016804c1a1a1a6ff08fbb9a457529e4b5062c1d3884a6b61b819f260e5f",
+      "annotation_name": "all_studies"
+    }
+  },
+  {
+    "annotation_name": "all_studies",
+    "analysis_id": "23021615_analysis_2",
+    "study_id": "23021615",
+    "include": true,
+    "reasoning": "All analyses included in 'all_studies'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "6e5be016804c1a1a1a6ff08fbb9a457529e4b5062c1d3884a6b61b819f260e5f",
+      "annotation_name": "all_studies"
+    }
+  },
+  {
+    "annotation_name": "all_abstract",
+    "analysis_id": "23021615_analysis_0",
+    "study_id": "23021615",
+    "include": true,
+    "reasoning": "All analyses included in 'all_abstract'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "6e5be016804c1a1a1a6ff08fbb9a457529e4b5062c1d3884a6b61b819f260e5f",
+      "annotation_name": "all_abstract"
+    }
+  },
+  {
+    "annotation_name": "all_abstract",
+    "analysis_id": "23021615_analysis_1",
+    "study_id": "23021615",
+    "include": true,
+    "reasoning": "All analyses included in 'all_abstract'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "6e5be016804c1a1a1a6ff08fbb9a457529e4b5062c1d3884a6b61b819f260e5f",
+      "annotation_name": "all_abstract"
+    }
+  },
+  {
+    "annotation_name": "all_abstract",
+    "analysis_id": "23021615_analysis_2",
+    "study_id": "23021615",
+    "include": true,
+    "reasoning": "All analyses included in 'all_abstract'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "6e5be016804c1a1a1a6ff08fbb9a457529e4b5062c1d3884a6b61b819f260e5f",
+      "annotation_name": "all_abstract"
+    }
+  },
+  {
+    "annotation_name": "all_analyses",
+    "analysis_id": "23021615_analysis_0",
+    "study_id": "23021615",
+    "include": true,
+    "reasoning": "All analyses included in 'all_analyses'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "6e5be016804c1a1a1a6ff08fbb9a457529e4b5062c1d3884a6b61b819f260e5f",
+      "annotation_name": "all_analyses"
+    }
+  },
+  {
+    "annotation_name": "all_analyses",
+    "analysis_id": "23021615_analysis_1",
+    "study_id": "23021615",
+    "include": true,
+    "reasoning": "All analyses included in 'all_analyses'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "6e5be016804c1a1a1a6ff08fbb9a457529e4b5062c1d3884a6b61b819f260e5f",
+      "annotation_name": "all_analyses"
+    }
+  },
+  {
+    "annotation_name": "all_analyses",
+    "analysis_id": "23021615_analysis_2",
+    "study_id": "23021615",
+    "include": true,
+    "reasoning": "All analyses included in 'all_analyses'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "6e5be016804c1a1a1a6ff08fbb9a457529e4b5062c1d3884a6b61b819f260e5f",
+      "annotation_name": "all_analyses"
+    }
+  },
+  {
+    "annotation_name": "increased_gm",
+    "analysis_id": "23021615_analysis_0",
+    "study_id": "23021615",
+    "include": false,
+    "reasoning": "Global exclusion applies: this is a within-sample voxelwise regression (CAPS vs GMV) rather than a PTSD vs control group contrast, so it does not meet between-group criteria.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E3"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "6e5be016804c1a1a1a6ff08fbb9a457529e4b5062c1d3884a6b61b819f260e5f",
+      "annotation_name": "increased_gm"
+    }
+  },
+  {
+    "annotation_name": "decreased_gm",
+    "analysis_id": "23021615_analysis_0",
+    "study_id": "23021615",
+    "include": false,
+    "reasoning": "Global exclusion applies: this is a within-sample voxelwise regression (CAPS vs GMV) rather than a PTSD vs control group contrast, so it does not meet between-group criteria.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E3"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "6e5be016804c1a1a1a6ff08fbb9a457529e4b5062c1d3884a6b61b819f260e5f",
+      "annotation_name": "decreased_gm"
+    }
+  },
+  {
+    "annotation_name": "increased_gm",
+    "analysis_id": "23021615_analysis_1",
+    "study_id": "23021615",
+    "include": false,
+    "reasoning": "Global exclusion applies: this is a within-sample voxelwise regression of childhood trauma load (child trauma vs GMV), not a PTSD vs control group contrast.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E3"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "6e5be016804c1a1a1a6ff08fbb9a457529e4b5062c1d3884a6b61b819f260e5f",
+      "annotation_name": "increased_gm"
+    }
+  },
+  {
+    "annotation_name": "decreased_gm",
+    "analysis_id": "23021615_analysis_1",
+    "study_id": "23021615",
+    "include": false,
+    "reasoning": "Global exclusion applies: this is a within-sample voxelwise regression of childhood trauma load (child trauma vs GMV), not a PTSD vs control group contrast.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E3"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "6e5be016804c1a1a1a6ff08fbb9a457529e4b5062c1d3884a6b61b819f260e5f",
+      "annotation_name": "decreased_gm"
+    }
+  },
+  {
+    "annotation_name": "increased_gm",
+    "analysis_id": "23021615_analysis_2",
+    "study_id": "23021615",
+    "include": false,
+    "reasoning": "The contrast reported is Non-PTSD > PTSD (controls > patients), so it does not show PTSD patients having increased GM relative to controls; INCREASED_GM_I1 is not met.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "6e5be016804c1a1a1a6ff08fbb9a457529e4b5062c1d3884a6b61b819f260e5f",
+      "annotation_name": "increased_gm"
+    }
+  },
+  {
+    "annotation_name": "decreased_gm",
+    "analysis_id": "23021615_analysis_2",
+    "study_id": "23021615",
+    "include": true,
+    "reasoning": "Global and local inclusion criteria are met: voxelwise whole-brain VBM group contrast comparing PTSD and non-PTSD subjects shows reduced GM in PTSD (Non-PTSD > PTSD).",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [
+      "GLOBAL_I1",
+      "DECREASED_GM_I1"
+    ],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "6e5be016804c1a1a1a6ff08fbb9a457529e4b5062c1d3884a6b61b819f260e5f",
+      "annotation_name": "decreased_gm"
+    }
+  },
+  {
+    "annotation_name": "all_studies",
+    "analysis_id": "17825801_analysis_0",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_studies'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_studies"
+    }
+  },
+  {
+    "annotation_name": "all_studies",
+    "analysis_id": "17825801_analysis_1",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_studies'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_studies"
+    }
+  },
+  {
+    "annotation_name": "all_studies",
+    "analysis_id": "17825801_analysis_2",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_studies'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_studies"
+    }
+  },
+  {
+    "annotation_name": "all_studies",
+    "analysis_id": "17825801_analysis_3",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_studies'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_studies"
+    }
+  },
+  {
+    "annotation_name": "all_studies",
+    "analysis_id": "17825801_analysis_4",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_studies'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_studies"
+    }
+  },
+  {
+    "annotation_name": "all_studies",
+    "analysis_id": "17825801_analysis_5",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_studies'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_studies"
+    }
+  },
+  {
+    "annotation_name": "all_studies",
+    "analysis_id": "17825801_analysis_6",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_studies'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_studies"
+    }
+  },
+  {
+    "annotation_name": "all_studies",
+    "analysis_id": "17825801_analysis_7",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_studies'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_studies"
+    }
+  },
+  {
+    "annotation_name": "all_studies",
+    "analysis_id": "17825801_analysis_8",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_studies'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_studies"
+    }
+  },
+  {
+    "annotation_name": "all_studies",
+    "analysis_id": "17825801_analysis_9",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_studies'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_studies"
+    }
+  },
+  {
+    "annotation_name": "all_studies",
+    "analysis_id": "17825801_analysis_10",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_studies'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_studies"
+    }
+  },
+  {
+    "annotation_name": "all_studies",
+    "analysis_id": "17825801_analysis_11",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_studies'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_studies"
+    }
+  },
+  {
+    "annotation_name": "all_studies",
+    "analysis_id": "17825801_analysis_12",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_studies'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_studies"
+    }
+  },
+  {
+    "annotation_name": "all_studies",
+    "analysis_id": "17825801_analysis_13",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_studies'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_studies"
+    }
+  },
+  {
+    "annotation_name": "all_studies",
+    "analysis_id": "17825801_analysis_14",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_studies'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_studies"
+    }
+  },
+  {
+    "annotation_name": "all_abstract",
+    "analysis_id": "17825801_analysis_0",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_abstract'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_abstract"
+    }
+  },
+  {
+    "annotation_name": "all_abstract",
+    "analysis_id": "17825801_analysis_1",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_abstract'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_abstract"
+    }
+  },
+  {
+    "annotation_name": "all_abstract",
+    "analysis_id": "17825801_analysis_2",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_abstract'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_abstract"
+    }
+  },
+  {
+    "annotation_name": "all_abstract",
+    "analysis_id": "17825801_analysis_3",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_abstract'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_abstract"
+    }
+  },
+  {
+    "annotation_name": "all_abstract",
+    "analysis_id": "17825801_analysis_4",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_abstract'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_abstract"
+    }
+  },
+  {
+    "annotation_name": "all_abstract",
+    "analysis_id": "17825801_analysis_5",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_abstract'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_abstract"
+    }
+  },
+  {
+    "annotation_name": "all_abstract",
+    "analysis_id": "17825801_analysis_6",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_abstract'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_abstract"
+    }
+  },
+  {
+    "annotation_name": "all_abstract",
+    "analysis_id": "17825801_analysis_7",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_abstract'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_abstract"
+    }
+  },
+  {
+    "annotation_name": "all_abstract",
+    "analysis_id": "17825801_analysis_8",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_abstract'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_abstract"
+    }
+  },
+  {
+    "annotation_name": "all_abstract",
+    "analysis_id": "17825801_analysis_9",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_abstract'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_abstract"
+    }
+  },
+  {
+    "annotation_name": "all_abstract",
+    "analysis_id": "17825801_analysis_10",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_abstract'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_abstract"
+    }
+  },
+  {
+    "annotation_name": "all_abstract",
+    "analysis_id": "17825801_analysis_11",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_abstract'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_abstract"
+    }
+  },
+  {
+    "annotation_name": "all_abstract",
+    "analysis_id": "17825801_analysis_12",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_abstract'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_abstract"
+    }
+  },
+  {
+    "annotation_name": "all_abstract",
+    "analysis_id": "17825801_analysis_13",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_abstract'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_abstract"
+    }
+  },
+  {
+    "annotation_name": "all_abstract",
+    "analysis_id": "17825801_analysis_14",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_abstract'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_abstract"
+    }
+  },
+  {
+    "annotation_name": "all_analyses",
+    "analysis_id": "17825801_analysis_0",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_analyses'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_analyses"
+    }
+  },
+  {
+    "annotation_name": "all_analyses",
+    "analysis_id": "17825801_analysis_1",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_analyses'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_analyses"
+    }
+  },
+  {
+    "annotation_name": "all_analyses",
+    "analysis_id": "17825801_analysis_2",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_analyses'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_analyses"
+    }
+  },
+  {
+    "annotation_name": "all_analyses",
+    "analysis_id": "17825801_analysis_3",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_analyses'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_analyses"
+    }
+  },
+  {
+    "annotation_name": "all_analyses",
+    "analysis_id": "17825801_analysis_4",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_analyses'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_analyses"
+    }
+  },
+  {
+    "annotation_name": "all_analyses",
+    "analysis_id": "17825801_analysis_5",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_analyses'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_analyses"
+    }
+  },
+  {
+    "annotation_name": "all_analyses",
+    "analysis_id": "17825801_analysis_6",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_analyses'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_analyses"
+    }
+  },
+  {
+    "annotation_name": "all_analyses",
+    "analysis_id": "17825801_analysis_7",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_analyses'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_analyses"
+    }
+  },
+  {
+    "annotation_name": "all_analyses",
+    "analysis_id": "17825801_analysis_8",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_analyses'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_analyses"
+    }
+  },
+  {
+    "annotation_name": "all_analyses",
+    "analysis_id": "17825801_analysis_9",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_analyses'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_analyses"
+    }
+  },
+  {
+    "annotation_name": "all_analyses",
+    "analysis_id": "17825801_analysis_10",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_analyses'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_analyses"
+    }
+  },
+  {
+    "annotation_name": "all_analyses",
+    "analysis_id": "17825801_analysis_11",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_analyses'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_analyses"
+    }
+  },
+  {
+    "annotation_name": "all_analyses",
+    "analysis_id": "17825801_analysis_12",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_analyses'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_analyses"
+    }
+  },
+  {
+    "annotation_name": "all_analyses",
+    "analysis_id": "17825801_analysis_13",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_analyses'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_analyses"
+    }
+  },
+  {
+    "annotation_name": "all_analyses",
+    "analysis_id": "17825801_analysis_14",
+    "study_id": "17825801",
+    "include": true,
+    "reasoning": "All analyses included in 'all_analyses'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "all_analyses"
+    }
+  },
+  {
+    "annotation_name": "increased_gm",
+    "analysis_id": "17825801_analysis_0",
+    "study_id": "17825801",
+    "include": false,
+    "reasoning": "Although the study used voxel-based whole-brain VBM (meets GLOBAL_I1), the reported inference relied on small volume correction (SVC) for a priori regions; this triggers the global exclusion for ROI/SVC analyses (GLOBAL_E1). Therefore annotation is excluded.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E1"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "increased_gm"
+    }
+  },
+  {
+    "annotation_name": "decreased_gm",
+    "analysis_id": "17825801_analysis_0",
+    "study_id": "17825801",
+    "include": false,
+    "reasoning": "Although a voxelwise patients < controls contrast was reported, the analysis relied on small volume correction (SVC) for a priori regions; this meets GLOBAL_E1 (ROI/SVC) and therefore is excluded under the global exclusion criteria.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E1"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "decreased_gm"
+    }
+  },
+  {
+    "annotation_name": "increased_gm",
+    "analysis_id": "17825801_analysis_1",
+    "study_id": "17825801",
+    "include": false,
+    "reasoning": "Analysis used voxelwise VBM but reported results with small volume correction for predicted regions (SVC); GLOBAL_E1 applies, so excluded.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E1"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "increased_gm"
+    }
+  },
+  {
+    "annotation_name": "decreased_gm",
+    "analysis_id": "17825801_analysis_1",
+    "study_id": "17825801",
+    "include": false,
+    "reasoning": "Although decreases in GM in PTSD were reported, the inference depended on SVC for a priori regions; GLOBAL_E1 (ROI/SVC) excludes this analysis from annotation.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E1"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "decreased_gm"
+    }
+  },
+  {
+    "annotation_name": "increased_gm",
+    "analysis_id": "17825801_analysis_2",
+    "study_id": "17825801",
+    "include": false,
+    "reasoning": "This voxelwise analysis applied small volume correction (SVC) for a priori regions; GLOBAL_E1 applies, so excluded.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E1"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "increased_gm"
+    }
+  },
+  {
+    "annotation_name": "decreased_gm",
+    "analysis_id": "17825801_analysis_2",
+    "study_id": "17825801",
+    "include": false,
+    "reasoning": "Patients < controls contrast reported but significance established via SVC for predicted regions, triggering GLOBAL_E1 exclusion.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E1"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "decreased_gm"
+    }
+  },
+  {
+    "annotation_name": "increased_gm",
+    "analysis_id": "17825801_analysis_3",
+    "study_id": "17825801",
+    "include": false,
+    "reasoning": "Analysis used VBM with SVC for a priori regions; GLOBAL_E1 applies and excludes annotation.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E1"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "increased_gm"
+    }
+  },
+  {
+    "annotation_name": "decreased_gm",
+    "analysis_id": "17825801_analysis_3",
+    "study_id": "17825801",
+    "include": false,
+    "reasoning": "Although decreased GM in PTSD was the contrast of interest, results were based on SVC (ROI approach); GLOBAL_E1 excludes this analysis.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E1"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "decreased_gm"
+    }
+  },
+  {
+    "annotation_name": "increased_gm",
+    "analysis_id": "17825801_analysis_4",
+    "study_id": "17825801",
+    "include": false,
+    "reasoning": "Voxelwise VBM analysis but inference used small volume correction for predicted regions (GLOBAL_E1), so excluded.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E1"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "increased_gm"
+    }
+  },
+  {
+    "annotation_name": "decreased_gm",
+    "analysis_id": "17825801_analysis_4",
+    "study_id": "17825801",
+    "include": false,
+    "reasoning": "Patients < controls contrast relied on SVC (a priori ROI correction); GLOBAL_E1 applies, excluding the annotation.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E1"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "decreased_gm"
+    }
+  },
+  {
+    "annotation_name": "increased_gm",
+    "analysis_id": "17825801_analysis_5",
+    "study_id": "17825801",
+    "include": false,
+    "reasoning": "Although voxelwise, the analysis reported SVC-corrected findings for predicted regions; GLOBAL_E1 excludes ROI/SVC analyses.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E1"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "increased_gm"
+    }
+  },
+  {
+    "annotation_name": "decreased_gm",
+    "analysis_id": "17825801_analysis_5",
+    "study_id": "17825801",
+    "include": false,
+    "reasoning": "Decreased GM findings were established with SVC for a priori regions; GLOBAL_E1 applies and excludes this annotation.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E1"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "decreased_gm"
+    }
+  },
+  {
+    "annotation_name": "increased_gm",
+    "analysis_id": "17825801_analysis_6",
+    "study_id": "17825801",
+    "include": false,
+    "reasoning": "VBM analysis employed SVC for predicted regions (ROI/SVC), meeting GLOBAL_E1; excluded.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E1"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "increased_gm"
+    }
+  },
+  {
+    "annotation_name": "decreased_gm",
+    "analysis_id": "17825801_analysis_6",
+    "study_id": "17825801",
+    "include": false,
+    "reasoning": "Despite a patients < controls contrast, significance was determined via SVC for a priori regions, triggering GLOBAL_E1 exclusion.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E1"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "decreased_gm"
+    }
+  },
+  {
+    "annotation_name": "increased_gm",
+    "analysis_id": "17825801_analysis_7",
+    "study_id": "17825801",
+    "include": false,
+    "reasoning": "Analysis was voxelwise VBM but used SVC for a priori regions; GLOBAL_E1 applies, so excluded.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E1"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "increased_gm"
+    }
+  },
+  {
+    "annotation_name": "decreased_gm",
+    "analysis_id": "17825801_analysis_7",
+    "study_id": "17825801",
+    "include": false,
+    "reasoning": "Reported decreases in GM were identified using SVC (ROI correction); GLOBAL_E1 excludes this analysis from annotation.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E1"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "decreased_gm"
+    }
+  },
+  {
+    "annotation_name": "increased_gm",
+    "analysis_id": "17825801_analysis_8",
+    "study_id": "17825801",
+    "include": false,
+    "reasoning": "Diagnosis \u00d7 Exposure interaction analysis used voxelwise VBM but significance for the pregenual ACC interaction was reported with small volume correction (SVC); GLOBAL_E1 applies, so excluded.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E1"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "increased_gm"
+    }
+  },
+  {
+    "annotation_name": "decreased_gm",
+    "analysis_id": "17825801_analysis_8",
+    "study_id": "17825801",
+    "include": false,
+    "reasoning": "Interaction implicating reduced GM in PTSD was tested with SVC in an a priori region (pregenual ACC); GLOBAL_E1 (ROI/SVC) excludes annotation.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E1"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "decreased_gm"
+    }
+  },
+  {
+    "annotation_name": "increased_gm",
+    "analysis_id": "17825801_analysis_9",
+    "study_id": "17825801",
+    "include": false,
+    "reasoning": "Age-adjusted voxelwise analysis reported SVC-corrected results for predicted regions; GLOBAL_E1 excludes ROI/SVC analyses.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E1"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "increased_gm"
+    }
+  },
+  {
+    "annotation_name": "decreased_gm",
+    "analysis_id": "17825801_analysis_9",
+    "study_id": "17825801",
+    "include": false,
+    "reasoning": "Age covariate model produced decreases identified via SVC in a priori regions; GLOBAL_E1 applies and excludes this annotation.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E1"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "decreased_gm"
+    }
+  },
+  {
+    "annotation_name": "increased_gm",
+    "analysis_id": "17825801_analysis_10",
+    "study_id": "17825801",
+    "include": false,
+    "reasoning": "Combat-severity adjusted VBM used SVC for a priori regions; GLOBAL_E1 applies, so excluded.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E1"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "increased_gm"
+    }
+  },
+  {
+    "annotation_name": "decreased_gm",
+    "analysis_id": "17825801_analysis_10",
+    "study_id": "17825801",
+    "include": false,
+    "reasoning": "Although patients < controls contrast persisted, results relied on SVC for predicted regions, invoking GLOBAL_E1 exclusion.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E1"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "decreased_gm"
+    }
+  },
+  {
+    "annotation_name": "increased_gm",
+    "analysis_id": "17825801_analysis_11",
+    "study_id": "17825801",
+    "include": false,
+    "reasoning": "Traumatic-events-adjusted voxelwise analysis reported SVC-corrected findings for predicted regions; GLOBAL_E1 excludes ROI/SVC analyses.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E1"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "increased_gm"
+    }
+  },
+  {
+    "annotation_name": "decreased_gm",
+    "analysis_id": "17825801_analysis_11",
+    "study_id": "17825801",
+    "include": false,
+    "reasoning": "Patients < controls contrast identified via SVC in a priori regions; GLOBAL_E1 applies and excludes this annotation.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E1"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "decreased_gm"
+    }
+  },
+  {
+    "annotation_name": "increased_gm",
+    "analysis_id": "17825801_analysis_12",
+    "study_id": "17825801",
+    "include": false,
+    "reasoning": "MAST-adjusted voxelwise analysis used SVC for predicted regions; GLOBAL_E1 applies, therefore excluded.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E1"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "increased_gm"
+    }
+  },
+  {
+    "annotation_name": "decreased_gm",
+    "analysis_id": "17825801_analysis_12",
+    "study_id": "17825801",
+    "include": false,
+    "reasoning": "Decreased GM findings were reported with SVC correction for a priori regions; GLOBAL_E1 excludes this analysis from annotation.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E1"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "decreased_gm"
+    }
+  },
+  {
+    "annotation_name": "increased_gm",
+    "analysis_id": "17825801_analysis_13",
+    "study_id": "17825801",
+    "include": false,
+    "reasoning": "Childhood-abuse-excluded reanalysis remained voxelwise but used SVC for a priori regions; GLOBAL_E1 applies, so excluded.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E1"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "increased_gm"
+    }
+  },
+  {
+    "annotation_name": "decreased_gm",
+    "analysis_id": "17825801_analysis_13",
+    "study_id": "17825801",
+    "include": false,
+    "reasoning": "Reduced GM in PTSD in this reanalysis was established using SVC for predicted regions; GLOBAL_E1 excludes the annotation.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E1"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "decreased_gm"
+    }
+  },
+  {
+    "annotation_name": "increased_gm",
+    "analysis_id": "17825801_analysis_14",
+    "study_id": "17825801",
+    "include": false,
+    "reasoning": "SCL-90-R Depression\u2013adjusted voxelwise analysis reported SVC-corrected results in predicted regions; GLOBAL_E1 (ROI/SVC) excludes annotation.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E1"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "increased_gm"
+    }
+  },
+  {
+    "annotation_name": "decreased_gm",
+    "analysis_id": "17825801_analysis_14",
+    "study_id": "17825801",
+    "include": false,
+    "reasoning": "Diagnosis \u00d7 Exposure interaction and group contrasts showing decreased GM were reported with SVC in a priori regions; GLOBAL_E1 applies and excludes this annotation.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E1"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "817e3e2b71439b6ba9efe37c4fc68bfe25a8bb9ccab2156b543fd7e6c4e8d7cf",
+      "annotation_name": "decreased_gm"
+    }
+  },
+  {
+    "annotation_name": "all_studies",
+    "analysis_id": "21418787_analysis_0",
+    "study_id": "21418787",
+    "include": true,
+    "reasoning": "All analyses included in 'all_studies'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "01170033b1bc406e3722f8f67ae7a3649359d77324f58f0cf3846cc05acb0797",
+      "annotation_name": "all_studies"
+    }
+  },
+  {
+    "annotation_name": "all_studies",
+    "analysis_id": "21418787_analysis_1",
+    "study_id": "21418787",
+    "include": true,
+    "reasoning": "All analyses included in 'all_studies'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "01170033b1bc406e3722f8f67ae7a3649359d77324f58f0cf3846cc05acb0797",
+      "annotation_name": "all_studies"
+    }
+  },
+  {
+    "annotation_name": "all_studies",
+    "analysis_id": "21418787_analysis_2",
+    "study_id": "21418787",
+    "include": true,
+    "reasoning": "All analyses included in 'all_studies'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "01170033b1bc406e3722f8f67ae7a3649359d77324f58f0cf3846cc05acb0797",
+      "annotation_name": "all_studies"
+    }
+  },
+  {
+    "annotation_name": "all_studies",
+    "analysis_id": "21418787_analysis_3",
+    "study_id": "21418787",
+    "include": true,
+    "reasoning": "All analyses included in 'all_studies'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "01170033b1bc406e3722f8f67ae7a3649359d77324f58f0cf3846cc05acb0797",
+      "annotation_name": "all_studies"
+    }
+  },
+  {
+    "annotation_name": "all_studies",
+    "analysis_id": "21418787_analysis_4",
+    "study_id": "21418787",
+    "include": true,
+    "reasoning": "All analyses included in 'all_studies'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "01170033b1bc406e3722f8f67ae7a3649359d77324f58f0cf3846cc05acb0797",
+      "annotation_name": "all_studies"
+    }
+  },
+  {
+    "annotation_name": "all_abstract",
+    "analysis_id": "21418787_analysis_0",
+    "study_id": "21418787",
+    "include": true,
+    "reasoning": "All analyses included in 'all_abstract'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "01170033b1bc406e3722f8f67ae7a3649359d77324f58f0cf3846cc05acb0797",
+      "annotation_name": "all_abstract"
+    }
+  },
+  {
+    "annotation_name": "all_abstract",
+    "analysis_id": "21418787_analysis_1",
+    "study_id": "21418787",
+    "include": true,
+    "reasoning": "All analyses included in 'all_abstract'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "01170033b1bc406e3722f8f67ae7a3649359d77324f58f0cf3846cc05acb0797",
+      "annotation_name": "all_abstract"
+    }
+  },
+  {
+    "annotation_name": "all_abstract",
+    "analysis_id": "21418787_analysis_2",
+    "study_id": "21418787",
+    "include": true,
+    "reasoning": "All analyses included in 'all_abstract'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "01170033b1bc406e3722f8f67ae7a3649359d77324f58f0cf3846cc05acb0797",
+      "annotation_name": "all_abstract"
+    }
+  },
+  {
+    "annotation_name": "all_abstract",
+    "analysis_id": "21418787_analysis_3",
+    "study_id": "21418787",
+    "include": true,
+    "reasoning": "All analyses included in 'all_abstract'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "01170033b1bc406e3722f8f67ae7a3649359d77324f58f0cf3846cc05acb0797",
+      "annotation_name": "all_abstract"
+    }
+  },
+  {
+    "annotation_name": "all_abstract",
+    "analysis_id": "21418787_analysis_4",
+    "study_id": "21418787",
+    "include": true,
+    "reasoning": "All analyses included in 'all_abstract'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "01170033b1bc406e3722f8f67ae7a3649359d77324f58f0cf3846cc05acb0797",
+      "annotation_name": "all_abstract"
+    }
+  },
+  {
+    "annotation_name": "all_analyses",
+    "analysis_id": "21418787_analysis_0",
+    "study_id": "21418787",
+    "include": true,
+    "reasoning": "All analyses included in 'all_analyses'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "01170033b1bc406e3722f8f67ae7a3649359d77324f58f0cf3846cc05acb0797",
+      "annotation_name": "all_analyses"
+    }
+  },
+  {
+    "annotation_name": "all_analyses",
+    "analysis_id": "21418787_analysis_1",
+    "study_id": "21418787",
+    "include": true,
+    "reasoning": "All analyses included in 'all_analyses'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "01170033b1bc406e3722f8f67ae7a3649359d77324f58f0cf3846cc05acb0797",
+      "annotation_name": "all_analyses"
+    }
+  },
+  {
+    "annotation_name": "all_analyses",
+    "analysis_id": "21418787_analysis_2",
+    "study_id": "21418787",
+    "include": true,
+    "reasoning": "All analyses included in 'all_analyses'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "01170033b1bc406e3722f8f67ae7a3649359d77324f58f0cf3846cc05acb0797",
+      "annotation_name": "all_analyses"
+    }
+  },
+  {
+    "annotation_name": "all_analyses",
+    "analysis_id": "21418787_analysis_3",
+    "study_id": "21418787",
+    "include": true,
+    "reasoning": "All analyses included in 'all_analyses'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "01170033b1bc406e3722f8f67ae7a3649359d77324f58f0cf3846cc05acb0797",
+      "annotation_name": "all_analyses"
+    }
+  },
+  {
+    "annotation_name": "all_analyses",
+    "analysis_id": "21418787_analysis_4",
+    "study_id": "21418787",
+    "include": true,
+    "reasoning": "All analyses included in 'all_analyses'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "01170033b1bc406e3722f8f67ae7a3649359d77324f58f0cf3846cc05acb0797",
+      "annotation_name": "all_analyses"
+    }
+  },
+  {
+    "annotation_name": "increased_gm",
+    "analysis_id": "21418787_analysis_0",
+    "study_id": "21418787",
+    "include": false,
+    "reasoning": "Analysis compares combined PTSD+major depression group to controls rather than a voxelwise PTSD patients > controls contrast. GLOBAL_I1 is met but the required local inclusion criterion INCREASED_GM_I1 (PTSD vs controls, patients > controls) is not satisfied.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "01170033b1bc406e3722f8f67ae7a3649359d77324f58f0cf3846cc05acb0797",
+      "annotation_name": "increased_gm"
+    }
+  },
+  {
+    "annotation_name": "decreased_gm",
+    "analysis_id": "21418787_analysis_0",
+    "study_id": "21418787",
+    "include": false,
+    "reasoning": "Analysis reports combined clinical (PTSD + major depression) < controls rather than a voxelwise PTSD patients < controls contrast. The local inclusion criterion DECREASED_GM_I1 (PTSD vs controls, patients < controls) is not satisfied.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "01170033b1bc406e3722f8f67ae7a3649359d77324f58f0cf3846cc05acb0797",
+      "annotation_name": "decreased_gm"
+    }
+  },
+  {
+    "annotation_name": "increased_gm",
+    "analysis_id": "21418787_analysis_1",
+    "study_id": "21418787",
+    "include": false,
+    "reasoning": "Within-group analysis in the PTSD sample correlating grey matter with anxiety (BAI); does not compare PTSD patients to controls. Excluded by GLOBAL_E3.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E3"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "01170033b1bc406e3722f8f67ae7a3649359d77324f58f0cf3846cc05acb0797",
+      "annotation_name": "increased_gm"
+    }
+  },
+  {
+    "annotation_name": "decreased_gm",
+    "analysis_id": "21418787_analysis_1",
+    "study_id": "21418787",
+    "include": false,
+    "reasoning": "Within-group analysis in the PTSD sample correlating grey matter with anxiety (BAI); does not compare PTSD patients to controls. Excluded by GLOBAL_E3.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E3"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "01170033b1bc406e3722f8f67ae7a3649359d77324f58f0cf3846cc05acb0797",
+      "annotation_name": "decreased_gm"
+    }
+  },
+  {
+    "annotation_name": "increased_gm",
+    "analysis_id": "21418787_analysis_2",
+    "study_id": "21418787",
+    "include": false,
+    "reasoning": "Within-group analysis in the major depression sample correlating grey matter with anxiety (BAI); not a PTSD vs controls voxelwise comparison. Excluded by GLOBAL_E3.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E3"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "01170033b1bc406e3722f8f67ae7a3649359d77324f58f0cf3846cc05acb0797",
+      "annotation_name": "increased_gm"
+    }
+  },
+  {
+    "annotation_name": "decreased_gm",
+    "analysis_id": "21418787_analysis_2",
+    "study_id": "21418787",
+    "include": false,
+    "reasoning": "Within-group analysis in the major depression sample correlating grey matter with anxiety (BAI); not a PTSD vs controls voxelwise comparison. Excluded by GLOBAL_E3.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E3"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "01170033b1bc406e3722f8f67ae7a3649359d77324f58f0cf3846cc05acb0797",
+      "annotation_name": "decreased_gm"
+    }
+  },
+  {
+    "annotation_name": "increased_gm",
+    "analysis_id": "21418787_analysis_3",
+    "study_id": "21418787",
+    "include": false,
+    "reasoning": "Within-group analysis in the PTSD sample correlating grey matter with depression (BDI); does not compare PTSD patients to controls. Excluded by GLOBAL_E3.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E3"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "01170033b1bc406e3722f8f67ae7a3649359d77324f58f0cf3846cc05acb0797",
+      "annotation_name": "increased_gm"
+    }
+  },
+  {
+    "annotation_name": "decreased_gm",
+    "analysis_id": "21418787_analysis_3",
+    "study_id": "21418787",
+    "include": false,
+    "reasoning": "Within-group analysis in the PTSD sample correlating grey matter with depression (BDI); does not compare PTSD patients to controls. Excluded by GLOBAL_E3.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E3"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "01170033b1bc406e3722f8f67ae7a3649359d77324f58f0cf3846cc05acb0797",
+      "annotation_name": "decreased_gm"
+    }
+  },
+  {
+    "annotation_name": "increased_gm",
+    "analysis_id": "21418787_analysis_4",
+    "study_id": "21418787",
+    "include": false,
+    "reasoning": "Within-group analysis in the major depression sample correlating grey matter with depression (BDI); not a PTSD vs controls voxelwise comparison. Excluded by GLOBAL_E3.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E3"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "01170033b1bc406e3722f8f67ae7a3649359d77324f58f0cf3846cc05acb0797",
+      "annotation_name": "increased_gm"
+    }
+  },
+  {
+    "annotation_name": "decreased_gm",
+    "analysis_id": "21418787_analysis_4",
+    "study_id": "21418787",
+    "include": false,
+    "reasoning": "Within-group analysis in the major depression sample correlating grey matter with depression (BDI); not a PTSD vs controls voxelwise comparison. Excluded by GLOBAL_E3.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E3"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "01170033b1bc406e3722f8f67ae7a3649359d77324f58f0cf3846cc05acb0797",
+      "annotation_name": "decreased_gm"
+    }
+  },
+  {
+    "annotation_name": "all_studies",
+    "analysis_id": "19942229_analysis_0",
+    "study_id": "19942229",
+    "include": true,
+    "reasoning": "All analyses included in 'all_studies'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "e33d7820818a274b920d2432b50e2ed00182c93d258221ffb51df76476144c4f",
+      "annotation_name": "all_studies"
+    }
+  },
+  {
+    "annotation_name": "all_studies",
+    "analysis_id": "19942229_analysis_1",
+    "study_id": "19942229",
+    "include": true,
+    "reasoning": "All analyses included in 'all_studies'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "e33d7820818a274b920d2432b50e2ed00182c93d258221ffb51df76476144c4f",
+      "annotation_name": "all_studies"
+    }
+  },
+  {
+    "annotation_name": "all_studies",
+    "analysis_id": "19942229_analysis_2",
+    "study_id": "19942229",
+    "include": true,
+    "reasoning": "All analyses included in 'all_studies'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "e33d7820818a274b920d2432b50e2ed00182c93d258221ffb51df76476144c4f",
+      "annotation_name": "all_studies"
+    }
+  },
+  {
+    "annotation_name": "all_abstract",
+    "analysis_id": "19942229_analysis_0",
+    "study_id": "19942229",
+    "include": true,
+    "reasoning": "All analyses included in 'all_abstract'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "e33d7820818a274b920d2432b50e2ed00182c93d258221ffb51df76476144c4f",
+      "annotation_name": "all_abstract"
+    }
+  },
+  {
+    "annotation_name": "all_abstract",
+    "analysis_id": "19942229_analysis_1",
+    "study_id": "19942229",
+    "include": true,
+    "reasoning": "All analyses included in 'all_abstract'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "e33d7820818a274b920d2432b50e2ed00182c93d258221ffb51df76476144c4f",
+      "annotation_name": "all_abstract"
+    }
+  },
+  {
+    "annotation_name": "all_abstract",
+    "analysis_id": "19942229_analysis_2",
+    "study_id": "19942229",
+    "include": true,
+    "reasoning": "All analyses included in 'all_abstract'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "e33d7820818a274b920d2432b50e2ed00182c93d258221ffb51df76476144c4f",
+      "annotation_name": "all_abstract"
+    }
+  },
+  {
+    "annotation_name": "all_analyses",
+    "analysis_id": "19942229_analysis_0",
+    "study_id": "19942229",
+    "include": true,
+    "reasoning": "All analyses included in 'all_analyses'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "e33d7820818a274b920d2432b50e2ed00182c93d258221ffb51df76476144c4f",
+      "annotation_name": "all_analyses"
+    }
+  },
+  {
+    "annotation_name": "all_analyses",
+    "analysis_id": "19942229_analysis_1",
+    "study_id": "19942229",
+    "include": true,
+    "reasoning": "All analyses included in 'all_analyses'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "e33d7820818a274b920d2432b50e2ed00182c93d258221ffb51df76476144c4f",
+      "annotation_name": "all_analyses"
+    }
+  },
+  {
+    "annotation_name": "all_analyses",
+    "analysis_id": "19942229_analysis_2",
+    "study_id": "19942229",
+    "include": true,
+    "reasoning": "All analyses included in 'all_analyses'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "e33d7820818a274b920d2432b50e2ed00182c93d258221ffb51df76476144c4f",
+      "annotation_name": "all_analyses"
+    }
+  },
+  {
+    "annotation_name": "increased_gm",
+    "analysis_id": "19942229_analysis_0",
+    "study_id": "19942229",
+    "include": false,
+    "reasoning": "The contrast reported is NS > S (controls > PTSD patients), so there is no patients > controls (PTSD > control) finding. The local inclusion criterion INCREASED_GM_I1 (patients > controls voxelwise whole-brain) is not met.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "e33d7820818a274b920d2432b50e2ed00182c93d258221ffb51df76476144c4f",
+      "annotation_name": "increased_gm"
+    }
+  },
+  {
+    "annotation_name": "decreased_gm",
+    "analysis_id": "19942229_analysis_0",
+    "study_id": "19942229",
+    "include": true,
+    "reasoning": "This is a voxelwise whole-brain VBM comparison between PTSD patients (S) and trauma-exposed controls (NS) reporting NS > S (i.e. reduced GM in patients). Meets the global whole-brain VBM requirement and the local criterion for decreased GM in patients.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [
+      "GLOBAL_I1",
+      "DECREASED_GM_I1"
+    ],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "e33d7820818a274b920d2432b50e2ed00182c93d258221ffb51df76476144c4f",
+      "annotation_name": "decreased_gm"
+    }
+  },
+  {
+    "annotation_name": "increased_gm",
+    "analysis_id": "19942229_analysis_1",
+    "study_id": "19942229",
+    "include": false,
+    "reasoning": "This analysis compares remitters (R) and non-remitters (NR) within the PTSD sample (within-group), not PTSD patients versus controls. Excluded by GLOBAL_E3 (within-group analyses not comparing PTSD to controls).",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E3"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "e33d7820818a274b920d2432b50e2ed00182c93d258221ffb51df76476144c4f",
+      "annotation_name": "increased_gm"
+    }
+  },
+  {
+    "annotation_name": "decreased_gm",
+    "analysis_id": "19942229_analysis_1",
+    "study_id": "19942229",
+    "include": false,
+    "reasoning": "This is a within-group comparison (R vs NR) of PTSD patients rather than a PTSD vs control whole-brain comparison. Excluded by GLOBAL_E3.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E3"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "e33d7820818a274b920d2432b50e2ed00182c93d258221ffb51df76476144c4f",
+      "annotation_name": "decreased_gm"
+    }
+  },
+  {
+    "annotation_name": "increased_gm",
+    "analysis_id": "19942229_analysis_2",
+    "study_id": "19942229",
+    "include": false,
+    "reasoning": "This is a regression/correlation of GM with TAQ\u2212 across all subjects, not a PTSD patients > controls contrast. Excluded by GLOBAL_E3 (not a PTSD vs control comparison).",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E3"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "e33d7820818a274b920d2432b50e2ed00182c93d258221ffb51df76476144c4f",
+      "annotation_name": "increased_gm"
+    }
+  },
+  {
+    "annotation_name": "decreased_gm",
+    "analysis_id": "19942229_analysis_2",
+    "study_id": "19942229",
+    "include": false,
+    "reasoning": "This is a correlational voxelwise analysis across subjects relating GM to trauma load, not a patients < controls contrast. Excluded by GLOBAL_E3 (within-group/correlational analyses not comparing PTSD to controls).",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E3"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "e33d7820818a274b920d2432b50e2ed00182c93d258221ffb51df76476144c4f",
+      "annotation_name": "decreased_gm"
+    }
+  },
+  {
+    "annotation_name": "all_studies",
+    "analysis_id": "28549317_analysis_0",
+    "study_id": "28549317",
+    "include": true,
+    "reasoning": "All analyses included in 'all_studies'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "00a9c667d8f12b6a3a829bc93af88996b593b8cb201367219b66de2bbebf4733",
+      "annotation_name": "all_studies"
+    }
+  },
+  {
+    "annotation_name": "all_studies",
+    "analysis_id": "28549317_analysis_1",
+    "study_id": "28549317",
+    "include": true,
+    "reasoning": "All analyses included in 'all_studies'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "00a9c667d8f12b6a3a829bc93af88996b593b8cb201367219b66de2bbebf4733",
+      "annotation_name": "all_studies"
+    }
+  },
+  {
+    "annotation_name": "all_studies",
+    "analysis_id": "28549317_analysis_2",
+    "study_id": "28549317",
+    "include": true,
+    "reasoning": "All analyses included in 'all_studies'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "00a9c667d8f12b6a3a829bc93af88996b593b8cb201367219b66de2bbebf4733",
+      "annotation_name": "all_studies"
+    }
+  },
+  {
+    "annotation_name": "all_abstract",
+    "analysis_id": "28549317_analysis_0",
+    "study_id": "28549317",
+    "include": true,
+    "reasoning": "All analyses included in 'all_abstract'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "00a9c667d8f12b6a3a829bc93af88996b593b8cb201367219b66de2bbebf4733",
+      "annotation_name": "all_abstract"
+    }
+  },
+  {
+    "annotation_name": "all_abstract",
+    "analysis_id": "28549317_analysis_1",
+    "study_id": "28549317",
+    "include": true,
+    "reasoning": "All analyses included in 'all_abstract'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "00a9c667d8f12b6a3a829bc93af88996b593b8cb201367219b66de2bbebf4733",
+      "annotation_name": "all_abstract"
+    }
+  },
+  {
+    "annotation_name": "all_abstract",
+    "analysis_id": "28549317_analysis_2",
+    "study_id": "28549317",
+    "include": true,
+    "reasoning": "All analyses included in 'all_abstract'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "00a9c667d8f12b6a3a829bc93af88996b593b8cb201367219b66de2bbebf4733",
+      "annotation_name": "all_abstract"
+    }
+  },
+  {
+    "annotation_name": "all_analyses",
+    "analysis_id": "28549317_analysis_0",
+    "study_id": "28549317",
+    "include": true,
+    "reasoning": "All analyses included in 'all_analyses'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "00a9c667d8f12b6a3a829bc93af88996b593b8cb201367219b66de2bbebf4733",
+      "annotation_name": "all_analyses"
+    }
+  },
+  {
+    "annotation_name": "all_analyses",
+    "analysis_id": "28549317_analysis_1",
+    "study_id": "28549317",
+    "include": true,
+    "reasoning": "All analyses included in 'all_analyses'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "00a9c667d8f12b6a3a829bc93af88996b593b8cb201367219b66de2bbebf4733",
+      "annotation_name": "all_analyses"
+    }
+  },
+  {
+    "annotation_name": "all_analyses",
+    "analysis_id": "28549317_analysis_2",
+    "study_id": "28549317",
+    "include": true,
+    "reasoning": "All analyses included in 'all_analyses'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "00a9c667d8f12b6a3a829bc93af88996b593b8cb201367219b66de2bbebf4733",
+      "annotation_name": "all_analyses"
+    }
+  },
+  {
+    "annotation_name": "increased_gm",
+    "analysis_id": "28549317_analysis_0",
+    "study_id": "28549317",
+    "include": false,
+    "reasoning": "GLOBAL_I1 (whole-brain VBM) is met, but the reported contrast is PTSD < HC (patients < controls). The local inclusion criterion INCREASED_GM_I1 (patients > controls) is not satisfied.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "00a9c667d8f12b6a3a829bc93af88996b593b8cb201367219b66de2bbebf4733",
+      "annotation_name": "increased_gm"
+    }
+  },
+  {
+    "annotation_name": "decreased_gm",
+    "analysis_id": "28549317_analysis_0",
+    "study_id": "28549317",
+    "include": true,
+    "reasoning": "This is a voxelwise whole-brain VBM grey matter comparison reporting PTSD < HC (patients < controls), satisfying the global inclusion GLOBAL_I1 and the local inclusion DECREASED_GM_I1.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [
+      "GLOBAL_I1",
+      "DECREASED_GM_I1"
+    ],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "00a9c667d8f12b6a3a829bc93af88996b593b8cb201367219b66de2bbebf4733",
+      "annotation_name": "decreased_gm"
+    }
+  },
+  {
+    "annotation_name": "increased_gm",
+    "analysis_id": "28549317_analysis_1",
+    "study_id": "28549317",
+    "include": false,
+    "reasoning": "GLOBAL_I1 (whole-brain VBM) is met, but the reported contrast is PTSD < TC (patients < controls). The local inclusion criterion INCREASED_GM_I1 (patients > controls) is not satisfied.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "00a9c667d8f12b6a3a829bc93af88996b593b8cb201367219b66de2bbebf4733",
+      "annotation_name": "increased_gm"
+    }
+  },
+  {
+    "annotation_name": "decreased_gm",
+    "analysis_id": "28549317_analysis_1",
+    "study_id": "28549317",
+    "include": true,
+    "reasoning": "This is a voxelwise whole-brain VBM grey matter comparison reporting PTSD < TC (patients < controls), satisfying the global inclusion GLOBAL_I1 and the local inclusion DECREASED_GM_I1.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [
+      "GLOBAL_I1",
+      "DECREASED_GM_I1"
+    ],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "00a9c667d8f12b6a3a829bc93af88996b593b8cb201367219b66de2bbebf4733",
+      "annotation_name": "decreased_gm"
+    }
+  },
+  {
+    "annotation_name": "increased_gm",
+    "analysis_id": "28549317_analysis_2",
+    "study_id": "28549317",
+    "include": false,
+    "reasoning": "This analysis is a seed-based/ROI correlation (right amygdala) and correlational within-group analysis, not a voxelwise whole-brain GM comparison between PTSD and controls. It fails the global inclusion GLOBAL_I1 and meets GLOBAL_E1 (ROI/SVC) and GLOBAL_E3 (within-group analysis).",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E1",
+      "GLOBAL_E3"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "00a9c667d8f12b6a3a829bc93af88996b593b8cb201367219b66de2bbebf4733",
+      "annotation_name": "increased_gm"
+    }
+  },
+  {
+    "annotation_name": "decreased_gm",
+    "analysis_id": "28549317_analysis_2",
+    "study_id": "28549317",
+    "include": false,
+    "reasoning": "This analysis is a seed-based/ROI correlation (right amygdala) and correlational within-group analysis, not a voxelwise whole-brain GM comparison between PTSD and controls. It fails the global inclusion GLOBAL_I1 and meets GLOBAL_E1 (ROI/SVC) and GLOBAL_E3 (within-group analysis).",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E1",
+      "GLOBAL_E3"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "00a9c667d8f12b6a3a829bc93af88996b593b8cb201367219b66de2bbebf4733",
+      "annotation_name": "decreased_gm"
+    }
+  },
+  {
+    "annotation_name": "all_studies",
+    "analysis_id": "22952599_analysis_0",
+    "study_id": "22952599",
+    "include": true,
+    "reasoning": "All analyses included in 'all_studies'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "e2d49f160eb6d4d2001d8b16ec2842522f0166db603e02ab85a1ffd71099a670",
+      "annotation_name": "all_studies"
+    }
+  },
+  {
+    "annotation_name": "all_abstract",
+    "analysis_id": "22952599_analysis_0",
+    "study_id": "22952599",
+    "include": true,
+    "reasoning": "All analyses included in 'all_abstract'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "e2d49f160eb6d4d2001d8b16ec2842522f0166db603e02ab85a1ffd71099a670",
+      "annotation_name": "all_abstract"
+    }
+  },
+  {
+    "annotation_name": "all_analyses",
+    "analysis_id": "22952599_analysis_0",
+    "study_id": "22952599",
+    "include": true,
+    "reasoning": "All analyses included in 'all_analyses'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "e2d49f160eb6d4d2001d8b16ec2842522f0166db603e02ab85a1ffd71099a670",
+      "annotation_name": "all_analyses"
+    }
+  },
+  {
+    "annotation_name": "increased_gm",
+    "analysis_id": "22952599_analysis_0",
+    "study_id": "22952599",
+    "include": false,
+    "reasoning": "Global whole-brain VBM criterion (GLOBAL_I1) is met, but the analysis reports no regions where PTSD patients showed increased gray matter versus controls. Therefore the required local inclusion criterion INCREASED_GM_I1 is not satisfied.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "e2d49f160eb6d4d2001d8b16ec2842522f0166db603e02ab85a1ffd71099a670",
+      "annotation_name": "increased_gm"
+    }
+  },
+  {
+    "annotation_name": "decreased_gm",
+    "analysis_id": "22952599_analysis_0",
+    "study_id": "22952599",
+    "include": true,
+    "reasoning": "Whole-brain voxelwise VBM analysis was performed and the paper reports significant decreases in gray matter volume in PTSD patients versus trauma-exposed controls (premotor cortex and anterior cingulate), satisfying the global and local inclusion criteria.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [
+      "GLOBAL_I1",
+      "DECREASED_GM_I1"
+    ],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "e2d49f160eb6d4d2001d8b16ec2842522f0166db603e02ab85a1ffd71099a670",
+      "annotation_name": "decreased_gm"
+    }
+  },
+  {
+    "annotation_name": "all_studies",
+    "analysis_id": "21498053_analysis_0",
+    "study_id": "21498053",
+    "include": true,
+    "reasoning": "All analyses included in 'all_studies'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "fb960d9de69760e1cf87eed2ec85879bc390986c68611e0da51f7eebd8b1e250",
+      "annotation_name": "all_studies"
+    }
+  },
+  {
+    "annotation_name": "all_abstract",
+    "analysis_id": "21498053_analysis_0",
+    "study_id": "21498053",
+    "include": true,
+    "reasoning": "All analyses included in 'all_abstract'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "fb960d9de69760e1cf87eed2ec85879bc390986c68611e0da51f7eebd8b1e250",
+      "annotation_name": "all_abstract"
+    }
+  },
+  {
+    "annotation_name": "all_analyses",
+    "analysis_id": "21498053_analysis_0",
+    "study_id": "21498053",
+    "include": true,
+    "reasoning": "All analyses included in 'all_analyses'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "fb960d9de69760e1cf87eed2ec85879bc390986c68611e0da51f7eebd8b1e250",
+      "annotation_name": "all_analyses"
+    }
+  },
+  {
+    "annotation_name": "increased_gm",
+    "analysis_id": "21498053_analysis_0",
+    "study_id": "21498053",
+    "include": false,
+    "reasoning": "Global inclusion criterion (voxelwise whole-brain VBM) is met, but the analysis reports no patients>controls increases; INCREASED_GM_I1 is not satisfied (no evidence of increased GM in PTSD).",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "fb960d9de69760e1cf87eed2ec85879bc390986c68611e0da51f7eebd8b1e250",
+      "annotation_name": "increased_gm"
+    }
+  },
+  {
+    "annotation_name": "decreased_gm",
+    "analysis_id": "21498053_analysis_0",
+    "study_id": "21498053",
+    "include": true,
+    "reasoning": "This is a voxelwise whole-brain VBM group comparison reporting significant patients < controls effects (decreased GM in left hippocampus and bilateral calcarine), satisfying global and local inclusion criteria.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [
+      "GLOBAL_I1",
+      "DECREASED_GM_I1"
+    ],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "fb960d9de69760e1cf87eed2ec85879bc390986c68611e0da51f7eebd8b1e250",
+      "annotation_name": "decreased_gm"
+    }
+  },
+  {
+    "annotation_name": "all_studies",
+    "analysis_id": "29740753_analysis_0",
+    "study_id": "29740753",
+    "include": true,
+    "reasoning": "All analyses included in 'all_studies'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "6f12ed16e0f1c534aa538185fabd5d5f5311d26c581ba19940d52b51b698eb2e",
+      "annotation_name": "all_studies"
+    }
+  },
+  {
+    "annotation_name": "all_studies",
+    "analysis_id": "29740753_analysis_1",
+    "study_id": "29740753",
+    "include": true,
+    "reasoning": "All analyses included in 'all_studies'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "6f12ed16e0f1c534aa538185fabd5d5f5311d26c581ba19940d52b51b698eb2e",
+      "annotation_name": "all_studies"
+    }
+  },
+  {
+    "annotation_name": "all_studies",
+    "analysis_id": "29740753_analysis_2",
+    "study_id": "29740753",
+    "include": true,
+    "reasoning": "All analyses included in 'all_studies'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "6f12ed16e0f1c534aa538185fabd5d5f5311d26c581ba19940d52b51b698eb2e",
+      "annotation_name": "all_studies"
+    }
+  },
+  {
+    "annotation_name": "all_abstract",
+    "analysis_id": "29740753_analysis_0",
+    "study_id": "29740753",
+    "include": true,
+    "reasoning": "All analyses included in 'all_abstract'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "6f12ed16e0f1c534aa538185fabd5d5f5311d26c581ba19940d52b51b698eb2e",
+      "annotation_name": "all_abstract"
+    }
+  },
+  {
+    "annotation_name": "all_abstract",
+    "analysis_id": "29740753_analysis_1",
+    "study_id": "29740753",
+    "include": true,
+    "reasoning": "All analyses included in 'all_abstract'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "6f12ed16e0f1c534aa538185fabd5d5f5311d26c581ba19940d52b51b698eb2e",
+      "annotation_name": "all_abstract"
+    }
+  },
+  {
+    "annotation_name": "all_abstract",
+    "analysis_id": "29740753_analysis_2",
+    "study_id": "29740753",
+    "include": true,
+    "reasoning": "All analyses included in 'all_abstract'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "6f12ed16e0f1c534aa538185fabd5d5f5311d26c581ba19940d52b51b698eb2e",
+      "annotation_name": "all_abstract"
+    }
+  },
+  {
+    "annotation_name": "all_analyses",
+    "analysis_id": "29740753_analysis_0",
+    "study_id": "29740753",
+    "include": true,
+    "reasoning": "All analyses included in 'all_analyses'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "6f12ed16e0f1c534aa538185fabd5d5f5311d26c581ba19940d52b51b698eb2e",
+      "annotation_name": "all_analyses"
+    }
+  },
+  {
+    "annotation_name": "all_analyses",
+    "analysis_id": "29740753_analysis_1",
+    "study_id": "29740753",
+    "include": true,
+    "reasoning": "All analyses included in 'all_analyses'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "6f12ed16e0f1c534aa538185fabd5d5f5311d26c581ba19940d52b51b698eb2e",
+      "annotation_name": "all_analyses"
+    }
+  },
+  {
+    "annotation_name": "all_analyses",
+    "analysis_id": "29740753_analysis_2",
+    "study_id": "29740753",
+    "include": true,
+    "reasoning": "All analyses included in 'all_analyses'",
+    "confidence": null,
+    "model_used": "none",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "6f12ed16e0f1c534aa538185fabd5d5f5311d26c581ba19940d52b51b698eb2e",
+      "annotation_name": "all_analyses"
+    }
+  },
+  {
+    "annotation_name": "increased_gm",
+    "analysis_id": "29740753_analysis_0",
+    "study_id": "29740753",
+    "include": false,
+    "reasoning": "Global inclusion criterion not met: this is an fMRI BOLD functional analysis, not a voxelwise whole-brain grey matter volume (GM) analysis. Therefore GLOBAL_I1 is not satisfied and GLOBAL_E2 (other modalities / functional MRI) applies.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E2"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "6f12ed16e0f1c534aa538185fabd5d5f5311d26c581ba19940d52b51b698eb2e",
+      "annotation_name": "increased_gm"
+    }
+  },
+  {
+    "annotation_name": "decreased_gm",
+    "analysis_id": "29740753_analysis_0",
+    "study_id": "29740753",
+    "include": false,
+    "reasoning": "Global inclusion criterion not met: this is an fMRI BOLD functional analysis, not a voxelwise whole-brain grey matter volume (GM) analysis. Therefore GLOBAL_I1 is not satisfied and GLOBAL_E2 (other modalities / functional MRI) applies.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E2"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "6f12ed16e0f1c534aa538185fabd5d5f5311d26c581ba19940d52b51b698eb2e",
+      "annotation_name": "decreased_gm"
+    }
+  },
+  {
+    "annotation_name": "increased_gm",
+    "analysis_id": "29740753_analysis_1",
+    "study_id": "29740753",
+    "include": false,
+    "reasoning": "Global inclusion criterion not met: this is an fMRI BOLD functional analysis, not a voxelwise whole-brain grey matter volume (GM) analysis. Therefore GLOBAL_I1 is not satisfied and GLOBAL_E2 (other modalities / functional MRI) applies.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E2"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "6f12ed16e0f1c534aa538185fabd5d5f5311d26c581ba19940d52b51b698eb2e",
+      "annotation_name": "increased_gm"
+    }
+  },
+  {
+    "annotation_name": "decreased_gm",
+    "analysis_id": "29740753_analysis_1",
+    "study_id": "29740753",
+    "include": false,
+    "reasoning": "Global inclusion criterion not met: this is an fMRI BOLD functional analysis, not a voxelwise whole-brain grey matter volume (GM) analysis. Therefore GLOBAL_I1 is not satisfied and GLOBAL_E2 (other modalities / functional MRI) applies.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E2"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "6f12ed16e0f1c534aa538185fabd5d5f5311d26c581ba19940d52b51b698eb2e",
+      "annotation_name": "decreased_gm"
+    }
+  },
+  {
+    "annotation_name": "increased_gm",
+    "analysis_id": "29740753_analysis_2",
+    "study_id": "29740753",
+    "include": false,
+    "reasoning": "Global inclusion criterion not met: this is an fMRI BOLD functional analysis, not a voxelwise whole-brain grey matter volume (GM) analysis. Therefore GLOBAL_I1 is not satisfied and GLOBAL_E2 (other modalities / functional MRI) applies.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E2"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "6f12ed16e0f1c534aa538185fabd5d5f5311d26c581ba19940d52b51b698eb2e",
+      "annotation_name": "increased_gm"
+    }
+  },
+  {
+    "annotation_name": "decreased_gm",
+    "analysis_id": "29740753_analysis_2",
+    "study_id": "29740753",
+    "include": false,
+    "reasoning": "Global inclusion criterion not met: this is an fMRI BOLD functional analysis, not a voxelwise whole-brain grey matter volume (GM) analysis. Therefore GLOBAL_I1 is not satisfied and GLOBAL_E2 (other modalities / functional MRI) applies.",
+    "confidence": null,
+    "model_used": "gpt-5-mini-2025-08-07",
+    "inclusion_criteria_applied": [],
+    "exclusion_criteria_applied": [
+      "GLOBAL_E2"
+    ],
+    "cache_signature": {
+      "schema_version": 2,
+      "stage": "annotation",
+      "stage_hash": "59e3f6cf06fda74453aed14531a05298440f0a58d9c322b0101aca6785e214e9",
+      "study_input_hash": "6f12ed16e0f1c534aa538185fabd5d5f5311d26c581ba19940d52b51b698eb2e",
+      "annotation_name": "decreased_gm"
+    }
+  }
+]

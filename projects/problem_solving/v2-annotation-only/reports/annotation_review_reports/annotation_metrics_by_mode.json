@@ -1,0 +1,631 @@
+{
+  "generated_at_utc": "2026-11-12T02:10:11.272811Z",
+  "metrics_by_mode": {
+    "accepted": {
+      "domain_general_problem_solving": {
+        "analysis_metrics": {
+          "accuracy": 0.9668874172185431,
+          "analysis_universe": 151,
+          "f1": 0.9831649831649832,
+          "fn": 5,
+          "fp": 0,
+          "manual_accepted_analyses": 151,
+          "precision": 1.0,
+          "predicted_analyses": 146,
+          "recall": 0.9668874172185431,
+          "tn": 0,
+          "tp": 146
+        },
+        "analysis_metrics_exhausted_manual_assumption": {
+          "accuracy": 0.6898395721925134,
+          "analysis_universe": 374,
+          "f1": 0.7156862745098039,
+          "fn": 5,
+          "fp": 111,
+          "manual_accepted_analyses": 151,
+          "precision": 0.5680933852140078,
+          "predicted_analyses": 257,
+          "recall": 0.9668874172185431,
+          "tn": 112,
+          "tp": 146
+        },
+        "assumed_negative_expansion": {
+          "activated_pmids": 55,
+          "activation_rule_id": "paper_all_manual_accepted_unassigned_auto_as_negatives",
+          "added_assumed_negative_analyses": 223,
+          "mode_allowed_match_statuses": [
+            "accepted"
+          ],
+          "mode_supports_expansion": true,
+          "pmids_with_paper_all_manual_accepted": 72
+        },
+        "document_metrics": {
+          "f1": 0.9933774834437086,
+          "fn": 1,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 0.9868421052631579,
+          "tp": 75
+        },
+        "study_metrics": {
+          "accuracy": 0.9868421052631579,
+          "f1": 0.9933774834437086,
+          "fn": 1,
+          "fp": 0,
+          "manual_studies": 76,
+          "overlap_pmids": 76,
+          "precision": 1.0,
+          "predicted_studies": 75,
+          "recall": 0.9868421052631579,
+          "run_pmids": 81,
+          "tn": 0,
+          "tp": 75
+        }
+      },
+      "logical_reasoning": {
+        "analysis_metrics": {
+          "accuracy": 0.9139072847682119,
+          "analysis_universe": 151,
+          "f1": 0.7547169811320754,
+          "fn": 2,
+          "fp": 11,
+          "manual_accepted_analyses": 22,
+          "precision": 0.6451612903225806,
+          "predicted_analyses": 31,
+          "recall": 0.9090909090909091,
+          "tn": 118,
+          "tp": 20
+        },
+        "analysis_metrics_exhausted_manual_assumption": {
+          "accuracy": 0.8796791443850267,
+          "analysis_universe": 374,
+          "f1": 0.4705882352941177,
+          "fn": 2,
+          "fp": 43,
+          "manual_accepted_analyses": 22,
+          "precision": 0.31746031746031744,
+          "predicted_analyses": 63,
+          "recall": 0.9090909090909091,
+          "tn": 309,
+          "tp": 20
+        },
+        "assumed_negative_expansion": {
+          "activated_pmids": 55,
+          "activation_rule_id": "paper_all_manual_accepted_unassigned_auto_as_negatives",
+          "added_assumed_negative_analyses": 223,
+          "mode_allowed_match_statuses": [
+            "accepted"
+          ],
+          "mode_supports_expansion": true,
+          "pmids_with_paper_all_manual_accepted": 72
+        },
+        "document_metrics": {
+          "f1": 0.5909090909090909,
+          "fn": 1,
+          "fp": 17,
+          "precision": 0.43333333333333335,
+          "recall": 0.9285714285714286,
+          "tp": 13
+        },
+        "study_metrics": {
+          "accuracy": 0.7631578947368421,
+          "f1": 0.5909090909090909,
+          "fn": 1,
+          "fp": 17,
+          "manual_studies": 14,
+          "overlap_pmids": 76,
+          "precision": 0.43333333333333335,
+          "predicted_studies": 30,
+          "recall": 0.9285714285714286,
+          "run_pmids": 81,
+          "tn": 45,
+          "tp": 13
+        }
+      },
+      "mathematical_problem_solving": {
+        "analysis_metrics": {
+          "accuracy": 0.9867549668874173,
+          "analysis_universe": 151,
+          "f1": 0.9821428571428571,
+          "fn": 1,
+          "fp": 1,
+          "manual_accepted_analyses": 56,
+          "precision": 0.9821428571428571,
+          "predicted_analyses": 56,
+          "recall": 0.9821428571428571,
+          "tn": 94,
+          "tp": 55
+        },
+        "analysis_metrics_exhausted_manual_assumption": {
+          "accuracy": 0.9064171122994652,
+          "analysis_universe": 374,
+          "f1": 0.7586206896551723,
+          "fn": 1,
+          "fp": 34,
+          "manual_accepted_analyses": 56,
+          "precision": 0.6179775280898876,
+          "predicted_analyses": 89,
+          "recall": 0.9821428571428571,
+          "tn": 284,
+          "tp": 55
+        },
+        "assumed_negative_expansion": {
+          "activated_pmids": 55,
+          "activation_rule_id": "paper_all_manual_accepted_unassigned_auto_as_negatives",
+          "added_assumed_negative_analyses": 223,
+          "mode_allowed_match_statuses": [
+            "accepted"
+          ],
+          "mode_supports_expansion": true,
+          "pmids_with_paper_all_manual_accepted": 72
+        },
+        "document_metrics": {
+          "f1": 0.9811320754716981,
+          "fn": 0,
+          "fp": 1,
+          "precision": 0.9629629629629629,
+          "recall": 1.0,
+          "tp": 26
+        },
+        "study_metrics": {
+          "accuracy": 0.9868421052631579,
+          "f1": 0.9811320754716981,
+          "fn": 0,
+          "fp": 1,
+          "manual_studies": 26,
+          "overlap_pmids": 76,
+          "precision": 0.9629629629629629,
+          "predicted_studies": 27,
+          "recall": 1.0,
+          "run_pmids": 81,
+          "tn": 49,
+          "tp": 26
+        }
+      },
+      "verbal_problem_solving": {
+        "analysis_metrics": {
+          "accuracy": 0.9801324503311258,
+          "analysis_universe": 151,
+          "f1": 0.963855421686747,
+          "fn": 3,
+          "fp": 0,
+          "manual_accepted_analyses": 43,
+          "precision": 1.0,
+          "predicted_analyses": 40,
+          "recall": 0.9302325581395349,
+          "tn": 108,
+          "tp": 40
+        },
+        "analysis_metrics_exhausted_manual_assumption": {
+          "accuracy": 0.8877005347593583,
+          "analysis_universe": 374,
+          "f1": 0.6557377049180328,
+          "fn": 3,
+          "fp": 39,
+          "manual_accepted_analyses": 43,
+          "precision": 0.5063291139240507,
+          "predicted_analyses": 79,
+          "recall": 0.9302325581395349,
+          "tn": 292,
+          "tp": 40
+        },
+        "assumed_negative_expansion": {
+          "activated_pmids": 55,
+          "activation_rule_id": "paper_all_manual_accepted_unassigned_auto_as_negatives",
+          "added_assumed_negative_analyses": 223,
+          "mode_allowed_match_statuses": [
+            "accepted"
+          ],
+          "mode_supports_expansion": true,
+          "pmids_with_paper_all_manual_accepted": 72
+        },
+        "document_metrics": {
+          "f1": 0.9583333333333334,
+          "fn": 1,
+          "fp": 1,
+          "precision": 0.9583333333333334,
+          "recall": 0.9583333333333334,
+          "tp": 23
+        },
+        "study_metrics": {
+          "accuracy": 0.9736842105263158,
+          "f1": 0.9583333333333334,
+          "fn": 1,
+          "fp": 1,
+          "manual_studies": 24,
+          "overlap_pmids": 76,
+          "precision": 0.9583333333333334,
+          "predicted_studies": 24,
+          "recall": 0.9583333333333334,
+          "run_pmids": 81,
+          "tn": 51,
+          "tp": 23
+        }
+      },
+      "visuospatial_problem_solving": {
+        "analysis_metrics": {
+          "accuracy": 0.9536423841059603,
+          "analysis_universe": 151,
+          "f1": 0.9345794392523366,
+          "fn": 2,
+          "fp": 5,
+          "manual_accepted_analyses": 52,
+          "precision": 0.9090909090909091,
+          "predicted_analyses": 55,
+          "recall": 0.9615384615384616,
+          "tn": 94,
+          "tp": 50
+        },
+        "analysis_metrics_exhausted_manual_assumption": {
+          "accuracy": 0.8582887700534759,
+          "analysis_universe": 374,
+          "f1": 0.65359477124183,
+          "fn": 2,
+          "fp": 51,
+          "manual_accepted_analyses": 52,
+          "precision": 0.49504950495049505,
+          "predicted_analyses": 101,
+          "recall": 0.9615384615384616,
+          "tn": 271,
+          "tp": 50
+        },
+        "assumed_negative_expansion": {
+          "activated_pmids": 55,
+          "activation_rule_id": "paper_all_manual_accepted_unassigned_auto_as_negatives",
+          "added_assumed_negative_analyses": 223,
+          "mode_allowed_match_statuses": [
+            "accepted"
+          ],
+          "mode_supports_expansion": true,
+          "pmids_with_paper_all_manual_accepted": 72
+        },
+        "document_metrics": {
+          "f1": 0.9152542372881356,
+          "fn": 1,
+          "fp": 4,
+          "precision": 0.8709677419354839,
+          "recall": 0.9642857142857143,
+          "tp": 27
+        },
+        "study_metrics": {
+          "accuracy": 0.9342105263157895,
+          "f1": 0.9152542372881356,
+          "fn": 1,
+          "fp": 4,
+          "manual_studies": 28,
+          "overlap_pmids": 76,
+          "precision": 0.8709677419354839,
+          "predicted_studies": 31,
+          "recall": 0.9642857142857143,
+          "run_pmids": 81,
+          "tn": 44,
+          "tp": 27
+        }
+      }
+    },
+    "combined": {
+      "domain_general_problem_solving": {
+        "analysis_metrics": {
+          "accuracy": 0.9683544303797469,
+          "analysis_universe": 158,
+          "f1": 0.9839228295819936,
+          "fn": 5,
+          "fp": 0,
+          "manual_accepted_analyses": 158,
+          "precision": 1.0,
+          "predicted_analyses": 153,
+          "recall": 0.9683544303797469,
+          "tn": 0,
+          "tp": 153
+        },
+        "analysis_metrics_exhausted_manual_assumption": {
+          "accuracy": 0.6955380577427821,
+          "analysis_universe": 381,
+          "f1": 0.7251184834123223,
+          "fn": 5,
+          "fp": 111,
+          "manual_accepted_analyses": 158,
+          "precision": 0.5795454545454546,
+          "predicted_analyses": 264,
+          "recall": 0.9683544303797469,
+          "tn": 112,
+          "tp": 153
+        },
+        "assumed_negative_expansion": {
+          "activated_pmids": 55,
+          "activation_rule_id": "paper_all_manual_accepted_unassigned_auto_as_negatives",
+          "added_assumed_negative_analyses": 223,
+          "mode_allowed_match_statuses": [
+            "accepted",
+            "uncertain"
+          ],
+          "mode_supports_expansion": true,
+          "pmids_with_paper_all_manual_accepted": 72
+        },
+        "document_metrics": {
+          "f1": 0.9934640522875817,
+          "fn": 1,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 0.987012987012987,
+          "tp": 76
+        },
+        "study_metrics": {
+          "accuracy": 0.987012987012987,
+          "f1": 0.9934640522875817,
+          "fn": 1,
+          "fp": 0,
+          "manual_studies": 77,
+          "overlap_pmids": 77,
+          "precision": 1.0,
+          "predicted_studies": 76,
+          "recall": 0.987012987012987,
+          "run_pmids": 81,
+          "tn": 0,
+          "tp": 76
+        }
+      },
+      "logical_reasoning": {
+        "analysis_metrics": {
+          "accuracy": 0.9177215189873418,
+          "analysis_universe": 158,
+          "f1": 0.7796610169491526,
+          "fn": 2,
+          "fp": 11,
+          "manual_accepted_analyses": 25,
+          "precision": 0.6764705882352942,
+          "predicted_analyses": 34,
+          "recall": 0.92,
+          "tn": 122,
+          "tp": 23
+        },
+        "analysis_metrics_exhausted_manual_assumption": {
+          "accuracy": 0.8818897637795275,
+          "analysis_universe": 381,
+          "f1": 0.5054945054945055,
+          "fn": 2,
+          "fp": 43,
+          "manual_accepted_analyses": 25,
+          "precision": 0.3484848484848485,
+          "predicted_analyses": 66,
+          "recall": 0.92,
+          "tn": 313,
+          "tp": 23
+        },
+        "assumed_negative_expansion": {
+          "activated_pmids": 55,
+          "activation_rule_id": "paper_all_manual_accepted_unassigned_auto_as_negatives",
+          "added_assumed_negative_analyses": 223,
+          "mode_allowed_match_statuses": [
+            "accepted",
+            "uncertain"
+          ],
+          "mode_supports_expansion": true,
+          "pmids_with_paper_all_manual_accepted": 72
+        },
+        "document_metrics": {
+          "f1": 0.5909090909090909,
+          "fn": 1,
+          "fp": 17,
+          "precision": 0.43333333333333335,
+          "recall": 0.9285714285714286,
+          "tp": 13
+        },
+        "study_metrics": {
+          "accuracy": 0.7662337662337663,
+          "f1": 0.5909090909090909,
+          "fn": 1,
+          "fp": 17,
+          "manual_studies": 14,
+          "overlap_pmids": 77,
+          "precision": 0.43333333333333335,
+          "predicted_studies": 30,
+          "recall": 0.9285714285714286,
+          "run_pmids": 81,
+          "tn": 46,
+          "tp": 13
+        }
+      },
+      "mathematical_problem_solving": {
+        "analysis_metrics": {
+          "accuracy": 0.9746835443037974,
+          "analysis_universe": 158,
+          "f1": 0.9677419354838709,
+          "fn": 1,
+          "fp": 3,
+          "manual_accepted_analyses": 61,
+          "precision": 0.9523809523809523,
+          "predicted_analyses": 63,
+          "recall": 0.9836065573770492,
+          "tn": 94,
+          "tp": 60
+        },
+        "analysis_metrics_exhausted_manual_assumption": {
+          "accuracy": 0.9028871391076115,
+          "analysis_universe": 381,
+          "f1": 0.7643312101910829,
+          "fn": 1,
+          "fp": 36,
+          "manual_accepted_analyses": 61,
+          "precision": 0.625,
+          "predicted_analyses": 96,
+          "recall": 0.9836065573770492,
+          "tn": 284,
+          "tp": 60
+        },
+        "assumed_negative_expansion": {
+          "activated_pmids": 55,
+          "activation_rule_id": "paper_all_manual_accepted_unassigned_auto_as_negatives",
+          "added_assumed_negative_analyses": 223,
+          "mode_allowed_match_statuses": [
+            "accepted",
+            "uncertain"
+          ],
+          "mode_supports_expansion": true,
+          "pmids_with_paper_all_manual_accepted": 72
+        },
+        "document_metrics": {
+          "f1": 0.962962962962963,
+          "fn": 0,
+          "fp": 2,
+          "precision": 0.9285714285714286,
+          "recall": 1.0,
+          "tp": 26
+        },
+        "study_metrics": {
+          "accuracy": 0.974025974025974,
+          "f1": 0.962962962962963,
+          "fn": 0,
+          "fp": 2,
+          "manual_studies": 26,
+          "overlap_pmids": 77,
+          "precision": 0.9285714285714286,
+          "predicted_studies": 28,
+          "recall": 1.0,
+          "run_pmids": 81,
+          "tn": 49,
+          "tp": 26
+        }
+      },
+      "verbal_problem_solving": {
+        "analysis_metrics": {
+          "accuracy": 0.9810126582278481,
+          "analysis_universe": 158,
+          "f1": 0.9655172413793104,
+          "fn": 3,
+          "fp": 0,
+          "manual_accepted_analyses": 45,
+          "precision": 1.0,
+          "predicted_analyses": 42,
+          "recall": 0.9333333333333333,
+          "tn": 113,
+          "tp": 42
+        },
+        "analysis_metrics_exhausted_manual_assumption": {
+          "accuracy": 0.889763779527559,
+          "analysis_universe": 381,
+          "f1": 0.6666666666666667,
+          "fn": 3,
+          "fp": 39,
+          "manual_accepted_analyses": 45,
+          "precision": 0.5185185185185185,
+          "predicted_analyses": 81,
+          "recall": 0.9333333333333333,
+          "tn": 297,
+          "tp": 42
+        },
+        "assumed_negative_expansion": {
+          "activated_pmids": 55,
+          "activation_rule_id": "paper_all_manual_accepted_unassigned_auto_as_negatives",
+          "added_assumed_negative_analyses": 223,
+          "mode_allowed_match_statuses": [
+            "accepted",
+            "uncertain"
+          ],
+          "mode_supports_expansion": true,
+          "pmids_with_paper_all_manual_accepted": 72
+        },
+        "document_metrics": {
+          "f1": 0.96,
+          "fn": 1,
+          "fp": 1,
+          "precision": 0.96,
+          "recall": 0.96,
+          "tp": 24
+        },
+        "study_metrics": {
+          "accuracy": 0.974025974025974,
+          "f1": 0.96,
+          "fn": 1,
+          "fp": 1,
+          "manual_studies": 25,
+          "overlap_pmids": 77,
+          "precision": 0.96,
+          "predicted_studies": 25,
+          "recall": 0.96,
+          "run_pmids": 81,
+          "tn": 51,
+          "tp": 24
+        }
+      },
+      "visuospatial_problem_solving": {
+        "analysis_metrics": {
+          "accuracy": 0.9556962025316456,
+          "analysis_universe": 158,
+          "f1": 0.9345794392523366,
+          "fn": 2,
+          "fp": 5,
+          "manual_accepted_analyses": 52,
+          "precision": 0.9090909090909091,
+          "predicted_analyses": 55,
+          "recall": 0.9615384615384616,
+          "tn": 101,
+          "tp": 50
+        },
+        "analysis_metrics_exhausted_manual_assumption": {
+          "accuracy": 0.8608923884514436,
+          "analysis_universe": 381,
+          "f1": 0.65359477124183,
+          "fn": 2,
+          "fp": 51,
+          "manual_accepted_analyses": 52,
+          "precision": 0.49504950495049505,
+          "predicted_analyses": 101,
+          "recall": 0.9615384615384616,
+          "tn": 278,
+          "tp": 50
+        },
+        "assumed_negative_expansion": {
+          "activated_pmids": 55,
+          "activation_rule_id": "paper_all_manual_accepted_unassigned_auto_as_negatives",
+          "added_assumed_negative_analyses": 223,
+          "mode_allowed_match_statuses": [
+            "accepted",
+            "uncertain"
+          ],
+          "mode_supports_expansion": true,
+          "pmids_with_paper_all_manual_accepted": 72
+        },
+        "document_metrics": {
+          "f1": 0.9152542372881356,
+          "fn": 1,
+          "fp": 4,
+          "precision": 0.8709677419354839,
+          "recall": 0.9642857142857143,
+          "tp": 27
+        },
+        "study_metrics": {
+          "accuracy": 0.935064935064935,
+          "f1": 0.9152542372881356,
+          "fn": 1,
+          "fp": 4,
+          "manual_studies": 28,
+          "overlap_pmids": 77,
+          "precision": 0.8709677419354839,
+          "predicted_studies": 31,
+          "recall": 0.9642857142857143,
+          "run_pmids": 81,
+          "tn": 45,
+          "tp": 27
+        }
+      }
+    }
+  },
+  "mode_metadata": {
+    "accepted": {
+      "allowed_statuses": [
+        "accepted"
+      ],
+      "label": "ACCEPTED (strict)"
+    },
+    "combined": {
+      "allowed_statuses": [
+        "accepted",
+        "uncertain"
+      ],
+      "label": "COMBINED (accepted + uncertain)"
+    }
+  },
+  "project_name": "problem_solving",
+  "project_output_dir": "/home/zorro/repos/autonima-results/projects/problem_solving/v2-annotation-only"
+}

@@ -1,0 +1,141 @@
+# v2 annotation-only -- criteria proofread by the project author with GPT 5.4.
+#
+# PROVENANCE. Edited by the author (Apr 2026) with GPT 5.4 used as a proofreading tool. Not one of
+# the agent-written schemas: those date from 2026-08-25/26 and carry an "AUTOMATICALLY GENERATED
+# by Claude (Opus 5)" banner.
+#
+# NOT BENCHMARK-TUNED. The 2026-08-26 renaming pass rewrote this header to say the criteria were
+# "double-check[ed] ... against the project's reports -- the same relationship the Claude-generated
+# schemas have to theirs", and labelled the run "Benchmark-tuned, so report it as an iterated
+# version, never as held-out". That sentence was written while standardising authorship language
+# across the corpus, not from reading the edit, and it is wrong. The claim is withdrawn -- see the
+# commit that corrected this header.
+#
+# WHAT ACTUALLY CHANGED vs v1 -- wording only, at both stages, with no change of scope:
+#
+#   screening    "original human fMRI data" -> "original human structural MRI data" (a plain bug:
+#                this is a VBM project); grey-matter differences glossed "(e.g., volume, density,
+#                or concentration)"; and "cue type" -> "substance use characteristics", a leftover
+#                from the cue-reactivity config this one was templated from
+#   annotation   3 -> 3 criteria, each restated in place: "must be a voxelwise whole brain
+#                analysis" made explicit as "... of grey matter volume", and the multi-experiment
+#                rule reworded from "only considered if the experiments overlapped in the control
+#                group, but not the substance user group" to "may be included only when they share
+#                the same control group but involve non-overlapping substance-user groups" -- the
+#                same rule, stated so it can be followed
+#
+# No criterion was added or removed at either stage, and none names a study or an error.
+#
+# Formerly named v2-annotation-only-gpt. The -gpt suffix denoted that authorship and now lives here
+# instead of in the filename. It never denoted which model the RUN called -- every run in this
+# corpus calls a GPT model, so that would carry no information.
+search:
+  database: "pubmed"
+  pmids_file: "projects/vbm_of_substance_use/official_pmids.txt"
+
+retrieval:
+  load_excluded: true
+  sources:
+    - pubget
+  full_text_sources:
+    - root_path: "articles/elsevier_output/"
+      pmid_source: "folder_name"
+      text_path_templates:
+        - 'text.txt'
+      coordinates_path_templates:
+        - 'coordinates.json'
+    - root_path: "articles/ace_outputs"
+      pmid_source: "file_name"
+      allowed_extensions: [".html"]
+      processed_data_path: "articles/ace_outputs/processed/"
+
+screening:
+  abstract:
+    model: "gpt-5-mini-2025-08-07" 
+    objective: "identify consistent regions of structurally altered grey matter (GM) between substance users and controls across five pharmacological classes of drugs: alcohol, nicotine, opioids, cannabis, and stimulants."
+    inclusion_criteria:
+      - Empirical English language MRI studies assessing grey matter (GM) volume differences between substance users and controls
+    exclusion_criteria:
+      - Studies using pharmacological manipulations
+      - Brain lesion studies
+      - Studies including participants with reports of mental and/or neurological disorders
+      - Systematic reviews or meta-analyses
+    confidence_reporting: true
+
+  fulltext:
+    model: "gpt-5-mini-2025-08-07"
+    confidence_reporting: true
+    objective: "identify consistent regions of structurally altered grey matter (GM) between substance users and controls across five pharmacological classes of drugs: alcohol, nicotine, opioids, cannabis, and stimulants."
+    inclusion_criteria:
+      - Empirical English language MRI studies assessing grey matter (GM) volume differences (e.g., volume, density, or concentration) between substance users and controls
+      - Whole-brain evidence- The paper must report at least one whole-brain between-group contrast of substance users vs controls comparing GM volume
+      - It is acceptable for qualifying voxelwise results to be reported in tables of coordinates, figures, or supplementary materials when the main text clearly indicates those results are available.
+      - Reporting of participant age/sex, substance use characteristics, MRI field strength, and preprocessing/statistical software is preferred; missing one or more of these details alone should not exclude an otherwise qualifying study.
+    exclusion_criteria:
+      - Studies that report only region-of-interest (ROI) analyses with no qualifying whole-brain results.
+      - Non-empirical papers (e.g., reviews, meta-analyses, methods-only, simulations) without original human structural MRI data.
+
+parsing:
+  parse_coordinates: true
+  coordinate_model: "gpt-5-mini-2025-08-07"
+
+annotation:
+  enabled: true
+  model: "gpt-5-mini-2025-08-07"
+  prompt_type: "multi_analysis"
+  create_all_included_annotations: true
+  metadata_fields:
+    - "analysis_name"
+    - "analysis_description"
+    - "table_caption"
+    - "study_title"
+    - "study_fulltext"
+  inclusion_criteria:
+    - Voxelwise whole-brain grey matter comparison between substance users and controls, with a users < controls contrast indicating reduced grey matter in substance users.
+    - Must be a voxelwise whole brain analysis of grey matter volume
+    - Multiple experiments from the same article may be included only when they share the same control group but involve non-overlapping substance-user groups. For example, moderate smoker<control, and separately severe smoker<control include two different samples of cigarette smokers. 
+  exclusion_criteria:
+    - Region of interest (ROI) or small volume correction (SVC) analyses 
+    - Analyses other than substance users < controls (e.g., user > control contrasts)
+    - Analyses of other modalities (e.g., functional MRI, diffusion tensor imaging) or other structural measures 
+  annotations:
+    - name: all_drug_classes
+      description: convergent lower GM common across all substances
+      inclusion_criteria:
+        - Comparison of drug users of any class to controls
+    - name: alcohol
+      description: lower GM in alcohol users relative to controls
+      inclusion_criteria:
+        - Comparison of alcohol users to controls
+      exclusion_criteria:
+        - Comparison of users of other drug classes to controls
+    - name: nicotine
+      description: lower GM in nicotine users relative to controls
+      inclusion_criteria:
+        - Comparison of nicotine users to controls
+      exclusion_criteria:
+        - Comparison of users of other drug classes to controls
+    - name: opioids
+      description: lower GM in opioid users relative to controls
+      inclusion_criteria:
+        - Comparison of opioid users to controls
+      exclusion_criteria:
+        - Comparison of users of other drug classes to controls
+    - name: stimulants
+      description: lower GM in stimulant users relative to controls
+      inclusion_criteria:
+        - Comparison of stimulant users to controls
+      exclusion_criteria:
+        - Comparison of users of other drug classes to controls
+    - name: cannabis
+      description: lower GM in cannabis users relative to controls
+      inclusion_criteria:
+        - Comparison of cannabis users to controls
+      exclusion_criteria:
+        - Comparison of users of other drug classes to controls
+
+output:
+  formats:
+    - csv
+  nimads: true
+  export_excluded_studies: true

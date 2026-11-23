@@ -1,0 +1,1628 @@
+{
+  "screening_results": [
+    {
+      "study_id": "21383264",
+      "decision": "included_abstract",
+      "reason": "Abstract reports structural gray matter deficits in orbitofrontal cortex related to long-term cocaine use, indicating an empirical MRI comparison between substance users (stimulant: cocaine) and controls. No evidence in the abstract of pharmacological manipulation, brain lesion focus, or inclusion of participants with mental/neurological disorders. Meets inclusion criterion I1; proceed to full-text review to confirm methods and sample details.",
+      "confidence": 0.8,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.646537",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "b0f82b2936fa9608f6ac275a74918b2f6beeea39c8a5095db5e9abc627bb975f",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "21281718",
+      "decision": "included_abstract",
+      "reason": "Abstract reports a smoking cessation trial examining cognitive function and brain structure but does not specify MRI methods or GM volume comparisons between substance users and controls, nor confirm presence of a control group or lack of pharmacological intervention. Key inclusion criterion I1 is not demonstrably met from the abstract, and no exclusion criteria are clearly met. Include for full-text review to determine MRI/GM methods and participant groups.",
+      "confidence": 0.6,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.646671",
+      "inclusion_criteria_applied": [],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "a32dd09a70fccc9bc28e4a53b74bdcbfd84f4f98ab9916a131eae15449fbb5ec",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "18165464",
+      "decision": "included_abstract",
+      "reason": "Abstract reports an empirical MRI study in English comparing gray matter density between older smokers and controls (nicotine exposure). No evidence of pharmacological manipulation, brain lesions, or inclusion of participants with mental/neurological disorders is given. Full text needed to confirm details and extract regions.",
+      "confidence": 0.85,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.646799",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "c6db1221afaaea698f51c94b328474016696cc5e71ddd21bc43e2cb0ade788f1",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "23142417",
+      "decision": "excluded_abstract",
+      "reason": "Abstract explicitly states this is a review article ('In this review...'), so exclusion E4 applies. It is not an empirical MRI study comparing grey matter between substance users and controls, so inclusion criterion I1 is not met. No evidence of pharmacological manipulation (E1), brain lesions (E2), or participant mental/neurological disorders (E3).",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.646941",
+      "inclusion_criteria_applied": [],
+      "exclusion_criteria_applied": [
+        "E4"
+      ],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "0318965e59b6d18fdd26911dd5ae379cedcf758fb8da29dd0a5708d3af7fad43",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "25988724",
+      "decision": "included_abstract",
+      "reason": "Empirical MRI study in English comparing grey matter volumes between alcohol users and controls; meets inclusion criterion I1 and no exclusion criteria are evident from the abstract. Full text review warranted to confirm details (e.g., participant comorbidities, exact MRI methods).",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.647082",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "a9e3d40c938b9d82095f7f6272bbc5fe33ad57518f7f72ed8dd33249fe6e5e94",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "21338692",
+      "decision": "included_abstract",
+      "reason": "Empirical English-language MRI study using voxel-based morphometry comparing gray matter volumes between cocaine-dependent patients (stimulant users) and matched controls, meeting I1. No evidence in abstract of pharmacological manipulations, brain lesions, psychiatric/neurological disorders, or being a review; exclusion criteria not met. Include for full-text review to confirm participant comorbidities and methods.",
+      "confidence": 0.94,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.647222",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "6dd84dd95155ac600b7dd73b53cf0fe14d731ed2bef995c68fce5e87ff46c677",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "24633558",
+      "decision": "included_abstract",
+      "reason": "Meets I1: an empirical English-language MRI (voxel-based morphometry) study comparing gray matter volumes between regular cannabis users and controls. Abstract does not report pharmacological manipulations (E1), brain lesions (E2), inclusion of participants with mental/neurological disorders (E3), or that it is a review/meta-analysis (E4). Insufficient detail on clinical exclusions in abstract, so include for full-text review.",
+      "confidence": 0.86,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.647356",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "0fe94da5f18f23183a72d27adaebff67432ca1e29ab4a962d47375c81936f235",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "25637267",
+      "decision": "excluded_abstract",
+      "reason": "(a) Exclusion IDs met: none. (b) Inclusion IDs met: none. (c) Inclusion IDs not met or not demonstrated: I1 \u2014 This study examines cortical thickness in long-term ayahuasca (psychedelic) users, not grey matter (GM) volume differences in users of the five target substance classes (alcohol, nicotine, opioids, cannabis, stimulants); it therefore does not address the review objective.",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.647504",
+      "inclusion_criteria_applied": [],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "ba71a64197f7c8f9ce918fd59d201e573cbb615f023174122d104b357a8e9d9e",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "14706428",
+      "decision": "included_abstract",
+      "reason": "Empirical MRI study comparing smokers (nicotine users) and nonsmokers assessing regional gray matter volumes and densities, satisfying I1. No evidence in abstract of pharmacological manipulation, brain lesions, comorbid mental/neurological disorders, or being a review; include for full-text review.",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.647630",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "eac3f9ac978c08c109b1f4869d692d263cfe98e93fc3e12064e3b3056da65940",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "24496784",
+      "decision": "included_abstract",
+      "reason": "Empirical English-language MRI VBM study comparing adolescents with alcohol use disorder to matched controls assessing grey matter volumes. No pharmacological manipulations, brain lesions, or psychiatric/neurological comorbidities reported (AUD was the substance-use group). Meets I1; no exclusion criteria met.",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.647771",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "73281670f7262a54efb4ad4f3485f622340a2f8c5e7a2eac33e1965bb7eae83a",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "19707568",
+      "decision": "included_abstract",
+      "reason": "Empirical MRI study using voxel-based morphometry comparing grey matter volumes between detoxified alcohol-dependent men and matched healthy controls; no pharmacological manipulation, no neurological/mental disorder comorbidity reported, and not a review. Fits the review objective of GM differences between substance users (alcohol) and controls.",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.647928",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "49976208e5b5e0c0098317bd5c76d96f770af7d157387e2cae6f3362b26947b8",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "17047671",
+      "decision": "included_abstract",
+      "reason": "Meets I1: empirical, English-language MRI (voxel-based morphometry) study comparing gray matter volumes between detoxified alcohol-dependent participants and healthy controls. No pharmacological manipulations, brain lesion focus, reported mental/neurological disorders, or review/meta-analysis indicated in abstract. Include for full-text review to confirm details and extract regional GM alterations.",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.648063",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "1a508e5ffeee80e6a9ff4b87bfe948502492b3d10c1377b29e8861cca51575ec",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "26364127",
+      "decision": "included_abstract",
+      "reason": "Abstract reports an empirical structural MRI study comparing grey matter (structural volume) between 33 abstinent heroin (opioid) users and 30 matched healthy controls, addressing GM volume differences. No pharmacological manipulation, lesion focus, comorbid mental/neurological disorders, or review/meta-analysis is reported. Thus it meets I1 and no exclusion criteria are evident from the abstract.",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.648199",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "1f47bb5b4de7f962426d00ecadd2767df4773aba02eac2b7e200f1ea4a00a554",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "24478673",
+      "decision": "included_abstract",
+      "reason": "Empirical voxel-based morphometry MRI study in English comparing grey matter volume between non-treatment-seeking cocaine-dependent individuals (stimulant users) and non-drug controls. No evidence in the abstract of pharmacological manipulations (E1), brain lesions (E2), diagnosed mental/neurological disorders in participants (E3), or that the article is a review/meta-analysis (E4). Fits inclusion criterion I1. Include for full-text review to confirm participant diagnostic/exclusion details and methods.",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.648334",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "0540bae370633f6b23cdbb3aaf9e5ff8ce3b5d63a8719e98723045771bcaaa91",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "21592680",
+      "decision": "excluded_abstract",
+      "reason": "E3 met: participants are described as having Antisocial Substance Dependence/serious conduct problems (a mental disorder). I1 met: empirical MRI study assessing gray matter volume differences between substance-affected adolescents and controls. Inclusion criteria not demonstrated: none (I1 satisfied).",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.648457",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [
+        "E3"
+      ],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "6ac84a3c3082803934446987fee079a5f94b68e11f99f6087d7ecdcc78f58578",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "20817105",
+      "decision": "included_abstract",
+      "reason": "Empirical English-language MRI study comparing gray matter volume between amphetamine-type stimulant users and controls; directly assesses GM differences in a stimulant user group. No evidence in abstract of pharmacological manipulation, brain lesions, comorbid mental/neurological disorders, or that it is a review/meta-analysis.",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.648589",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "f65e7139fb12000775ec284a4f049ff4c863e62d5040c5e2d86a38ce9c02d421",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "21599718",
+      "decision": "included_abstract",
+      "reason": "Abstract reports an MRI VBM study of gray matter in alcoholic patients and abstinence effects and does not state any exclusion criteria are present. However, it does not clearly report comparisons with nonuser controls (I1 not demonstrated). No exclusion criteria (E1\u2013E4) are evident from the abstract. Include for full-text review to confirm whether GM volume differences versus controls were assessed.",
+      "confidence": 0.75,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.648713",
+      "inclusion_criteria_applied": [],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "69cebbe3e99eb1f7d4c854ce8459f6fb083557d6d2b24ac824b8d332aa8a857d",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "27793597",
+      "decision": "excluded_abstract",
+      "reason": "Exclusion met: E4 (systematic review). Inclusion met: none. Inclusion not demonstrated: I1 (empirical MRI studies assessing GM volume differences). Abstract describes a systematic review of cognition and treatment outcomes, not primary MRI grey-matter comparisons; no other exclusions evident.",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.648842",
+      "inclusion_criteria_applied": [],
+      "exclusion_criteria_applied": [
+        "E4"
+      ],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "8eb76ea83efd0f7129d68e69c28fc86ecee1b8e0a9df97d48401da87ff667055",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "25385625",
+      "decision": "included_abstract",
+      "reason": "This empirical structural MRI study used voxel-based morphometry to compare gray matter volume between chronic marijuana users (n=48) and matched controls, satisfying inclusion criterion I1. The abstract does not indicate pharmacological manipulations, brain lesions, psychiatric/neurological disorders, or that it is a review. Full text review recommended to confirm absence of comorbidities and other eligibility details.",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.648972",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "08d0e8c849c480faf6464bf8c65edaddf39edd28ca297143c9723785102ca984",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "11822992",
+      "decision": "included_abstract",
+      "reason": "Abstract describes an empirical structural MRI analysis comparing cocaine-dependent patients to controls with reported grey matter reductions\u2014meeting I1. No indication of pharmacological manipulation (E1), lesion study (E2), comorbid mental/neurological disorders (E3), or being a review (E4). Comorbidity details are not provided, so full-text review is needed to confirm exclusion criteria are absent.",
+      "confidence": 0.86,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.649095",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "168c8e4017ad69f722ff48e377233de03cb0ef8d7466444d3b993c2187e6cc0b",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "25090480",
+      "decision": "included_abstract",
+      "reason": "Empirical voxel-based morphometry MRI study comparing gray matter volume between nicotine-dependent individuals and healthy controls, matching I1. Abstract shows no pharmacological manipulations, brain lesions, reported mental/neurological disorders, or review article; no exclusion criteria met. Include for full-text review to confirm details.",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.649235",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "0f84e4b3096626ab695fb236f51b557556c18337f0fa645083f2be713bfc1a90",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "24832823",
+      "decision": "included_abstract",
+      "reason": "Empirical VBM MRI study comparing 315 current-smokers to 659 never-smokers assessing gray matter volume differences related to nicotine; meets I1. Abstract does not indicate pharmacological manipulation, brain lesions, inclusion of participants with mental/neurological disorders, or that it is a review. Include for full-text review to confirm details.",
+      "confidence": 0.92,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.649369",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "4adbca8c9d2390d6002420e5b5fa721974b82ae83014f58afa3d34cfc903d02a",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "17004938",
+      "decision": "included_abstract",
+      "reason": "Meets I1: empirical English-language MRI voxel-based morphometry study comparing smokers (nicotine users) and never-smokers reporting grey matter volume/density differences. No evidence in abstract of pharmacological manipulation (E1), brain lesions (E2), inclusion of participants with mental/neurological disorders (E3), or being a review/meta-analysis (E4). Include for full-text review.",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.649503",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "8df8e7544cbdb49f0e3883a155580ebf5e6ed158974f8b61e0b38da3117f9ee7",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "22178355",
+      "decision": "included_abstract",
+      "reason": "Empirical 3D T1-weighted MRI study comparing grey matter between substance users (cocaine\u2014stimulant; heroin\u2014opioid) and matched healthy controls, directly addressing the review objective. Abstract shows no pharmacological manipulations, brain lesions, comorbid mental/neurological disorders, or that it is a review. Include for full-text review to confirm details and extract region-level data.",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.649637",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "7f1735e1c64df55eab6fdf6714d095f9e837cae22dbedf8d7993389768a7c815",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "25090480",
+      "decision": "included_abstract",
+      "reason": "Empirical voxel-based morphometry MRI study comparing gray matter volume between nicotine-dependent individuals and healthy controls, matching I1. Abstract shows no pharmacological manipulations, brain lesions, reported mental/neurological disorders, or review article; no exclusion criteria met. Include for full-text review to confirm details.",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.649773",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "0f84e4b3096626ab695fb236f51b557556c18337f0fa645083f2be713bfc1a90",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "24741043",
+      "decision": "included_abstract",
+      "reason": "Empirical MRI study comparing gray matter morphometry (density, volume, shape) between recreational cannabis users and controls; meets inclusion I1. No evidence of pharmacological manipulation, brain lesions, mental/neurological disorders, or being a review in the abstract, so no exclusion criteria appear met. Include for full-text review to confirm details (e.g., clinical exclusions).",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.649907",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "9919dd737b9e978150a0ba3f2b9fe81c12880281ab525c9995e0240847ad1bf3",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "24179800",
+      "decision": "included_abstract",
+      "reason": "Empirical English-language VBM MRI study comparing gray matter volume between alcohol-dependent (including polysubstance users) and healthy controls, directly addressing GM differences between substance users and controls. Abstract gives no indication of pharmacological manipulations, brain lesions, comorbid neurological/psychiatric disorders, or being a review. Include for full-text review to confirm participant comorbidity details.",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.650027",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "cb420484be33853facca301bb950407e6106131bc7288d08b144559a1b2cea2e",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "21691942",
+      "decision": "included_abstract",
+      "reason": "Abstract reports gray matter density differences between cocaine abstainers and current users but does not specify comparisons with non-using controls or explicitly state GM volume differences between substance users and controls. No exclusion criteria evident from abstract. Insufficient information to confirm I1; include for full-text review.",
+      "confidence": 0.7,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.650153",
+      "inclusion_criteria_applied": [],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "cb847f797d1dd80fb8dca9831c7ec46ecbb05aef25995c6a63721c1e1ce22c9d",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "25125263",
+      "decision": "included_abstract",
+      "reason": "This is an empirical voxel-based morphometry MRI study comparing regional gray matter volume between nicotine users (smokers) and matched non-smokers, meeting I1. The abstract shows no pharmacological manipulation, brain lesions, participant mental/neurological disorders, or being a review, so no exclusion criteria are met. Include for full-text review to confirm details.",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.650285",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "8584c88c4448b0514aa36b7f109bce96e51c5dac24538d4f8417521cc7536731",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "27500453",
+      "decision": "included_abstract",
+      "reason": "Empirical English-language structural MRI VBM study comparing grey matter volume between cannabis users and non-users (meets I1). No indication of pharmacological manipulation (E1), brain lesions (E2), mental/neurological disorders in participants (E3), or that it is a review/meta-analysis (E4). Abstract provides sufficient info to include for full-text review.",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.650415",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "f2a3a6233c8bceeeb0423f0e539b4d8349730cd1f115ca8fb6522517b3a5861a",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "24086317",
+      "decision": "included_abstract",
+      "reason": "Empirical MRI study comparing grey matter volumes between college-aged binge drinkers (alcohol users) and healthy controls, directly addressing GM volume differences relevant to the review. Abstract does not indicate pharmacological manipulations, brain lesions, comorbid mental/neurological disorders, or that it is a review. Full text may be checked for participant comorbidities, but exclusion criteria are not clearly met from the abstract.",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.650534",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "7228967157c48b4854eecd217578168ed5d762df876bb824a91c6e8bb58911a2",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "24090712",
+      "decision": "included_abstract",
+      "reason": "Title and abstract indicate an empirical MRI study assessing cerebral gray matter volumes in individuals with cocaine dependence (a stimulant) relative to controls; fits I1. No evidence in abstract of pharmacological manipulation, brain lesions, comorbid neurological/mental disorders, or that the paper is a review, so no exclusion criteria met. Include for full-text review to confirm details and extract data for stimulant class.",
+      "confidence": 0.85,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.650652",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "07d52ee1db7ed55bc76adeac5e3e16fe73fa6434b0d077aafa6db8ba4deba8b1",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "24961260",
+      "decision": "included_abstract",
+      "reason": "Empirical English MRI study comparing grey matter volume between active methamphetamine-dependent participants (stimulant users) and controls using voxel-based morphometry and ROI volumetry; meets inclusion criterion I1 and no exclusion criteria are evident from abstract.",
+      "confidence": 0.93,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.650793",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "46fd258f6ca2a6a84675a8858d7ea6db5ade99f1391cb6cb05f3f3f9f17c9fb0",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "17951002",
+      "decision": "included_abstract",
+      "reason": "Empirical voxel-based MRI study comparing gray matter between 20 alcohol-dependent patients and 20 controls, directly assessing GM volume differences (meets I1). No indication of pharmacological manipulation, brain lesions, comorbid mental/neurological disorders, or that this is a review\u2014no exclusion criteria met. Include for full-text review to confirm details and extract regional GM differences.",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.650922",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "bc7e7115cd303730351cf0f4dc84d4e776b2fb68ec7b6378a9ce3f1c1199e95a",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "22076160",
+      "decision": "included_abstract",
+      "reason": "Empirical English-language MRI study using voxel-based morphometry comparing grey matter volumes between heavy smokers (nicotine users) and matched controls, meeting I1. No evidence of pharmacological manipulation, brain lesions, mental/neurological disorders, or being a review\u2014exclusion criteria not met. Include for full-text review to confirm details.",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.651049",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "0acdf4120c36a41f9e22a426386dce541b9e8381fa04242f44b0323a3e01d991",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "15982446",
+      "decision": "included_abstract",
+      "reason": "Empirical English-language voxel-based morphometry MRI study comparing grey-matter density between methamphetamine (stimulant) users and healthy controls, meeting I1. No indication of pharmacological manipulation, brain lesions, comorbid mental/neurological disorders, or being a review; exclusion criteria not met. Include for full-text review.",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.651180",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "420ada9f04bc858ccd097da57d30bc4c6d68bb0d6eceaf55ea48b6e2d2836982",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "21909705",
+      "decision": "included_abstract",
+      "reason": "Empirical English-language MRI VBM study comparing grey matter volume in heavy smokers vs never-smokers, meeting I1. Abstract shows no pharmacological manipulations (E1), no brain lesions (E2), no reported comorbid mental/neurological disorders (E3), and is not a review (E4). No exclusion criteria are met; include for full-text review to extract region-specific effects across nicotine users.",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.651308",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "aad9992f0bc500ea6ea33ba7c354900748f83d9f2234cce97cb1262b273892ae",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "20875635",
+      "decision": "included_abstract",
+      "reason": "Empirical English-language MRI study comparing cortical thickness (a grey matter structural measure) between smokers and never-smokers, satisfying I1. Abstract gives no indication of pharmacological manipulations, brain lesions, comorbid mental/neurological disorders, or being a review\u2014no exclusion criteria met. Include for full-text review to extract regional GM differences.",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.651427",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "b8dd372a6a559b2794a1e18355c4f8b56f88c4a54ebcd87e3521ff7a322151db",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "24140937",
+      "decision": "included_abstract",
+      "reason": "No exclusion criteria are met in the abstract. This is an empirical English MRI study comparing heroin-dependent individuals to controls, but it reports cortical thickness rather than explicit GM volume differences, so it is unclear whether I1 (GM volume differences) is satisfied. Include for full-text review to determine eligibility.",
+      "confidence": 0.7,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.651556",
+      "inclusion_criteria_applied": [],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "857cbb10bf2670a20df169d92507c80c5ca73186d2daddef85bd9b28effbbb26",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "20731627",
+      "decision": "included_abstract",
+      "reason": "Empirical English-language MRI voxel-based morphometry study comparing smokers (nicotine users) to matched non-smoker controls and reporting regional gray matter volume differences. Abstract does not indicate pharmacological manipulations, brain lesions, comorbid mental/neurological disorders, or that it is a review, so no exclusion criteria are met.",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.651678",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "f7b1ea63fa6c9e779fa08641cd27db93a6c922e6a38b9d3b391fa2260410f70d",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "22386968",
+      "decision": "included_abstract",
+      "reason": "Empirical English-language VBM MRI study comparing GM volume between methadone-maintained opioid users and healthy controls, satisfying I1. Abstract does not clearly indicate experimental pharmacological manipulation (E1) or diagnosed mental/neurological disorders (E3); depressive/anxiety symptoms reported but diagnoses not stated. Include for full-text review to verify exclusions and extract data.",
+      "confidence": 0.75,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.651807",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "16c9b91afd74eb879255e39d7e74c8b80254275bd4cf6c69f88a5e50a28a7ae3",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "19531112",
+      "decision": "included_abstract",
+      "reason": "Empirical MRI voxel-based morphometry study comparing grey matter volume between heroin-dependent individuals (opioid users) and controls, meeting I1. Abstract provides no indication of pharmacological manipulations, brain lesions, comorbid mental/neurological disorders, or that it is a review, so no exclusion criteria apply.",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.651925",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "e309d485a82f9c26528b50bae97859612349709e10b83be2153241150f5760b3",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "21310189",
+      "decision": "included_abstract",
+      "reason": "Empirical MRI study comparing cortical thickness (a structural GM measure) in adolescent cannabis users vs controls, matching the review objective. No exclusion criteria (pharmacological manipulation, lesions, comorbid mental/neurological disorders, or review) are evident in the abstract. The abstract does not explicitly state 'GM volume' (it reports cortical thickness), so full-text is needed to confirm metric compatibility and sample details; therefore include for full-text review.",
+      "confidence": 0.8,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.652044",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "b24eb5fcbb51e22cf273dfae478c15d796522f79a5eac2f83d4b5fcb12b48ab3",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "16369836",
+      "decision": "included_abstract",
+      "reason": "Empirical MRI voxel-based morphometry study comparing opiate-dependent subjects to controls, meeting I1 (GM volume differences). Abstract does not indicate pharmacological manipulations (E1), lesion study (E2), review/meta-analysis (E4), or clear comorbid mental/neurological disorders (E3). Comorbidity reporting is not detailed in abstract, so full-text review is needed to confirm, but inclusion for full-text is appropriate.",
+      "confidence": 0.85,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.652181",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "fe34937572135b72da5812ad0282e6bad3e513fb98e3e78b6a834088341c3101",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "24342420",
+      "decision": "included_abstract",
+      "reason": "Empirical voxel-based morphometry MRI study comparing grey matter volumes between occasional amphetamine-type stimulant and cocaine users and controls (stimulant class). No evidence of pharmacological manipulation, brain lesions, mental/neurological disorders, or being a review. Meets I1; exclusions not met.",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.652303",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "378908095596ce7903489780022244c37ed4b3cf2f6e51df96dc43a44d78a8e1",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "15607838",
+      "decision": "included_abstract",
+      "reason": "Empirical voxel-based morphometry MRI study comparing gray matter tissue density between heavy marijuana (cannabis) users and controls in English, satisfying I1. Abstract shows no pharmacological manipulations, brain lesions, reported mental/neurological disorders, or review/meta-analysis, so no exclusion criteria are met. Include for full-text review to confirm details and eligibility.",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.652434",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "e94180ded382afee549a19b9c683671c214cf61d406b09609f0998fcd1600469",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "17088334",
+      "decision": "included_abstract",
+      "reason": "Abstract reports an empirical voxel-based morphometry (MRI) study comparing grey matter (cerebral atrophy) in patients with alcohol addiction versus controls, meeting I1. No indications of pharmacological manipulation (E1), brain lesion sample (E2), inclusion of other mental/neurological disorders (E3), or that it is a review/meta-analysis (E4). Include for full-text review to confirm details.",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.652554",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "140bafe057828339d03ac989ee6a14169087739e6a480c03ef82fbb70c0a39af",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "23149031",
+      "decision": "included_abstract",
+      "reason": "Empirical MRI study comparing cortical gray matter thickness between alcohol-dependent subjects and healthy controls, satisfying I1. Abstract notes exclusion of participants with schizophrenia, psychotic, or bipolar disorders (so E3 not met). No evidence of pharmacological manipulation, brain lesion focus, or that this is a review. Include for full-text review to extract region-level GM differences for meta-analysis.",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.652683",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "b6f91dc7237383587c1547f1b3160bbe562b0a39680d3717fd4ae0c021d4770c",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "22445480",
+      "decision": "included_abstract",
+      "reason": "Abstract reports an empirical comparison of gray-matter measures between methamphetamine-dependent participants and healthy controls (stimulant class), addressing GM volume differences; appears to use MRI measures. No indication of pharmacological manipulation, brain lesions, comorbid mental/neurological disorders, or that it is a review. Full text needed to confirm MRI method details and comorbidity screening.",
+      "confidence": 0.85,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.652803",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "9fbe142aa4df39a8f32ea3055c9932b8b95da089896f60962c14fa3bb07f3f6d",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "22391134",
+      "decision": "included_abstract",
+      "reason": "Abstract reports an empirical MRI study assessing gray matter structural differences between cocaine-dependent individuals (stimulant users) and controls, satisfying I1. The abstract does not indicate pharmacological manipulations (E1), brain lesions (E2), presence of other mental/neurological disorders in participants (E3), or that it is a review/meta-analysis (E4). Full text review recommended to confirm sample comorbidities and methods.",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.652921",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "e6fc3eeb9b222800c0860d7ff35bbfd3b8bee8df0cb907a22bdf02ef572796b6",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "21383264",
+      "decision": "included_abstract",
+      "reason": "Abstract reports structural gray matter deficits in orbitofrontal cortex related to long-term cocaine use, indicating an empirical MRI comparison between substance users (stimulant: cocaine) and controls. No evidence in the abstract of pharmacological manipulation, brain lesion focus, or inclusion of participants with mental/neurological disorders. Meets inclusion criterion I1; proceed to full-text review to confirm methods and sample details.",
+      "confidence": 0.8,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.653038",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "b0f82b2936fa9608f6ac275a74918b2f6beeea39c8a5095db5e9abc627bb975f",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "27126701",
+      "decision": "included_abstract",
+      "reason": "Empirical English MRI study of stimulant (cocaine) users with healthy controls, reporting longitudinal gray matter volume changes in users versus controls. No evidence in the abstract of pharmacological manipulation, brain lesions, comorbid mental/neurological disorders, or that it is a review. Include for full-text review to confirm eligibility details.",
+      "confidence": 0.85,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.653172",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "f62005e4c37b576e36b86e086fe93cd3b91342ad6b0709c26fa34143e9ba76e6",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "29881337",
+      "decision": "included_abstract",
+      "reason": "MRI voxel-based morphometry comparing grey matter volumes between long-term smokers (nicotine users) and matched non-smoker controls. No evidence of pharmacological manipulation, brain lesions, or participant mental/neurological disorders in abstract. Eligible for full-text review to extract coordinates and results.",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.653298",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "d6d26df51084cfdc804d17d42cb12e129410e498262c0aed388d85c0604c07be",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "23352851",
+      "decision": "included_abstract",
+      "reason": "Abstract describes an empirical English-language MRI morphometric study comparing heroin-dependent individuals to controls and assessing gray matter volume; it meets inclusion criterion I1. No evidence in the abstract of pharmacological manipulations, brain lesions, comorbid mental/neurological disorders, or being a review/meta-analysis, so no exclusion criteria are met. Recommend full-text review to confirm details.",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.653421",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "9ec669113cc6ec657efe4c739ad1dbfdee041a45ad17c860408ea6be1b85dae4",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "21078704",
+      "decision": "included_abstract",
+      "reason": "Study prospectively measures gray matter volumes in alcohol-dependent patients and healthy volunteers relevant to alcohol-related GM differences. Abstract does not explicitly state MRI methodology, so I1 (MRI study) cannot be confirmed from abstract alone. No exclusion criteria (E1\u2013E4) are evident. Include for full-text review to confirm MRI methods and extract data if eligible.",
+      "confidence": 0.8,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.653595",
+      "inclusion_criteria_applied": [],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "20ff815301ef6dc1d707e5e68eb857e3830b79c1ed7ee141aeeb017dbf894e8e",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "18187528",
+      "decision": "included_abstract",
+      "reason": "Empirical voxel-based morphometry MRI study comparing grey matter volume between opioid-dependent subjects and healthy controls (meets I1). Abstract does not report pharmacological manipulations, brain lesions, or comorbid mental/neurological disorders, so no exclusion criteria are met. Include for full-text review to confirm details.",
+      "confidence": 0.85,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.653719",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "1a65cbe1a96363e604ba660c32ad28ae85edf4633e12ae07abdb4cf264255f5e",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "28887180",
+      "decision": "included_abstract",
+      "reason": "Title and abstract indicate a longitudinal voxel-based morphometry MRI study of methamphetamine users (a stimulant), but the abstract does not state whether there is a healthy control group or whether between-group GM differences were assessed. No exclusion criteria are evident. Because I1 (GM differences between users and controls) is not demonstrated in the abstract, include for full-text review to determine eligibility.",
+      "confidence": 0.75,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.653838",
+      "inclusion_criteria_applied": [],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "c5e259fa3c50751fc50cc6ac8a32faeb461bb906fbe340c2c8bbf655fc174470",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "20096794",
+      "decision": "included_abstract",
+      "reason": "MRI voxel-based morphometry comparing abstinent methamphetamine-dependent individuals (stimulant users) to controls assessing gray matter density and whole brain segmentation volumes; no exclusions (pharmacological manipulation, lesions, comorbid mental/neurological disorders, or review) are indicated in abstract. Study meets inclusion criterion I1 and is appropriate for full-text review to extract regional GM differences.",
+      "confidence": 0.93,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.653971",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "4a4a6e34904a8916c4ca945b7800af6930c4aaad3c4ccadc58b6a58803a09ab6",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "24483366",
+      "decision": "included_abstract",
+      "reason": "Abstract describes longitudinal MRI morphometric assessment of alcohol-dependent patients but does not state comparison to healthy controls or explicit GM volume differences vs controls. No exclusion criteria are met in the abstract. Include for full-text review to determine whether criterion I1 (GM volume differences between substance users and controls) is met.",
+      "confidence": 0.55,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.654126",
+      "inclusion_criteria_applied": [],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "67d4422f9d6700a56f902778d20d13945386eeb88cbd5ef70358419963bfa9e3",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "29065207",
+      "decision": "included_abstract",
+      "reason": "Abstract reports an empirical MRI study examining cerebellar structural and functional alterations in nicotine-dependent smokers but does not explicitly state GM volume comparisons against controls. No exclusion criteria are met in the abstract. Because I1 (GM volume differences between substance users and controls) is not clearly demonstrated from the abstract, include for full-text review to confirm eligibility.",
+      "confidence": 0.75,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.654253",
+      "inclusion_criteria_applied": [],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "dd0da25fd7049ad47284be27ca26b1fe695e9f06723128c5e94f72ae1062c31d",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "17299505",
+      "decision": "included_abstract",
+      "reason": "Empirical English-language MRI study using optimized voxel-based morphometry comparing gray matter volumes between cocaine-dependent (stimulant) subjects and healthy controls. Abstract shows no pharmacological manipulation, lesion focus, comorbid mental/neurological disorders, or review article. Include for full-text review to confirm participant comorbidity and other details.",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.654386",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "90d5a6f289c362486b1f9fb3da1dc832effc88909515bc602b097196f587cabe",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "25990865",
+      "decision": "included_abstract",
+      "reason": "Meets I1: empirical MRI voxel-based morphometry comparing gray matter density between cigarette smokers and matched never smokers (nicotine users). Abstract gives no indication of pharmacological manipulation (E1), brain lesions (E2), comorbid mental/neurological disorders in participants (E3), or being a review/meta-analysis (E4).",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.654517",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "241a310ecb7444d1981e53aa1b09828f5b45eadc32b3d0fe46758064b48a495c",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "18801475",
+      "decision": "included_abstract",
+      "reason": "Empirical MRI study comparing medial OFC gray matter volume between abstinent substance-dependent individuals and controls, meeting I1. Abstract gives no indication of pharmacological manipulations, lesion methods, comorbid mental/neurological disorders, or being a review; thus no exclusion criteria appear met. Full text needed to confirm drug classes and sample details.",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.654638",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "52c58c65f3db4d9cc9a10bbbea122713397ab3418e38e556fd21eec6bb709667",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "25123156",
+      "decision": "included_abstract",
+      "reason": "Empirical structural MRI study comparing grey matter volume between alcoholic patients and social drinker controls, matching I1. Abstract does not report pharmacological manipulations (E1), brain lesions (E2), comorbid mental/neurological disorders (E3), nor is it a review/meta-analysis (E4). Include for full-text to extract region-level GM differences.",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.654773",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "ba682c84cf02be6dd3dd76948cb30da2c16c498b9e8c240a60da6c6ce43cda57",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "23072363",
+      "decision": "included_abstract",
+      "reason": "Abstract reports MRI-based volumetric changes in alcohol-dependent individuals but does not clearly state a comparison between substance users and controls. No exclusion criteria are met from the abstract. Insufficient information to confirm inclusion criterion I1, so include for full-text review.",
+      "confidence": 0.75,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.654900",
+      "inclusion_criteria_applied": [],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "19a89bb54b938da1fea5395368c8d6fa2ad6f5bf3d987d89c5a0b8c062503176",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "22270405",
+      "decision": "included_abstract",
+      "reason": "The study is an empirical voxel-based morphometry (MRI) comparison including alcohol abusers (a substance user group) and healthy controls, addressing GM volume differences. No evidence in the abstract of pharmacological manipulations, brain lesions, inclusion of participants with reported mental/neurological disorders, or that it is a review/meta-analysis.",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.655023",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [
+        "[]"
+      ],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "86996dc1a3999d604d6b52705f33902fd4b18af58fdcede3f74477fb52c89352",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "23726981",
+      "decision": "excluded_abstract",
+      "reason": "EXCLUDED because the sample includes participants diagnosed with ADHD, a psychiatric (mental) disorder, thus meeting exclusion criterion E3. The study is an empirical MRI investigation assessing grey matter/striatal volume differences (I1 met). No pharmacological manipulation, lesion study, or review is indicated.",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.655149",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [
+        "E3"
+      ],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "34bd44f721dc0b32cecc915cc33cd38a9bee07f1737075dabf9bbbfb1b65db5d",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "27575491",
+      "decision": "included_abstract",
+      "reason": "Abstract examines brain structure and functional connectivity in alcohol-dependent patients but does not explicitly state use of MRI or assessment of grey matter (GM) volume differences between substance users and controls. No exclusion criteria are apparent from the abstract. Insufficient information to confirm I1, so include for full-text review to determine whether it meets the GM volume MRI requirement.",
+      "confidence": 0.6,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.655269",
+      "inclusion_criteria_applied": [],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "91cb6e17a8bf70fd7c6a9d6ed5b5642090c5ed10db27de80c5e8260d7a45f9a8",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "25051341",
+      "decision": "included_abstract",
+      "reason": "Empirical MRI study acquiring high-resolution T1 structural images and reporting structural differences between chronic smokers and non-smokers, satisfying I1. Abstract does not indicate any exclusion criteria (no pharmacological drug administration beyond participants smoking their own cigarettes as part of state comparison, no lesions, no disorders reported, not a review). Full text recommended to confirm GM volume methodology and participant clinical status.",
+      "confidence": 0.85,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.655399",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "a4297b6f96fd6c5a13a6d0517aa9770319bd1307551331320aba432b5d795b4f",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "25727574",
+      "decision": "included_abstract",
+      "reason": "Empirical English-language voxel-based morphometry MRI study comparing gray matter volume between former heroin (opioid) users and controls, meeting I1. No indication of pharmacological manipulation (E1), brain lesions (E2), comorbid mental/neurological disorders (E3), or being a review/meta-analysis (E4). Include for full-text to confirm detailed eligibility.",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.655533",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "4e0b22fb2c2465ca0fe60befcdc781cc2fc5df59f09b1c308e96dc87b82d5ab6",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "22717339",
+      "decision": "included_abstract",
+      "reason": "Title/abstract indicate neuroimaging of gray matter in heroin (opioid) users, but the abstract does not clearly state MRI methods or explicit comparisons with control subjects. No exclusion criteria are evident from the abstract. Insufficient information to confirm inclusion criterion I1, so include for full-text review.",
+      "confidence": 0.6,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.655651",
+      "inclusion_criteria_applied": [],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "bc0305516a4feaed8c3152f076db1d7be92b0600d0c546745d9e531f2a1dcf08",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "23190458",
+      "decision": "included_abstract",
+      "reason": "Study uses MRI-based tensor-based morphometry to compare brain structural (volumetric) changes between cannabis users and non-users; meets inclusion I1. Exclusion E3 not clearly met because participants are described as at elevated genetic risk but not reported to have schizophrenia or other mental/neurological disorders. Abstract provides sufficient relevance to include for full-text review.",
+      "confidence": 0.8,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.655771",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "a64c374be8019e35589f96b010a54cbdf7c19ea1af685a20d0f7633f2528d981",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "26094186",
+      "decision": "excluded_abstract",
+      "reason": "Study reports resting-state functional connectivity (functional MRI), not structural grey matter volume differences. Inclusion I1 (MRI studies assessing GM volume differences between substance users and controls) is not met. No exclusion criteria (E1-E4) are evident from abstract.",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.655891",
+      "inclusion_criteria_applied": [],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "32aa6adb807efcbf2ab240a717dfbbae5f3e3b60a6b9a5df39eb31925bd67c6e",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "26078198",
+      "decision": "included_abstract",
+      "reason": "Empirical English-language MRI study using voxel-based morphometry comparing gray matter volume between alcohol-dependent patients and healthy controls, meeting I1. Abstract provides no evidence of pharmacological manipulation, brain lesions, comorbid mental/neurological disorders, or being a review, so no exclusion criteria are met and inclusion is supported for full-text review.",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.656018",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "5de5f38c32bcfed63e17c979f832f686fc70d56a06dc773b938512e82bf73d28",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "24793365",
+      "decision": "excluded_abstract",
+      "reason": "Abstract reports MRI measures in cannabis-dependent patients related to treatment abstinence but does not report or compare grey matter volume between substance users and healthy controls. Therefore inclusion criterion I1 (GM volume differences between users and controls) is not met. No exclusion criteria appear to apply from abstract.",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.656148",
+      "inclusion_criteria_applied": [],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "5d7f2e8453e18db4579e031230794f8085bca617f4bc09ef8e5d87a32d6f78b1",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "28150390",
+      "decision": "included_abstract",
+      "reason": "Empirical T1-weighted VBM MRI study comparing cocaine-use disorder participants to healthy controls and reporting gray matter volume differences, satisfying I1. No evidence in the abstract of pharmacological manipulation (E1), brain lesions (E2), comorbid mental/neurological disorders (E3), or being a review/meta-analysis (E4). Include for full-text review to confirm participant comorbidity/exclusion criteria and extract data relevant to stimulant (cocaine) class.",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.656283",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "da23d1fa3de7154cb740d1eea1c39c2f25c3f5177ce82bd31a22694a39443a31",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "28720860",
+      "decision": "included_abstract",
+      "reason": "Abstract reports empirical MRI findings of grey matter volume differences in alcohol use disorder (smaller cerebellar volume, thinner medial frontal cortex) vs healthy controls. No exclusion criteria (pharmacological manipulation, brain lesions, comorbid mental/neurological disorders, or review) are evident. Include for full-text review to confirm details and extract data.",
+      "confidence": 0.85,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.656412",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "6eade48c4954ea7877afa61897caf140efc74e7def1acc2b387f3e8fe01ba247",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "22076160",
+      "decision": "included_abstract",
+      "reason": "Empirical English-language MRI study using voxel-based morphometry comparing grey matter volumes between heavy smokers (nicotine users) and matched controls, meeting I1. No evidence of pharmacological manipulation, brain lesions, mental/neurological disorders, or being a review\u2014exclusion criteria not met. Include for full-text review to confirm details.",
+      "confidence": 0.95,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.656540",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "0acdf4120c36a41f9e22a426386dce541b9e8381fa04242f44b0323a3e01d991",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "28824470",
+      "decision": "excluded_abstract",
+      "reason": "No exclusion criteria met. Inclusion I1 satisfied (English empirical MRI VBM comparing GM between betel quid chewers and controls). However, the study examines betel quid, which is not one of the review's target drug classes (alcohol, nicotine, opioids, cannabis, stimulants) and thus does not address the review objective; exclude from this meta-analysis.",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.656668",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "83785ba49cf1738d28c9845d6801399aad85af64219539e3fb8a2d3d1dc09802",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "19775795",
+      "decision": "included_abstract",
+      "reason": "Empirical English-language voxel-based morphometry MRI study comparing grey matter density between 30 lifetime heroin-dependent (opioid) individuals and 34 healthy controls, reporting GM reductions and correlation with duration. No pharmacological manipulation, lesion focus, or mention of comorbid mental/neurological disorders; not a review. Meets I1; no exclusion criteria identified. Include for full-text review.",
+      "confidence": 0.92,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.656794",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "9b1b4a8836e71e4391a5b78c39fd966a457922dea79bfeef5d4e94fe81b2bf82",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "20699124",
+      "decision": "included_abstract",
+      "reason": "Empirical MRI VBM study comparing gray matter density between nicotine-dependent smokers and matched controls, directly addressing I1. Abstract reports GM differences and associations with smoking measures. No pharmacological manipulations, brain lesions, comorbid mental/neurological disorders, or review-type design are indicated in the abstract. Include for full-text review to confirm eligibility and extract regional GM results.",
+      "confidence": 0.9,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.656923",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "090b2f9ae5514e60ee9dcbbdd684ef4386e5b5d026dec95e96686f857ccb6462",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    },
+    {
+      "study_id": "28992531",
+      "decision": "included_abstract",
+      "reason": "Abstract describes an empirical MRI investigation of orbitofrontal gray matter volume in alcohol-dependent individuals and its relation to relapse risk, satisfying I1. The abstract does not mention pharmacological manipulation, lesions, comorbid neurological/mental disorders, or that it is a review, but methods and explicit case-control comparison details are not provided \u2014 full text needed to confirm eligibility.",
+      "confidence": 0.85,
+      "model_used": "gpt-5-mini-2025-08-07",
+      "screening_type": "abstract",
+      "timestamp": "2026-08-27T19:16:19.657048",
+      "inclusion_criteria_applied": [
+        "I1"
+      ],
+      "exclusion_criteria_applied": [],
+      "cache_signature": {
+        "schema_version": 2,
+        "stage": "abstract",
+        "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6",
+        "study_input_hash": "b9172e95c1ec5463272519925e3d8a0bd474e6fc8def63aebef207ae353bcd76",
+        "model": "gpt-5-mini-2025-08-07"
+      }
+    }
+  ],
+  "timestamp": "2026-08-27T19:16:19.657617",
+  "cache_signature": {
+    "schema_version": 2,
+    "stage": "abstract",
+    "stage_hash": "5e38f27871ac3e63be8e47ddc925b4f6e0b0b95b79898433543064375982c6c6"
+  }
+}
