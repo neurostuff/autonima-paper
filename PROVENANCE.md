@@ -2,7 +2,7 @@
 
 This repository is a frozen subset of
 [neurostuff/autonima-results](https://github.com/neurostuff/autonima-results) at commit
-[`f1bea4a2`](https://github.com/neurostuff/autonima-results/commit/f1bea4a288f716ce8e0f31f1b5b4c4bd730451e6), exported on 2026-11-24
+[`8d139b08`](https://github.com/neurostuff/autonima-results/commit/8d139b08ae3fb5f1308ff0203c6f6804741b42c8), exported on 2026-11-24
 by `tools/export_paper_repo.py` in that repository.
 
 - **1454 files**, covering 117 run folders under `projects/`, the scripts that rebuild the
